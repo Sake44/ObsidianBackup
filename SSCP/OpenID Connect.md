@@ -1,0 +1,4 @@
+**OpenID Connect (OIDC) is an authentication protocol built on top of Open Authorization 2.0 (OAuth 2.0), designed to provide secure user authentication and identity federation for web and mobile applications.**
+ 
+**OIDC enables applications to authenticate users by delegating the authentication process to an identity provider (IdP).**  
+==Users are redirected to the IdP’s authentication endpoint, where they can sign in using their credentials, such as username and password, or other authentication mechanisms like multifactor authentication (MFA) or social media login. After successful authentication, the IdP issues an identity token (ID token) containing information about the authenticated user. This includes the user’s unique identifier (subject), display name, email address, and other optional claims. The ID token is digitally signed by the IdP to ensure its authenticity and integrity.==

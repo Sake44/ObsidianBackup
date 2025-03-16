@@ -1,0 +1,5 @@
+**Privileged access management (PAM) employs processes and technologies to monitor and control privileged accounts.**  
+**Role-based access control (RBAC) can be used to implement PAM by defining specific roles for privileged users and enforcing strict controls over their access permissions.**  
+==Examples of privileged users include system administrators, network administrators, database administrators, and security administrators. All these groups need elevated access rights to do their jobs==
+ 
+The first step in implementing RBAC to manage privileged accounts is to identify and define the roles that describe privileged users. Granular access permissions are then assigned to these privileged roles based on the principle of least privilege, ensuring that each role has only the permissions necessary to perform their specific tasks.

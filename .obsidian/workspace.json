@@ -1,0 +1,270 @@
+{
+  "main": {
+    "id": "a58dd2df367eed32",
+    "type": "split",
+    "children": [
+      {
+        "id": "50e0c7c4ce985336",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d078c62fe3ed4967",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ls Options"
+            }
+          },
+          {
+            "id": "7bc5c731f4ed307d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Evernote/Le mie note/Angular.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Angular"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99cf08b8e8ff94d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a692f316b9cf1f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f8607c7ef4587ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "5bba87d1d95c627b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "627d331a1b9c8f43",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5
+  },
+  "right": {
+    "id": "85bf4ab8e91bae0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "addc3d439ee9710e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28765f4048a7da23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "67e54ba3fc9d5c72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "cf04a8234e60414c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c4ff3569e21b736e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "5bcd2f82cb5370b7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "obsidian-importer:Open Importer": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
+      "local-backup:Run local backup": false
+    }
+  },
+  "active": "4f8607c7ef4587ad",
+  "lastOpenFiles": [
+    "Evernote/Le mie note/CKA (Certified K8s Administrator).md",
+    "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
+    "Evernote/Le mie note/AWS (Note in italiano).md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
+    "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Input.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Error.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Introduction.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Copying Files and Directories.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
+    "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving Tools.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Archiving/Introduction.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Archiving/Untitled",
+    "OneNote/Blocco appunti di Andrea/Linux/Archiving",
+    "OneNote/Blocco appunti di Andrea/Linux/Create Files.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Move Files.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Deleting Files and Directories.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Create Directories.md",
+    "Untitled",
+    "OneNote/Blocco appunti di Andrea/Linux/Recursive List in Bash.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Variable.md",
+    "Exported image 20250315115710-0.png",
+    "OneNote/Blocco appunti di Andrea/Linux/Install Package.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Createdelete multi files.md",
+    "Exported image 20250315115755-0.png",
+    "OneNote/Blocco appunti di Andrea/Linux/Remove package.md",
+    "SSCP/Attribute-Based Access Control (ABAC).md",
+    "SSCP/Rule-Based Access Control (RuBAC).md",
+    "Exported image 20250315115828-0.png",
+    "SSCP/Subject and Object-Based Access Control.md",
+    "Exported image 20250315115827-0.png",
+    "SSCP/Privileged Access Management (PAM).md",
+    "Exported image 20250315115823-0.png",
+    "Exported image 20250315115818-0 1.png",
+    "Exported image 20250315115818-0.png",
+    "Exported image 20250315115815-0.png",
+    "Exported image 20250315115814-0.png",
+    "Exported image 20250315115811-0.png",
+    "SSCP",
+    "OneNote/Blocco appunti di Andrea/Service Now",
+    "OneNote/Blocco appunti di Andrea/Networking",
+    "OneNote/Blocco appunti di Andrea/Linux",
+    "OneNote/Blocco appunti di Andrea/Hacking"
+  ]
+}

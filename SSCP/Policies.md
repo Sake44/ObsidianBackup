@@ -1,0 +1,10 @@
+Policies are administrative, directive controls. They are formal statements that outline an organization’s intentions, objectives, and approach toward issues. Policies are set by senior management. They serve as a framework for decision-making and action within the organization, guiding individuals or groups on how to behave, make decisions, and carry out tasks in alignment with the organization’s goals and values. Policies often encompass a broad scope; the details of their implementation will be described in guidelines, standards, and procedures.
+   
+![Exported image](Exported%20image%2020250315115810-0.png)
+
+**Types of Security Policies**  
+==Security policies should be created to meet the needs of the organization. There are some commonly seen types of policy documents that the security professional needs to understand and assist with implementing and enforcing:==
+
+- _Organizational policies._==These establish broad, overarching standards and guidelines for the entire organization.== 
+- _System or line of business policies._ ==The broader organizational policy mandates flow down to a specific set of business processes or operations, either at a given set of locations or for specific activities. Examples include policies pertaining to human resources management, financial integrity and controls, health and safety compliance reporting, or policies for the development, launch, and support of a new product or service.==
+- _Issue-specific policies._ ==These provide a limited, tightly focused statement addressing a narrowly defined issue. Acceptable use, bring your own devices (BYOD), visitor access to Wi-Fi or internet services, and incident response are examples of issues that are important, urgent, and compelling enough to warrant their own dedicated attention to policy creation and use.==

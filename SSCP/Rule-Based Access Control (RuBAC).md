@@ -1,0 +1,3 @@
+**Rule-Based Access Control (RuBAC) is a security model based on a set of predefined rules or policies.**  
+==In RuBAC, access control decisions are determined by rules that specify conditions under which access is granted or denied to users or groups, as shown simply in the figure. RBAC provides a flexible, scalable approach to access control by defining access policies based on roles, attributes, or other contextual factors.== 
+ ![Exported image](Exported%20image%2020250315115828-0.png)

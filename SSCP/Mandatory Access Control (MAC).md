@@ -1,0 +1,5 @@
+**Mandatory Access Control (MAC) is a security model used in computer systems to enforce access controls based on predefined security policies and labels associated with subjects and objects.**  
+==Unlike discretionary access control (DAC), where access decisions are at the discretion of the owner of the resource, in MAC, access decisions are determined by the system administrator or security policy administrator and commonly enforced by the operating system.==   
+==MAC requires centralized administration of security policies and labels to ensure consistency and enforceability across the system.==
+ 
+Security labels in MAC often follow a hierarchical structure, with levels such as Top Secret, Secret, Confidential, and Unclassified for confidentiality, or High, Medium, Low for integrity. Access is typically granted only if the subject’s security label dominates (is equal to or higher than) the object’s security label
