@@ -1,9 +1,6 @@
 
 We have been learning to execute commands from the shell thus far, but we can also enter
-commands into a file, and then set that file to be executable. When the file is executed, those
-commands are run one after the other. These executable files are called scripts, and they are an
-absolutely crucial tool for any Linux system administrator. Essentially, we can consider Bash to be
-a programming language as well as a shell.
+commands into a file, and then set that file to be executable. When the file is executed, those commands are run one after the other. These executable files are called scripts, and they are an absolutely crucial tool for any Linux system administrator. Essentially, we can  consider Bash to be a programming language as well as a shell.
 
 To create a script we can:
 

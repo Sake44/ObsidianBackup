@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evernote/Le mie note/Angular.md",
+                "file": "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Angular"
+              "title": "AWS Solutions Architect - Associate"
             }
           }
         ],
@@ -79,7 +79,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -205,23 +205,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "local-backup:Run local backup": false
     }
   },
-  "active": "4f8607c7ef4587ad",
+  "active": "7bc5c731f4ed307d",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
+    "Evernote/Le mie note/Angular.md",
     "Evernote/Le mie note/CKA (Certified K8s Administrator).md",
     "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
     "Evernote/Le mie note/AWS (Note in italiano).md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
@@ -254,7 +255,6 @@
     "Exported image 20250315115828-0.png",
     "SSCP/Subject and Object-Based Access Control.md",
     "Exported image 20250315115827-0.png",
-    "SSCP/Privileged Access Management (PAM).md",
     "Exported image 20250315115823-0.png",
     "Exported image 20250315115818-0 1.png",
     "Exported image 20250315115818-0.png",
