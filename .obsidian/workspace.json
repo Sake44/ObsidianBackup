@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,25 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ls Options"
-            }
-          },
-          {
-            "id": "7bc5c731f4ed307d",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "title": "Best Practice"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -195,29 +180,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "local-backup:Run local backup": false
     }
   },
-  "active": "7bc5c731f4ed307d",
+  "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
     "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
     "Evernote/Le mie note/Angular.md",
     "Evernote/Le mie note/CKA (Certified K8s Administrator).md",
     "Evernote/Le mie note/AWS (Note in italiano).md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Input.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Error.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Introduction.md",
@@ -233,7 +221,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Create Directories.md",
     "Untitled",
     "OneNote/Blocco appunti di Andrea/Linux/Recursive List in Bash.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
     "OneNote/Blocco appunti di Andrea/Linux/Variable.md",
     "Exported image 20250315115710-0.png",
     "OneNote/Blocco appunti di Andrea/Linux/Install Package.md",
@@ -241,9 +228,7 @@
     "Exported image 20250315115755-0.png",
     "OneNote/Blocco appunti di Andrea/Linux/Remove package.md",
     "SSCP/Attribute-Based Access Control (ABAC).md",
-    "SSCP/Rule-Based Access Control (RuBAC).md",
     "Exported image 20250315115828-0.png",
-    "SSCP/Subject and Object-Based Access Control.md",
     "Exported image 20250315115827-0.png",
     "Exported image 20250315115823-0.png",
     "Exported image 20250315115818-0 1.png",

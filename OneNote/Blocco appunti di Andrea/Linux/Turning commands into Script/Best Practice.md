@@ -10,3 +10,9 @@ passed to a new variable called username and the script echoes a greeting to the
 Otherwise, an error message is displayed.
 * Finally, the script echoes the number of arguments. This is useful for debugging.
 
+### How **cat** works
+
+
+
+
+
