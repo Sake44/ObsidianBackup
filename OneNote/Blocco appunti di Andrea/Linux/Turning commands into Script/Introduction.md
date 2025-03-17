@@ -32,3 +32,15 @@ $ ls -l new_script
 -rwxrwxr-x 1 user user 20 Apr 30 12:12 new_script
 ```
 
+## Define the Interpreter
+
+It is very good practice to specify the type of interpreter we want to use in the first line of a script.
+This line is called a bang line or more commonly a shebang. It indicates to the system how we want this file to be executed.
+
+```
+#!/bin/bash
+# This is our first comment. It is also good practice to document all scripts.
+echo "Hello World!"
+```
+
+Let's see how to use [[Variable]] in script.
