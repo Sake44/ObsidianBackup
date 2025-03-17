@@ -35,24 +35,14 @@
             "id": "7bc5c731f4ed307d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "AWS Solutions Architect - Associate"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -220,13 +210,13 @@
   "active": "7bc5c731f4ed307d",
   "lastOpenFiles": [
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
+    "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
     "Evernote/Le mie note/Angular.md",
     "Evernote/Le mie note/CKA (Certified K8s Administrator).md",
-    "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
     "Evernote/Le mie note/AWS (Note in italiano).md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Input.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Error.md",
