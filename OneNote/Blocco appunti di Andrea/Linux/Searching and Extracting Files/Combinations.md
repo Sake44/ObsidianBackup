@@ -1,6 +1,6 @@
 The first combination that we will explore combines the redirection of the standard output and
-standard error output to the same file. The &> and &>> operators are used, & representing the
-combination of channel 1 and channel 2. The first operator will overwrite the existing contents of
+standard error output to the same file. The **&>** and **&>>** operators are used, & representing the
+combination of **channel 1** and **channel 2**. The first operator will overwrite the existing contents of
 the file and the second one will append or add the new information at the end of the file.
 
 ```

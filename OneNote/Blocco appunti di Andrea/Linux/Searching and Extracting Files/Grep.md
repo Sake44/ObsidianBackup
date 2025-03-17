@@ -78,4 +78,27 @@ noone2
 alien2
 ```
 
+Regular expressions also have meta-characters that enable multiplication: 
 
+```
+*
+```
+Zero or more of the preceding pattern
+
+```
++
+```
+One or more of the preceding pattern
+
+```
+?
+```
+Zero or one of the preceding pattern
+
+Since the **+** character is an *extended* regular expression we need to pass the -E option in **grep** command. 
+
+```
+$ grep -E "ab.+" text.txt
+aaabbb1
+abab2
+```
