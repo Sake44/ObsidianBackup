@@ -12,8 +12,12 @@ game?
 
 ```
 
+```
 game{1..5}
+```
  
 To remove them, use:
  
+```
 rm game?
+```

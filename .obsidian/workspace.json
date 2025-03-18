@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Perform Error Checking.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Create and delete multi files.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Perform Error Checking"
+              "title": "Create and delete multi files"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Perform Error Checking.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Introduction.md",
