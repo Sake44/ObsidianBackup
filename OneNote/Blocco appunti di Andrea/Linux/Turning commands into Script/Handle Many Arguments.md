@@ -16,3 +16,5 @@ echo "Hello $@!"
 exit 0
 fi
 ```
+
+Bash will parse the arguments, and separate each argument when it encounters a space between them. The content look like an array. [[For Loops]]

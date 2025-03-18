@@ -11,24 +11,10 @@
             "id": "d078c62fe3ed4967",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Handle Many Arguments"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
             }
           }
         ]
@@ -54,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -180,12 +166,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
@@ -194,9 +180,11 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Perform Error Checking.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/For Loops.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
@@ -225,9 +213,7 @@
     "OneNote/Blocco appunti di Andrea/Linux/Variable.md",
     "Exported image 20250315115710-0.png",
     "OneNote/Blocco appunti di Andrea/Linux/Install Package.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Createdelete multi files.md",
     "Exported image 20250315115755-0.png",
-    "OneNote/Blocco appunti di Andrea/Linux/Remove package.md",
     "Exported image 20250315115828-0.png",
     "Exported image 20250315115827-0.png",
     "Exported image 20250315115823-0.png",
