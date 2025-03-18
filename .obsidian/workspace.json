@@ -11,10 +11,24 @@
             "id": "d078c62fe3ed4967",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "markdown",
+              "state": {
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Perform Error Checking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Perform Error Checking"
             }
           }
         ]
@@ -180,14 +194,17 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Perform Error Checking.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Introduction.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Error.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Input.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/For Loops.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
     "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
     "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
     "Evernote/Le mie note/Angular.md",
@@ -195,9 +212,6 @@
     "Evernote/Le mie note/AWS (Note in italiano).md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Input.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Error.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Copying Files and Directories.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving Tools.md",
