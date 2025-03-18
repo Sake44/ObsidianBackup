@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Best Practice"
+              "title": "Handle Many Arguments"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -180,12 +180,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
@@ -194,9 +194,10 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
     "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
@@ -227,7 +228,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Createdelete multi files.md",
     "Exported image 20250315115755-0.png",
     "OneNote/Blocco appunti di Andrea/Linux/Remove package.md",
-    "SSCP/Attribute-Based Access Control (ABAC).md",
     "Exported image 20250315115828-0.png",
     "Exported image 20250315115827-0.png",
     "Exported image 20250315115823-0.png",
