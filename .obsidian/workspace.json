@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/System Logging and System Messaging.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Access Control Files.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Logging and System Messaging"
+              "title": "Access Control Files"
             }
           }
         ]
@@ -194,11 +194,13 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Security.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Access Control Files.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/System Logging and System Messaging.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Processes.md",
     "System Logging and System Messaging.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/System Logging and System Messaging.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Memory and Memory types.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Untitled",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Sys Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Dev Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Proc directory.md",
@@ -221,8 +223,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
     "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
     "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
-    "Evernote/Le mie note/Angular.md",
-    "Evernote/Le mie note/CKA (Certified K8s Administrator).md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
