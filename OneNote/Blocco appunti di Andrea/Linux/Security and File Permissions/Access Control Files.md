@@ -82,3 +82,116 @@ Group ID (GID), like 0, 99, 1024.
 a comma-separated list of usernames which are members of the group, like jsmith,emma.
 
 ### /etc/shadow
+
+The following table lists the attributes stored in the file /etc/shadow, commonly referred to as
+the “shadow file”.
+The basic syntax for a line on this file is:
+```
+USERNAME:PASSWORD:LASTCHANGE:MINAGE:MAXAGE:WARN:INACTIVE:EXPDATE
+```
+
+Where:
+#USERNAME
+The username (same as /etc/passwd), like root, nobody, emma.
+#PASSWORD
+A one-way hash of the password, including preceding salt. For example: !!,
+!$1$01234567$ABC…, $6$012345789ABCDEF$012….
+#LASTCHANGE
+Date of the last password change in days since the “epoch”, such as 17909.
+#MINAGE
+Minimum password age in days.
+#MAXAGE
+Maximum password age in days.
+#WARN
+Warning period before password expiration, in days.
+#INACTIVE
+Maximum password age past expiration, in days.
+#EXPDATE
+Date of password expiration, in days since the “epoch”.
+
+### /etc/gshadow
+
+/etc/gshadow is a file readable only by root and by users with root privileges that contains
+encrypted passwords for groups, each on a separate line:
+
+```
+developer:$6$7QUIhUX1WdO6$H7kOYgsboLkDseFHpk04lwAtweSUQHipoxIgo83QNDxYtYwgmZTCU0qSCuCkErmyR2
+63rvHiLctZVDR7Ya9Ai1::
+```
+
+Each line consists of four colon-delimited fields:
+**Group name**
+The name of the group.
+**Encrypted password**
+The encrypted password for the group (it is used when a user, who is not a member of the group, wants to join the group using the newgrp command — if the password starts with !, no
+one is allowed to access the group with newgrp).
+**Group administrators**
+A comma-delimited list of the administrators of the group (they can change the password of the
+group and can add or remove group members with the gpasswd command).
+**Group members**
+A comma-delimited list of the members of the group.
+Now that we’ve seen where user and group information is stored, let’s talk about the most
+important command-line tools to update these files.
+
+## Adduser
+
+To create a user:
+```
+useradd <username>
+```
+
+To delete user:
+
+```
+userdel <username>
+```
+
+To set a new password for user: 
+
+```
+passwd <username>
+// need to be root
+```
+
+The most important options which apply to the useradd command are:
+```
+-c
+```
+Create a new user account with custom comments (for example full name).
+```
+-d
+```
+Create a new user account with a custom home directory.
+```
+-e
+```
+Create a new user account by setting a specific date on which it will be disabled.
+```
+-f
+```
+Create a new user account by setting the number of days after the password expires during
+which the user should update the password.
+```
+-g
+```
+Create a new user account with a specific GID
+```
+-G
+```
+Create a new user account by adding it to multiple secondary groups.
+```
+-m
+```
+Create a new user account with its home directory.
+```
+-M
+```
+Create a new user account without its home directory.
+```
+-s
+```
+Create a new user account with a specific login shell.
+```
+-u
+```
+Create a new user account with a specific UID.

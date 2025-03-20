@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Access Control Files.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Passwd Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Access Control Files"
+              "title": "Passwd Command"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -180,12 +180,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
@@ -194,8 +194,10 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Security.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/The Skeleton Directory.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Passwd Command.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Access Control Files.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Security.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/System Logging and System Messaging.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Processes.md",
@@ -221,8 +223,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Ls Options.md",
-    "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
