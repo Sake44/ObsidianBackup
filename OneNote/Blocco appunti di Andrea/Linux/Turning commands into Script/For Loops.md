@@ -33,6 +33,7 @@ The script that we can find in [[Handle Many Arguments]], now will look like thi
  done
  exit 0
  fi
+alias="
 ```
 
 Remember that the variable that you define here can be named whatever you wish, and that all

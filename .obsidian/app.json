@@ -1,3 +1,4 @@
 {
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "spellcheck": false
 }
