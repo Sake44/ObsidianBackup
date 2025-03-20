@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Memory and Memory types.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/System Logging and System Messaging.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Memory and Memory types"
+              "title": "System Logging and System Messaging"
             }
           }
         ]
@@ -194,8 +194,12 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Sys Directory.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Processes.md",
+    "System Logging and System Messaging.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/System Logging and System Messaging.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Memory and Memory types.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Untitled",
+    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Sys Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Dev Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Proc directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Untitled",
@@ -219,12 +223,9 @@
     "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
     "Evernote/Le mie note/Angular.md",
     "Evernote/Le mie note/CKA (Certified K8s Administrator).md",
-    "Evernote/Le mie note/AWS (Note in italiano).md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
-    "OneNote/Blocco appunti di Andrea/Linux/Copying Files and Directories.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
-    "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving Tools.md",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Untitled",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving",
     "Untitled",
@@ -239,7 +240,6 @@
     "Exported image 20250315115814-0.png",
     "Exported image 20250315115811-0.png",
     "SSCP",
-    "OneNote/Blocco appunti di Andrea/Service Now",
-    "OneNote/Blocco appunti di Andrea/Networking"
+    "OneNote/Blocco appunti di Andrea/Service Now"
   ]
 }
