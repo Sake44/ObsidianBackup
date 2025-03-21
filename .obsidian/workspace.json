@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Passwd Command.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings/Device Inspection in Linux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Passwd Command"
+              "title": "Device Inspection in Linux"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 397.5
   },
   "right": {
     "id": "85bf4ab8e91bae0c",
@@ -180,12 +180,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
@@ -194,8 +194,10 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/The Skeleton Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Passwd Command.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings/Device Inspection in Linux.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings",
+    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/The Skeleton Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Access Control Files.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Security.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/System Logging and System Messaging.md",
@@ -222,7 +224,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Input.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Grep.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Handle Many Arguments.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
@@ -239,7 +240,6 @@
     "Exported image 20250315115815-0.png",
     "Exported image 20250315115814-0.png",
     "Exported image 20250315115811-0.png",
-    "SSCP",
-    "OneNote/Blocco appunti di Andrea/Service Now"
+    "SSCP"
   ]
 }
