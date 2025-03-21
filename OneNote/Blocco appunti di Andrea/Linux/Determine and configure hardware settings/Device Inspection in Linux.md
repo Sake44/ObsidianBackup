@@ -58,3 +58,11 @@ Lists currently registered Input/Output port regions in use.
 ```
 Lists the registered DMA (direct memory access) channels in use.
 
+### Kernel
+
+Changing the kernel parameters is not usually required, but it can be useful to detect and solve
+operating system related problems. Kernel parameters must be added to the file
+**/etc/default/grub** in the line **GRUB_CMDLINE_LINUX** to make them persistent across reboots.
+
+A new configuration file for the bootloader must be generated every time **/etc/default/grub**
+changes, which is accomplished by the command **grub-mkconfig -o /boot/grub/grub.cfg.**
