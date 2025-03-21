@@ -34,3 +34,27 @@ Command modprobe can be used to both load and to unload kernel modules: to unloa
 ```
 modprobe -r snd-hda-intel
 ```
+
+Customized parameters for a module can be made persistent by including them in
+the file /etc/modprobe.conf or in individual files with the extension .conf in the directory
+/etc/modprobe.d/.
+
+Some of the important
+files in /proc for inspecting hardware are:
+```
+/proc/cpuinfo
+```
+Lists detailed information about the CPU(s) found by the operating system.
+```
+/proc/interrupts
+```
+A list of numbers of the interrupts per IO device for each CPU.
+```
+/proc/ioports
+```
+Lists currently registered Input/Output port regions in use.
+```
+/proc/dma
+```
+Lists the registered DMA (direct memory access) channels in use.
+
