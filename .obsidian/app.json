@@ -1,3 +1,5 @@
 {
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true
 }

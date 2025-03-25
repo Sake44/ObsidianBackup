@@ -53,26 +53,32 @@ fi
 echo "Number of arguments: $#."
 ```
 
-Other comparison we can perform are: 
+Other #comparison we can perform are: 
+
 ```
 -ne
 ```
 Not equal to
+
 ```
 -gt
 ```
 Greater than
+
 ```
 -ge
 ```
 Greater than or equal to
+
 ```
 -lt
 ```
 Less than
+
 ```
 -le
 ```
+
 Less than or equal to
 
 
