@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/System Initialization.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/System Architecture/BIOS or UEFI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Initialization"
+              "title": "BIOS or UEFI"
             }
           }
         ]
@@ -71,7 +71,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Ricerca"
             }
           },
           {
@@ -194,8 +194,11 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "Senza nome.canvas",
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/BIOS or UEFI.md",
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/System Initialization.md",
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture",
     "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings/Device Inspection in Linux.md",
-    "OneNote/Blocco appunti di Andrea/Linux/System Initialization.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Passwd Command.md",
     "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/The Skeleton Directory.md",
@@ -222,8 +225,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Error.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Input.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Combinations.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
@@ -239,7 +240,6 @@
     "Exported image 20250315115818-0.png",
     "Exported image 20250315115815-0.png",
     "Exported image 20250315115814-0.png",
-    "Exported image 20250315115811-0.png",
-    "SSCP"
+    "Exported image 20250315115811-0.png"
   ]
 }

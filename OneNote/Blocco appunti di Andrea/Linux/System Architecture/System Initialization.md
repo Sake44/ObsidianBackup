@@ -4,5 +4,5 @@ aspects of the operating system, like basic hardware configuration and memory ad
 The kernel will then open the initramfs (initial RAM filesystem). The initramfs is an archive
 containing a filesystem used as a temporary root filesystem during the boot process.
 As soon as the root filesystem is available, the kernel will mount all filesystems configured in
-/etc/fstab and then will execute the first program, a utility named init. The init program is
+**/etc/fstab** and then will execute the first program, a utility named init. The init program is
 responsible for running all initialization scripts and system daemons.
