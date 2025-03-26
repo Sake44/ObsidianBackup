@@ -55,6 +55,6 @@ After #shutdown is executed, all processes receive the #SIGTERM signal, followed
 
 The SysV implementation allows for the limiting of users that will be able to restart the machine
 by pressing Ctrl + Alt + Del . This is possible by placing option -a for the shutdown command present at the line regarding ctrlaltdel in the **/etc/inittab** file. By doing this, only users whose
-usernames are in the **/etc/shutdown.allow** file will be able to restart the system with the Ctrl
-+Alt + Del keystroke combination.
+usernames are in the **/etc/shutdown.allow** file will be able to restart the system with the **Ctrl
++Alt + Del keystroke** combination.
 

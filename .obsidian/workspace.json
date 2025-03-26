@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Design hardisk layout.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Systemd"
+              "title": "Design hardisk layout"
             }
           }
         ]
@@ -192,11 +192,12 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "4f8607c7ef4587ad",
+  "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Design hardisk layout.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/BIOS or UEFI.md",
-    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
     "Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/System Initialization.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture",
@@ -231,7 +232,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Untitled",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving",
-    "Untitled",
     "Exported image 20250315115710-0.png",
     "Exported image 20250315115755-0.png",
     "Exported image 20250315115828-0.png",
