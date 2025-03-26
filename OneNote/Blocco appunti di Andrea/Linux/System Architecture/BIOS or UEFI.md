@@ -110,5 +110,12 @@ ctrlaltdel
 The process will be executed when the init process receives the SIGINT signal, triggered when
 the key sequence of Ctrl + Alt + Del is pressed.
 
-The telinit q command should be executed every time after the #/etc/inittab file is modified.
+The **telinit q** command should be executed every time after the #/etc/inittab file is modified.
 The argument q (or Q) tells init to reload its configuration.
+The command #runlevel shows the current runlevel for the system.
+```
+$ runlevel
+N 3
+```
+The letter **N** in the output shows that the **runlevel** has not changed since last boot.
+

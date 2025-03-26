@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/System Architecture/BIOS or UEFI.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BIOS or UEFI"
+              "title": "Systemd"
             }
           }
         ]
@@ -192,10 +192,12 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "d078c62fe3ed4967",
+  "active": "4f8607c7ef4587ad",
   "lastOpenFiles": [
-    "Senza nome.canvas",
+    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/BIOS or UEFI.md",
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
+    "Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/System Initialization.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture",
     "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings/Device Inspection in Linux.md",
@@ -224,7 +226,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Introduction.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files/Redirect Standard Error.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
