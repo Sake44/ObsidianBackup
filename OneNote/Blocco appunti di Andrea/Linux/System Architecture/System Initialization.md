@@ -80,3 +80,7 @@ grub-install --boot-directory=/boot /dev/sda
 
 ### Configuring GRUB 2
 
+The default configuration file for GRUB 2 is /boot/grub/grub.cfg. This file is automatically
+generated and manual editing is not recommended. To make changes to the GRUB configuration,
+you need to edit the file /etc/default/grub and then run the update-grub utility to generate a
+compliant file.
