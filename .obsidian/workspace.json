@@ -11,10 +11,24 @@
             "id": "d078c62fe3ed4967",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Managing Menu Entries.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Managing Menu Entries"
             }
           }
         ]
@@ -40,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -166,27 +180,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "local-backup:Run local backup": false
     }
   },
-  "active": "4f8607c7ef4587ad",
+  "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/System Initialization.md",
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Managing Menu Entries.md",
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Design hardisk layout.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Boot Partition.md",
-    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/BIOS or UEFI.md",
     "Senza nome.canvas",
-    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/System Initialization.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture",
     "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings/Device Inspection in Linux.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Passwd Command.md",
@@ -212,7 +227,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Create and delete multi files.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Best Practice.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
