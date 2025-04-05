@@ -53,3 +53,26 @@ $ cat /etc/ld.so.conf.d/x86_64-linux-gnu.conf
 /usr/lib/x86_64-linux-gnu
 ```
 
+The #ldconfig command takes care of reading these config files:
+
+```
+$ sudo ldconfig -v
+/usr/local/lib:
+/lib/x86_64-linux-gnu:
+libnss_myhostname.so.2 -> libnss_myhostname.so.2
+libfuse.so.2 -> libfuse.so.2.9.7
+libidn.so.11 -> libidn.so.11.6.16
+libnss_mdns4.so.2 -> libnss_mdns4.so.2
+libparted.so.2 -> libparted.so.2.0.1
+(...)
+```
+
+#### Searching for the Dependencies of a Particular Executable
+
+To look up the shared libraries required by a specific program, use the #ldd command followed by the absolute path to the program.
+
+```
+$ ldd /usr/bin/git
+```
+
+
