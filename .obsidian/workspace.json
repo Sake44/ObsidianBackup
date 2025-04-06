@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Manage shared libraries.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Debian Package Management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Manage shared libraries"
+              "title": "Debian Package Management"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Design hardisk layout.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Manage shared libraries.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Debian Package Management.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Design hardisk layout.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Managing Menu Entries.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/System Initialization.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
@@ -226,7 +227,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Perform Error Checking.md",
     "OneNote/Blocco appunti di Andrea/Linux/Create and delete multi files.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Variable.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
