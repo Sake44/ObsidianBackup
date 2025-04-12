@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Debian Package Management.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Zypper.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Debian Package Management"
+              "title": "Zypper"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -180,12 +180,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
@@ -194,8 +194,10 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Manage shared libraries.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/User RPM and YUM package management.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Zypper.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Debian Package Management.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Manage shared libraries.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Design hardisk layout.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Managing Menu Entries.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/System Initialization.md",
@@ -225,8 +227,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Etc Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/For Loops.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/Perform Error Checking.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Create and delete multi files.md",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
