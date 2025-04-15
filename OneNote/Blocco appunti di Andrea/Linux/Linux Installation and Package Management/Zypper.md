@@ -50,4 +50,3 @@ To see the metadata associated with a package, use the info operator followed by
 
 zypper can also be used to manage software repositories. To see a list of all the repositories
 currently registered in your system, use zypper repos.
-
