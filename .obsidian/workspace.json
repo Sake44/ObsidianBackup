@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Zypper.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Linux as virtualization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Zypper"
+              "title": "Linux as virtualization"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/User RPM and YUM package management.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Zypper.md",
+    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Linux as virtualization.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/User RPM and YUM package management.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Debian Package Management.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Manage shared libraries.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Design hardisk layout.md",
@@ -225,7 +226,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Where Kernel's file are stored.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Etc Directory.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script/For Loops.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",

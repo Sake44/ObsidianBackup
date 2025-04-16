@@ -29,3 +29,11 @@ A virtual machine often consists of a group of files, primarily an XML file that
 the virtual machine (such as its hardware configuration, network connectivity, display
 capabilities, and more) and an associated hard disk image file that contains the installation of the operating system and its software.
 
+#### Working with Virtual Machine Templates
+
+Since virtual machines are typically just files running on a hypervisor, it is easy to create
+templates that can be customized for particular deployment scenarios. Often a virtual machine
+will have a basic operating system installation and some pre-configured authentication
+configuration settings set up to ease future system launches.
+
+#### 
