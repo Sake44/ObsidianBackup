@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Getting System Information.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Getting System Information"
+              "title": "Finding your Environment Variables"
             }
           }
         ]
@@ -143,7 +143,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etichette"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Struttura di Finding your Environment Variables"
             }
           },
           {
@@ -192,10 +192,11 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "d078c62fe3ed4967",
+  "active": "5bcd2f82cb5370b7",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Work on the command line.md",
+    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Linux as virtualization.md",
-    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Getting System Information.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Zypper.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/User RPM and YUM package management.md",
@@ -226,7 +227,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Proc directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Untitled",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Introduction.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Where Kernel's file are stored.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",

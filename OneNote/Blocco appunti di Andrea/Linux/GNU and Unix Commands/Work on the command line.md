@@ -1,3 +1,6 @@
+
+### Getting system information
+
 To retrieve your current location in the file system, we can: 
 ```
 pwd
