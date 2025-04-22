@@ -152,8 +152,8 @@ rm -r will remove a directory and all its contents (subdirectories and files).
 
 ### File globbing and wildcards
 
-File globbing is a feature provided by the Unix/Linux shell to represent multiple filenames by
-using special characters called wildcards. Wildcards are essentially symbols which may be used to substitute for one or more characters.
+File #globbing is a feature provided by the Unix/Linux shell to represent multiple filenames by
+using special characters called #wildcards. Wildcards are essentially symbols which may be used to substitute for one or more characters.
 
 The following are some examples of file globbing:
 ```
@@ -171,19 +171,20 @@ rmdir [a-z]*
 
 ```
 There are three characters that can be used as wildcards in Linux:
+
 * (asterisk)
 # which represents zero, one or more occurrences of any character.
 
 ? (question mark)
 # which represents a single occurrence of any character.
+
 [ ] (bracketed characters)
-# which represents any occurrence of the character(s) enclosed in the square brackets. It is
-# possible to use different types of characters whether numbers, letters, other special characters. For example, the expression [0-9] matches all digits.
+# which represents any occurrence of the character(s) enclosed in the square #brackets. It is possible to use different types of characters whether numbers, #letters, other special characters. For example, the expression [0-9] matches all #digits.
 ```
 
 ##### The asterisk 
 
-An asterisk (*) matches zero, one or more occurrences of any character.
+An #asterisk (*) matches zero, one or more occurrences of any character.
 ```
 find /home -name *.png
 # This would find all files that end with .png
@@ -203,7 +204,7 @@ ls l?st.txt
 
 #### Bracketed Characters
 
-The bracketed wildcards matches any occurrence of the character(s) enclosed in the square
+The bracketed #wildcards matches any occurrence of the character(s) enclosed in the square
 brackets:
 
 ```

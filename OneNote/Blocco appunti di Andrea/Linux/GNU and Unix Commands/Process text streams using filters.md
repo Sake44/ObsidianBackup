@@ -114,7 +114,7 @@ contains our checksum value along with the -c switch:
 sha256sum -c <filename>
 ```
 
-The value contained within the file matches the calculated SHA256 checksum for our ftu.txt
+The value contained within the file matches the calculated #SHA256 checksum for our ftu.txt
 file, just as we would expect. However, if the original gile were modified the value check would fail. In such cases we know that our file is bad or corrupted, and we can not trust the 
 integrity of its contents.
 
