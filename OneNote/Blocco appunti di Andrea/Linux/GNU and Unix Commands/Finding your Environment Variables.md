@@ -35,3 +35,4 @@ unset myvar (without $)
 ```
 Running #set by itself will display lots of output, but it is really not all that different from what env gave you.
 With #set and #env we can list all variable. The main difference between those commands is that #env list only exported variables (the one related to process). 
+

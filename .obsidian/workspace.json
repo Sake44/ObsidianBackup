@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Process text streams using filters.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Finding your Environment Variables"
+              "title": "Process text streams using filters"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -180,22 +180,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "local-backup:Run local backup": false
     }
   },
-  "active": "5bcd2f82cb5370b7",
+  "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
-    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Work on the command line.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
+    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Process text streams using filters.md",
+    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Work on the command line.md",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Linux as virtualization.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Zypper.md",
@@ -226,7 +227,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Dev Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Proc directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Untitled",
-    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Introduction.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
