@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/How to find files.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to find files"
+              "title": "Features of terminal multiplexer"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -180,12 +180,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
@@ -194,10 +194,14 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/How to find files.md",
+    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Use streams, pipes and redirect.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Job Control.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving files.md",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving Tools.md",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Introduction.md",
-    "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/How to find files.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Perform basic file management.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Process text streams using filters.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
@@ -222,16 +226,12 @@
     "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/The Skeleton Directory.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Access Control Files.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Security.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/System Logging and System Messaging.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions",
-    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Processes.md",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Untitled",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored",
     "OneNote/Blocco appunti di Andrea/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Searching and Extracting Files",
-    "OneNote/Blocco appunti di Andrea/Linux/Archiving/Untitled",
     "Exported image 20250315115710-0.png",
     "Exported image 20250315115755-0.png",
     "Exported image 20250315115828-0.png",
