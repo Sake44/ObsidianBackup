@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
+                "file": "OneNote/Blocco appunti di Andrea/Networking/Basic Concept.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Features of terminal multiplexer"
+              "title": "Basic Concept"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "85bf4ab8e91bae0c",
@@ -176,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 360.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,10 +195,15 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Networking/Network LayerSubnetRouting.md",
+    "OneNote/Blocco appunti di Andrea/Networking/Basic Concept.md",
+    "OneNote/Blocco appunti di Andrea/Networking/Application Layer.md",
+    "Evernote/Le mie note/Networking Fundamentals.md",
+    "System Logging and System Messaging.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/How to find files.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Use streams, pipes and redirect.md",
     "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Job Control.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
     "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving files.md",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving Tools.md",
@@ -218,14 +224,9 @@
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture/Systemd.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management/Boot Partition.md",
     "OneNote/Blocco appunti di Andrea/Linux/Linux Installation and Package Management",
-    "OneNote/Blocco appunti di Andrea/Linux/System Architecture/BIOS or UEFI.md",
     "Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/System Architecture",
-    "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings/Device Inspection in Linux.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Passwd Command.md",
     "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings",
-    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/The Skeleton Directory.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Access Control Files.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Untitled",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored",
