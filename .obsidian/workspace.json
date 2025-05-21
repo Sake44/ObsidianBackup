@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
+                "file": "OneNote/Blocco appunti di Andrea/Networking/Application Layer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Features of terminal multiplexer"
+              "title": "Application Layer"
             }
           }
         ]
@@ -71,7 +71,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Ricerca"
+              "title": "Search"
             }
           },
           {
@@ -194,10 +194,12 @@
   },
   "active": "d078c62fe3ed4967",
   "lastOpenFiles": [
+    "OneNote/Blocco appunti di Andrea/Networking/Network LayerSubnetRouting.md",
+    "OneNote/Blocco appunti di Andrea/AWS/OSI Model.md",
+    "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/How to find files.md",
     "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Use streams, pipes and redirect.md",
     "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Job Control.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
     "OneNote/Blocco appunti di Andrea/Linux/Create, monitor and kill processes",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving files.md",
     "OneNote/Blocco appunti di Andrea/Linux/Archiving/Archiving Tools.md",
@@ -224,8 +226,6 @@
     "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings/Device Inspection in Linux.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Passwd Command.md",
     "OneNote/Blocco appunti di Andrea/Linux/Determine and configure hardware settings",
-    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/The Skeleton Directory.md",
-    "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions/Access Control Files.md",
     "OneNote/Blocco appunti di Andrea/Linux/Security and File Permissions",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Untitled",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored",
