@@ -43,4 +43,4 @@ This line is called a bang line or more commonly a shebang. It indicates to the 
 echo "Hello World!"
 ```
 
-Let's see how to use [[Variable]] in script.
+Let's see how to use [[OneNote/Notes/Linux/Turning commands into Script/Variable]] in script.
