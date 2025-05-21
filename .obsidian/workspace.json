@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "50e0c7c4ce985336",
+        "id": "72b1e5ec478af473",
         "type": "tabs",
         "children": [
           {
-            "id": "d078c62fe3ed4967",
+            "id": "ca700ef053190820",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "OneNote/Notes/Networking/Network Protocol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Network Protocol"
             }
           }
         ]
@@ -182,11 +192,14 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "4f8607c7ef4587ad",
+  "active": "ca700ef053190820",
   "lastOpenFiles": [
+    "Screenshot from 2025-05-21 07-26-04 1.png",
+    "Screenshot from 2025-05-21 07-26-04.png",
+    "OneNote/Notes/Networking/Basic Concept.md",
+    "OneNote/Notes/Networking/Network Protocol.md",
     "conflict-files-obsidian-git.md",
     "OneNote/Notes/Networking/Application Layer.md",
-    "OneNote/Notes/Networking/Basic Concept.md",
     "OneNote/Notes/Linux/Create, monitor and kill processes/Modfiy process and exectution priorities.md",
     "OneNote/Notes/Networking/Network LayerSubnetRouting.md",
     "OneNote/Notes/AWS/OSI Model.md",
@@ -210,8 +223,6 @@
     "OneNote/Notes/Linux/Linux Installation and Package Management/Manage shared libraries.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management/Design hardisk layout.md",
     "OneNote/Notes/Linux/System Architecture/Managing Menu Entries.md",
-    "OneNote/Notes/Linux/System Architecture/System Initialization.md",
-    "OneNote/Notes/Linux/System Architecture/Systemd.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management",
     "Senza nome.canvas",
     "OneNote/Notes/Linux/System Architecture",
@@ -230,7 +241,6 @@
     "Exported image 20250315115818-0 1.png",
     "Exported image 20250315115818-0.png",
     "Exported image 20250315115815-0.png",
-    "Exported image 20250315115814-0.png",
-    "Exported image 20250315115811-0.png"
+    "Exported image 20250315115814-0.png"
   ]
 }

@@ -14,3 +14,7 @@ the network.
 
 End systems access the Internet through Internet Service Providers (ISPs)
 The Internet is all about connecting end systems to each other, so the #ISPs that provide access to end systems must also be interconnected.
+End systems, packet switches, and other pieces of the Internet run **protocols** that control the sending and receiving of information within the Internet. **The Transmission Control Protocol (TCP) and the Internet Protocol (IP)** are two of the most important protocols in the Internet.
+The Internet’s principal protocols are collectively known as #TCP/IP.
+Given the importance of protocols to the Internet, it’s important that everyone agree on what each and every protocol does, so that people can create systems and products that interoperate. This is where standards come into play. Internet ­standards are developed by the Internet Engineering Task Force (**IETF**). The #IETF standards documents are called requests for comments (RFCs).
+
