@@ -19,8 +19,10 @@ connection loss.
 Creation of GNU Screen in 1987: emulate multiple independent VT100 screens on a single physical terminal.
 
 ### Windows
+
 #GNU Screen is invoked just by typing screen into the terminal. Screen’s command prefix is **Ctrl + a**.
-To see all windows at the bottom of the terminal display, type: Ctrl + a - w. 
+To see all windows at the bottom of the terminal display, type: Ctrl + a - w.
+
 ```bash
 #!/bin/bash
 0*$ bash
@@ -32,10 +34,13 @@ To see all windows at the bottom of the terminal display, type: Ctrl + a - w.
 ```
 
 To rename a #screen, we can: Ctrl + a - A and write the new window name.
-To create another window but provide it a name from the start: 
-```
+To create another window but provide it a name from the start:
+
+```bash
+#!/bin/bash
 screen -t <screen name>
 ```
+
 You can move between windows in different ways:
 • By using Ctrl + a - n (go to next window) and Ctrl + a - p (go to previous window).
 • By using Ctrl + a - number (go to window number number).
