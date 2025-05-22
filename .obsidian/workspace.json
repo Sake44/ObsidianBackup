@@ -35,15 +35,12 @@
             "id": "cea5f055e7bf7c6e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "image",
               "state": {
-                "aFile": "OneNote/Notes/Linux/Recursive List in Bash.md",
-                "bFile": "OneNote/Notes/Linux/Recursive List in Bash.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Images/Screenshot from 2025-05-21 07-26-04 1.png"
               },
-              "icon": "diff",
-              "title": "Diff: Recursive List in Bash"
+              "icon": "lucide-image",
+              "title": "Screenshot from 2025-05-21 07-26-04 1"
             }
           }
         ],
@@ -208,17 +205,17 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "cea5f055e7bf7c6e",
+  "active": "4f8607c7ef4587ad",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
-    "Screenshot from 2025-05-22 11-33-34.png",
-    "Screenshot from 2025-05-22 09-54-19.png",
-    "Screenshot from 2025-05-22 09-19-53.png",
-    "Screenshot from 2025-05-21 18-55-02.png",
-    "Screenshot from 2025-05-21 10-16-52.png",
-    "Screenshot from 2025-05-21 07-26-04.png",
-    "Screenshot from 2025-05-21 07-26-04 1.png",
+    "Images/Screenshot from 2025-05-22 11-33-34.png",
+    "Images/Screenshot from 2025-05-22 09-54-19.png",
+    "Images/Screenshot from 2025-05-22 09-19-53.png",
+    "Images/Screenshot from 2025-05-21 18-55-02.png",
+    "Images/Screenshot from 2025-05-21 10-16-52.png",
+    "Images/Screenshot from 2025-05-21 07-26-04.png",
+    "Images/Screenshot from 2025-05-21 07-26-04 1.png",
     "README.md",
     "OneNote/Notes/Linux/Where data are stored/Where Kernel's file are stored.md",
     "OneNote/Notes/Linux/Where data are stored/System Logging and System Messaging.md",
