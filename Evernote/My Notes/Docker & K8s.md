@@ -14,7 +14,7 @@
 * Docker uses volumes and binds mounts to persist data even after a container stops running. 
 * Plugins, such as storage plugins, provide the ability to connect to external storage platforms. 
 
-![[./_resources/Docker_&_K8s.resources/image.png]]
+![[Evernote/My Notes/_resources/Docker_&_K8s.resources/image.png]]
 
 ## **Container glossary**
 
@@ -235,13 +235,13 @@ Manutenibilità: Kubernetes supporta il monitoraggio e la registrazione delle ap
 | controller-manager | Replica Controller: gestisce il numero desiderato di repliche di un Pod.<br>Node Controller: monitora lo stato dei nodi e risponde ai guasti.<br>Endpoint Controller: gestisce gli endpoint di servizio.<br>Service Account & Token Controller: crea account di servizio e token per i Pod.<br>Molti altri controller che gestiscono specifiche risorse e aspetti del cluster. | Il controller manager è un demone che esegue i vari controller di Kubernetes, ognuno dei quali controlla lo stato delle risorse nel cluster. I controller agiscono per mantenere lo stato desiderato del sistema. |
 | scheduler | Assegnazione dei Pod ai nodi disponibili.<br>Bilanciamento del carico di lavoro tra i nodi.<br>Considerazione delle restrizioni di posizionamento dei Pod.<br>Rispetto delle politiche di scheduling configurate. | Lo scheduler è il componente che decide su quale nodo eseguire ogni Pod non assegnato. Lo scheduler assegna i Pod ai nodi in base a diversi criteri, tra cui risorse disponibili, requisiti di affinità, tolleranze e altre politiche definite dall'utente. |
 
-![[./_resources/Docker_&_K8s.resources/image.1.png]]
+![[Evernote/My Notes/_resources/Docker_&_K8s.resources/image.1.png]]
 
 In sintesi, Kubernetes è composto da numerosi componenti che lavorano insieme per fornire una piattaforma potente per la gestione delle applicazioni containerizzate. La comprensione di kubeadm, kubelet, apiserver, controller-manager e scheduler è fondamentale per sfruttare appieno le capacità di Kubernetes.
 
 ### How YAML file is structured?
 
-![[./_resources/Docker_&_K8s.resources/Screenshot from 2024-10-04 09-15-29.png]]
+![[Screenshot from 2024-10-04 09-15-29.png]]
 
 # Kubernetes Command
 

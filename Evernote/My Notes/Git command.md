@@ -24,7 +24,7 @@ git init
 
 ## Create repository from command line
 
-![[./_resources/Git_command.resources/Screenshot from 2024-06-18 15-17-07.png]]
+![[Screenshot from 2024-06-18 15-17-07.png]]
 
 1\. Utilizzare i Token di Accesso Personale (PAT)
 GitHub non supporta più l'autenticazione con la password tramite HTTPS. Invece, utilizza un Token di Accesso Personale (PAT) come password. Ecco come fare:

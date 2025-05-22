@@ -55,7 +55,7 @@ The permissions are:
 * **Read**
 * **Write**
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.png]]
 
 The System Configuration utility (MSConfig) is for advanced troubleshooting, and its main purpose is to help diagnose startup issues
 The **Computer Management** (`compmgmt`) utility has three primary sections: **System Tools**, **Storage**, and **Services and Applications**.
@@ -75,9 +75,9 @@ Event Viewer has three panes.
 3. The pane on the right is the actions pane.
 
 There are five types of events that can be logged. Below is a table from [docs.microsoft.com](https://docs.microsoft.com/en-us/windows/win32/eventlog/event-types) providing a brief description for each.
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.1.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.1.png]]
 The standard logs are visible under **Windows Logs**. Below is a table from [docs.microsoft.com](https://docs.microsoft.com/en-us/windows/win32/eventlog/eventlog-key) providing a brief description for each.
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.2.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.2.png]]
 Windows Update is a service provided by Microsoft to provide security updates, feature enhancements, and patches for the Windows operating system and other Microsoft products, such as Microsoft Defender. 
 
 Updates are typically released on the 2nd Tuesday of each month. This day is called **Patch Tuesday**. That doesn't necessarily mean that a critical update/patch has to wait for the next Patch Tuesday to be released. If the update is urgent, then Microsoft will push the update via the Windows Update service to the Windows devices.
@@ -88,7 +88,7 @@ Updates are typically released on the 2nd Tuesday of each month. This day is cal
 
 The main idea behind a domain is to centralise the administration of common components of a Windows computer network in a single repository called **Active Directory (AD)**. The server that runs the Active Directory services is known as a **Domain Controller (DC)**.
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.3.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.3.png]]
 The main advantages of having a configured Windows domain are:
 
 * **Centralised identity management:** All users across the network can be configured from Active Directory with minimum effort.
@@ -177,7 +177,7 @@ Windows manages such policies through **Group Policy Objects (GPO)**. GPOs are s
 To configure GPOs, you can use the **Group Policy Management** tool, available from the start menu.
 The first thing you will see when opening it is your complete OU hierarchy, as defined before. To configure Group Policies, you first create a GPO under **Group Policy Objects** and then link it to the OU where you want the policies to apply. As an example, you can see there are some already existing GPOs in your machine:
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.4.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.4.png]]
 you can also apply **Security Filtering** to GPOs so that they are only applied to specific users/computers under an OU. By default, they will apply to the **Authenticated Users** group, which includes all users/PCs.
 The **Settings** tab includes the actual contents of the GPO and lets us know what specific configurations it applies. As stated before, each GPO has configurations that apply to computers only and configurations that apply to users only. In this case, the `Default Domain Policy` only contains Computer Configurations.
 
@@ -211,24 +211,24 @@ When Kerberos is used for authentication, the following process happens:
 	Notice the TGT is encrypted using the **krbtgt** account's password hash, and therefore the user can't access its contents. It is essential to know that the encrypted TGT includes a copy of the Session Key as part of its contents, and the KDC has no need to store the Session Key as it can recover a copy by decrypting the TGT if needed.
 	
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.5.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.5.png]]
 
 1. When a user wants to connect to a service on the network like a share, website or database, they will use their TGT to ask the KDC for a **Ticket Granting Service (TGS)**. TGS are tickets that allow connection only to the specific service they were created for. To request a TGS, the user will send their username and a timestamp encrypted using the Session Key, along with the TGT and a **Service Principal Name (SPN),** which indicates the service and server name we intend to access.
 	
 	As a result, the KDC will send us a TGS along with a **Service Session Key**, which we will need to authenticate to the service we want to access. The TGS is encrypted using a key derived from the **Service Owner Hash**. The Service Owner is the user or machine account that the service runs under. The TGS contains a copy of the Service Session Key on its encrypted contents so that the Service Owner can access it by decrypting the TGS.
 	
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.6.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.6.png]]
 
 1. The TGS can then be sent to the desired service to authenticate and establish a connection. The service will use its configured account's password hash to decrypt the TGS and validate the Service Session Key.
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.7.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.7.png]]
 
 ### NetNTLM Authentication
 
 NetNTLM works using a challenge-response mechanism. The entire process is as follows:
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.8.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.8.png]]
 
 1. The client sends an authentication request to the server they want to access.
 2. The server generates a random number and sends it as a challenge to the client.
@@ -237,7 +237,7 @@ NetNTLM works using a challenge-response mechanism. The entire process is as fo
 5. The domain controller uses the challenge to recalculate the response and compares it to the original response sent by the client. If they both match, the client is authenticated; otherwise, access is denied. The authentication result is sent back to the server.
 6. The server forwards the authentication result to the client.
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.8.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.8.png]]
 
 1. The client sends an authentication request to the server they want to access.
 2. The server generates a random number and sends it as a challenge to the client.
@@ -263,14 +263,14 @@ A new security group needs to be introduced when talking about trees and forests
 ### Forests
 
 The domains you manage can also be configured in different namespaces. Suppose your company continues growing and eventually acquires another company called `MHT Inc.` When both companies merge, you will probably have different domain trees for each company, each managed by its own IT department. The union of several trees with different namespaces into the same network is known as a **forest**.
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.9.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.9.png]]
 
 ### Trust Relationships
 
 ### Forests
 
 The domains you manage can also be configured in different namespaces. Suppose your company continues growing and eventually acquires another company called `MHT Inc.` When both companies merge, you will probably have different domain trees for each company, each managed by its own IT department. The union of several trees with different namespaces into the same network is known as a **forest**.
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.9.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.9.png]]
 
 ### Trust Relationships
 
@@ -280,7 +280,7 @@ In simple terms, having a trust relationship between domains allows you to autho
 
 The simplest trust relationship that can be established is a simplest trust relationship that can be established is a **one-way trust relationship**. In a one-way trust, if `Domain AAA` trusts `Domain BBB`, this means that a user on BBB can be authorised to access resources on AAA:**one-way trust relationship**. In a one-way trust, if `Domain AAA` trusts `Domain BBB`, this means that a user on BBB can be authorised to access resources on AAA:
 
-![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.10.png]]![[./_resources/Cyber_Security_101_-_TryHackMe.resources/image.10.png]]
+![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.10.png]]![[Evernote/My Notes/_resources/Cyber_Security_101_-_TryHackMe.resources/image.10.png]]
 The direction of the one-way trust relationship is contrary to that of the access direction.The direction of the one-way trust relationship is contrary to that of the access direction.
 
 **Two-way trust relationshipsTwo-way trust relationships** can also be made to allow both domains to mutually authorise users from the other. By default, joining several domains under a tree or a forest will form a two-way trust relationship. can also be made to allow both domains to mutually authorise users from the other. By default, joining several domains under a tree or a forest will form a two-way trust relationship.

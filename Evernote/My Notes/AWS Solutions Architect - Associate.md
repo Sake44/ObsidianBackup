@@ -25,7 +25,7 @@ Below the essential NIST's characteristics
 
 ### Cloud Provider Responsibilities
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.170.png]]
+![[image.170.png]]
 
 AWS has published service-level-agreements (SLAs) for most AWS cloud services.
 Current details on the SLAs offered by AWS can be viewed at
@@ -77,7 +77,7 @@ To have just an example we could take in consideration a tier-three web applicat
 4. **EC2 instance hosting server application:** EBS boot and data volumes can be encrypted using the AWS KMS service
 5. **RDS DB server:** All boot and data can be encrypted using **KMS.**
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.png]]
 
 ### Migrating Applications
 
@@ -98,7 +98,7 @@ IAM it's a global service. When we first create the account that user is called 
 User permissions:
 User and groups can be assigned JSON documents called policies. These policies define the **permissions** of the users.
 In AWS you apply the least privilege principle: don’t give more permissions than a user needs.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.1.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.1.png]]
 
 ### IAM Roles for Services
 
@@ -107,7 +107,7 @@ A role is an identity you can create in IAM that has specific permissions. A rol
 As security tools IAM provide a Credential Report (account-level) and Access Advisor (user-level).
 The reason why we use roles instead of credentials is that if our web server get hacked they can access to our credentials stored in a file. In this way they can read our Access Key and Private Access Key and able to log in our s3 account. Using roles is so much more secure cause you not store credentials in your ec2 instance.
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-11-16 18-11-50.png]]
+![[Screenshot from 2024-11-16 18-11-50.png]]
 
 ## AWS IAM Guidelines &  Best Practices
 
@@ -123,7 +123,7 @@ The reason why we use roles instead of credentials is that if our web server get
 
 ### IAM Section - Summary
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.2.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.2.png]]
 
 # EC2 (Elastic Compute Cloud)
 
@@ -144,7 +144,7 @@ EC2 require differente configurations like:
 6. Firewall rules
 7. Bootstrap script (launching command when a machine starts)
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.77.png]]
+![[image.77.png]]
 
 ### On-demand Instances
 
@@ -200,7 +200,7 @@ Can get a discount of up to 90% compared to On-demand
 
 ### Spot Fleets
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.16.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.16.png]]
 		
 
 ### EC2 Spot Instance Requests
@@ -224,13 +224,13 @@ A typical use case for Spot Instances is for stateless, fault-tolerant or flexib
 
 ### How to terminate a Spot Instances
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.15.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.15.png]]
 We can have two different types of Spot Instances's Requests:
 
 * **One time request**: This request is valid just one time. When the instances are launched then the Spot request expire.
 * **Persistent request**: This request is **persistent.** We need to remember, before to terminate/stop an instances, to cancel the Spot Request. Otherwise, spot request will be smart enough to relaunch our instances.
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.78.png]]
+![[image.78.png]]
 
 ### 
 
@@ -239,29 +239,29 @@ We can have two different types of Spot Instances's Requests:
 • A physical server with EC2 instance capacity fully dedicated to your use
 • Allows you address compliance requirements and use your existing serverbound
 software licenses (per-socket, per-core, pe—VM software licenses)
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.86.png]]
+![[image.86.png]]
 
 **• Purchasing Options:**
 		• On-demand – pay per second for active Dedicated Host
 		• Reserved - 1 or 3 years (No Upfront, Partial Upfront, All Upfront)
 • Useful for software that have complicated licensing model (BYOL – Bring Your Own License) or for       companies that have strong regulatory or compliance needs
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.79.png]]
+![[image.79.png]]
 
 ### EC2 Dedicated Instances
 
 • Instances run on hardware that’s dedicated to you
 • May share hardware with other instances in same account
 • No control over instance placement (can move hardware after Stop / Start)
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.13.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.13.png]]
 
 ### EC2 Instances types ([link](https://aws.amazon.com/ec2/instance-types/))
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.3.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.4.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.5.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.6.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.6.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.3.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.4.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.5.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.6.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.6.png]]
 
 ### Security Groups
 
 Security groups are the fundamental of network security in AWS. They control how traffic is allowed into or out of our EC2 Instances. Security Groups are **virtual firewall for your ec2 instance.** By default everything is blocked. A security groups only contain **allow** rules.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.7.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.7.png]]
 Security groups are acting like **Firewall** on EC2 instances.
 They regulate:
 
@@ -270,7 +270,7 @@ They regulate:
 * Control of inbound network (from other to the instance)
 * Control of outbound network (from the instance to other)
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.8.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.9.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.10.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.11.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.8.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.9.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.10.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.11.png]]
 SSH is one of the most important function. It allows you to control a remote machine, all using the command line.
 
 ### SSH Troubleshooting
@@ -290,13 +290,13 @@ ssh -i (.pem file name) ec2-user@(public IP Address)
 
 ### Ec2 Purchasing Options
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.12.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.12.png]]
 
 ### 
 
 ### 
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.14.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.14.png]]
 
 ### 
 
@@ -342,16 +342,16 @@ group per AZ)
 • Partition—spreads instances across many different partitions (which rely on
 different sets of racks) within an AZ. Scales to 100s of EC2 instances per group
 (Hadoop, Cassandra, Kafka)
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.18.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.18.png]]
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.17.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.19.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.17.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.19.png]]
 
 ### Ec2 Networking
 
 You can attach three different types of **virtual networking cards** on your ec2 instance:
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.80.png]]
+![[image.80.png]]
 **An ENI is a simple virtual network that allows:**
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.81.png]]
+![[image.81.png]]
 
 ### 
 
@@ -386,15 +386,15 @@ Here are some additional points to note:
 3. **Create a management network**
 
 What is Enhanced Networking?
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.82.png]]
+![[image.82.png]]
 Depending on your instance type, enhanced networking can be enabled using:
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.83.png]]
+![[image.83.png]]
 What is an EFA? (Elastic Fabric Adapter)
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.84.png]]
+![[image.84.png]]
 EFA can use OS-Bypass
 
 Exam tips:
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.85.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.20.png]]
+![[image.85.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.20.png]]
 
 ### Use cases (in italiano)
 
@@ -434,7 +434,7 @@ Otherwise, when we start an instance, the following happens:
 
 Then application start, caches get warmed up, and can take time!
 Thanks to Hibernate the in-memory (RAM) state is preserved. So our instance boot will be so much faster. Everything is RAM will be stored in an encrypted file in the root EBS volume.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.21.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.21.png]]
 **Use cases:**
 		• Long-running processing
 		• Saving the RAM state
@@ -453,9 +453,9 @@ Good to know - Hibernate
 ### AWS Outposts
 
 Outposts brings the AWS data center directly to you, on-premises. Outposts allow you to have the large variety of AWS services in your data center
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.87.png]]
+![[image.87.png]]
 Family members:
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.88.png]]
+![[image.88.png]]
 
 ## 
 
@@ -476,7 +476,7 @@ An EBS (Elastic Block Store) Volume is a network drive you can attach to your in
 * You can increase the capacity of the drive over time
 
 We can also choose to create an EBS volume and leave it unattached.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.22.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.22.png]]
 
 ### EBS Instance Store
 
@@ -537,7 +537,7 @@ EBS Volumes come in different types
 		• Max PIOPS: 64,000 for Nitro EC2 instances & 32,000 for other
 		• Can increase PIOPS independently from storage size
 • io2 Block Express (4 GiB – 64 TiB):
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.89.png]]
+![[image.89.png]]
 
 ### 
 
@@ -545,15 +545,15 @@ EBS Volumes come in different types
 
 **Cannot be a boot volume.** 125 GiB to 16 TiB
 • Throughput Optimized HDD (st1)
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.91.png]]
+![[image.91.png]]
 
 ### Cold HDD (sc1)
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.92.png]]
+![[image.92.png]]
 
 ### IOPS vs Throughput
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.93.png]]
+![[image.93.png]]
 
 ### 
 
@@ -563,14 +563,14 @@ Volumes are simply virtual hard disks. You need a minimum of 1 volume per Ec2 in
 
 EBS volumes will always be in the same AZ as Ec2 which is attached to. It's possible also to resize and switch volume types. You don't need to stop or restart the instance.
 Snapshots exist on S3 not on EBS.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.94.png]]
+![[image.94.png]]
 Tips for Snapshots:
 
 1. Snapshots only capture data that has been written to your Amazon EBS volume, which might exclude any data that has been locally cached by your application or OS. For a consistent snapshot, it is recommended you stop the instance and take the snap
 2. If you take a snapshot of an encrypted EBS volume, the snapshot will be encypted automatically.
 3. You can share snapshots, but only in the region in which they were created. To share to other regions, you will need to copy them to the destination region first.
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.23.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.23.png]]
 
 ### EBS Multi-attach - io I/io2 family
 
@@ -592,13 +592,13 @@ When you create an encrypted EBS volume, you get the following:
 
 Encryption is something that we should use cause a low impact on latency, is transparently (you don't have nothing to do). EBS Encryption leverages keys from KMS (AES-256). Copying a snapshot unencrypted allows encryption. Snapshots coming from an encrypted volume are encrypted by default.
 Amazon EBS encryption uses AWS Key Management Service (AWS KMS) customer master keys (CMK) when creating encrypted volumes and snapshots.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.95.png]]
+![[image.95.png]]
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.24.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.24.png]]
 
 # Elastic file system - EFS
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.25.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.25.png]]
 EFS is a managed NSF (Network File System) that can be mounted on many EC2 instances. EC2 instances attached to EFS can be stored in multi-AZ
 Use cases:
 
@@ -608,21 +608,21 @@ Use cases:
 * WordPress
 
 EFS use **NFSv4** protocol. To control access to EFS we can use Security Group. EFS is only compatible with **Linux based AMI (not Windows).** Encryption at rest using KMS. File system scales automatically, pay-per-use, no capacity planning.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.26.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.27.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.26.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.27.png]]
 
 # FSx for Windows
 
 Amazon FSx for Windows File Server provides a fully managed native Microsoft Windows file system so you can easily move your Windows-based applications that require file storage to AWS.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.96.png]]
+![[image.96.png]]
 
 ### Exam tips (FSx, FSx for Windows, FSx for Lustre)
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.97.png]]
+![[image.97.png]]
 
 ## Amazon Machine Image: EBS vs Instance store
 
 An Amazon Machine Image (AMI) provided the information required to launch an instance
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.98.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.99.png]]
+![[image.98.png]]![[image.99.png]]
 
 ### AWS Backup
 
@@ -652,7 +652,7 @@ High availability usually goes hand in hand with horizontal scaling. It means ru
 # Elastic Load Balancer (ELB)
 
 ELB automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances. This can be done across multiple AZs.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.28.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.28.png]]
 
 ## Why use a load balancer?
 
@@ -680,7 +680,7 @@ ELB automatically distributes incoming application traffic across multiple targe
 All AWS load balancers can be configured with health checks periodically send requests to load balancers' registered instances to test their status.
 The status of any instances that are unhealthy at the time of the health check is **OutOfService**. The load balancer performs health checks on all registered instances, whether the instance is in a healthy state or unhealthy state.
 The load balancer routes requests to only to the healthy instances
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.29.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.147.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.29.png]]![[image.147.png]]
 
 ## Layer 7 Load Balancing
 
@@ -688,11 +688,11 @@ An Application Load Balancer functions at the Application Layer (seventh layer o
 A listener checks for connection requests from clients, using the protocol and port you configure.
 Rules allows us to enable some actions when conditions are met. You must define a default rule for each listener, and you can **optionally define additional rules.**
 Then we have **target groups,** which routes requests to one or more registered targets, such as Ec2 instances.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.148.png]]
+![[image.148.png]]
 
 ## Load Balancer Security Groups
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.30.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.30.png]]
 Use case:
 A user can access from anywhere to load balancer. Ec2 Instance can accept only traffic coming from load balancer. So in **Source** of EC2 Instance instead to have a IP range will have the security group of load balancer.
 
@@ -723,7 +723,7 @@ A target group can be attach to multiple things:
 * ALB can route to multiple target groups
 * Health checks are at the target group level
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.31.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.31.png]]
 
 ### Network Load Balancer (NLB v2)
 
@@ -737,20 +737,20 @@ NLB has one static IP for AZ, and supports assigning Elastic IP. It's used for e
 
 * **Not included in AWS Free tier.**
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.32.png]]
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.32.png]]
 
 ### Gateway Load Balancer (Newest)
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.33.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.34.png]]
+![[image.33.png]]![[image.34.png]]
 
 ## Sticky Sessions
 
 It's possible to implement sticky sessions, when we want to redirect the same client to the same instance behind load balancer. It works for **Classic Load Balancer (CLB), Application Load Balancer (ALB), Network Load Balancer (NLB, works without cookies).** For the first two, the "cookie" used for stickiness has an expiration date you control.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.35.png]]
+![[image.35.png]]
 To enable encryption "in-flight" we can attach SSL (Secure Socket Layer)/TLS (Transport Layer Security) certificate to our load balancer. SSL Certificate has an expiration date (you set) and must be renewed.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.36.png]]
+![[image.36.png]]
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.37.png]]
+![[image.37.png]]
 Elastic Load Balancers – SSL Certificates
 • **Classic Load Balancer (v1)**
 		• Support only one SSL certificate
@@ -767,7 +767,7 @@ Elastic Load Balancers – SSL Certificates
 
 Allows Load Balancers to keep existing connections open if the Ec2 instances are de-registered or become unhealthy.
 We can disable deregistration delay if you want to immediately close connections to the instances that are de-registering or have become unhealthy.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.38.png]]
+![[image.38.png]]
 
 ## Auto scales group
 
@@ -777,7 +777,7 @@ In the cloud, we can create or get rid of servers very quickly. The goal of Auto
 * Scale in (remove instances) to match a decreased load.
 * Ensure we have a minimum and maximum number of EC2 instances running
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.39.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.40.png]]
+![[image.39.png]]![[image.40.png]]
 It's possible to scale an ASG based on CloudWatch alarms. An alarm monitors a metric (CPU Usage, custom metric). Based on the alarm we can scale out (add instances) or scale in (remove instances).
 
 ## Scaling Policies
@@ -795,7 +795,7 @@ There are two different types of scaling:
 	* Anticipate a scaling based on known usage patterns
 	* **Example**: increase the min capacity to 10 at 5 pm on Fridays
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.41.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.42.png]]
+![[image.41.png]]![[image.42.png]]
 
 # Relation Database Service (RDS)
 
@@ -807,7 +807,7 @@ This service is a managed DB and use SQL as query language. It allows you to cre
 		• Microsoft SQL Server
 		• Aurora (AWS Proprietary database)
 RDS is generally used for **online transaction processing (OLTP)** workloads.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.110.png]]
+![[image.110.png]]
 RDS is not suitable for analyzing large amounts of data. Use a data warehouse like Redshift, which is optimize for OLAP.
 Since RDS is a managed service has many advantages instead of deploying a DB on EC2 instances. Like below:
 		• Automated provisioning, OS patching
@@ -823,29 +823,29 @@ We can't access from SSH to our RDS instances. Cause this is a managed services 
 ### RDS  - Storage Auto Scaling
 
 Key feature for RDS is auto-scaling. Helps to increase storage on your RDS DB instance dynamically. When RDS detect you are running out of free DB storage, it scales automatically.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.43.png]]
+![[image.43.png]]
 
 ## 
 
 ### RDS Read Replicas
 
 We can use Read Replicas to improve performance with RDS. A Read Replicas is a read-only copy of your primary DB.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.44.png]]
+![[image.44.png]]
 
 ### Use Cases
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.45.png]]
+![[image.45.png]]
 
 ### Network Cost
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.46.png]]
+![[image.46.png]]
 
 ### RDS Multi-AZ (Disaster Recovery)
 
 To increase **availability** we can create, from master DB, another DB with sync replication in another AZ. So if AZ failed, loss of network or storage failure, automatically, will be a failover switching RDS Instance without manual intervention. Not used for scaling.
 AWS handles the replication for you. When you write to your production DB, this write will be automatically synchronize to the standby DB.
 Note: The read replicas need to be setup as Multi-AZ for Disaster Recovery (DR)
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.47.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.48.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.49.png]]
+![[image.47.png]]![[image.48.png]]![[image.49.png]]
 
 ### Operating Mongo-DB-Compatible DB in Amazon DocumentDB
 
@@ -861,7 +861,7 @@ Postgres and MySQL are both supported as Aurora DB. Aurora is a "AWS Cloud optim
 Aurora storage automatically grows in increments of 10GB, up to 128TB. Aurora can have up to 15 read replicas and the replication process is faster than MySQL. Since Aurora is HA (High Availability) native, failover in Aurora is instantaneous. Aurora costs more than RDS (20% more) but is more efficient.
 
 Aurora storage is **self-healing.** Data blocks and disks a re continuously scanned for errors and repaired automatically. Aurora has automated backups turned on by default. You can also take snapshots with Aurora
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.50.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.51.png]]
+![[image.50.png]]![[image.51.png]]
 
 ## 
 
@@ -882,13 +882,13 @@ Aurora storage is **self-healing.** Data blocks and disks a re continuously scan
 
 		
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.52.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.53.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.54.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.55.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.56.png]]
+![[image.52.png]]![[image.53.png]]![[image.54.png]]![[image.55.png]]![[image.56.png]]
 
 ## DynamoDB
 
 Amazon DynamoDB is a fast and flexible NoSQL database for all applications that nee consistent, single-digit millisecond latency at any scale. It is fully managed database and supports both document and key-value data models.
 Your data in DynamoDB are stored in SSD storage and spread across 3 geographically distinct data centers.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.111.png]]
+![[image.111.png]]
 
 ### DynamoDB Accelerator (DAX)
 
@@ -897,13 +897,13 @@ And it reduces request times from milliseconds to microseconds even under load.
 
 ### DynamoDB Transactions
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.112.png]]
+![[image.112.png]]
 DynamoDB Transactions provide developers, atomicity, consistency, isolation and durability across 1 or more tables within a single account AWS and region. ACID basically means ALL or NOTHING.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.113.png]]
+![[image.113.png]]
 
 ### DynamoDB Streams and Global Tables
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.114.png]]
+![[image.114.png]]
 Global Tables allow you to manage multi-master, multi-region replication of you DynamoDB tables.
 And this is great for globally distributed applications. So if you've got an application that's spread all across the world and you want to have consistent DynamoDB tables in each region,
 then you can have global tables.
@@ -922,7 +922,7 @@ RDS automatically daily full backup the database (during the backup window). Tra
 **Trick**: in a stopped RDS database, you will still pay for storage. If you plan on
 stopping it for a long time, you should snapshot & restore instead
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.57.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.58.png]]
+![[image.57.png]]![[image.58.png]]
 
 ### Aurora Database Cloning
 
@@ -947,16 +947,16 @@ We can enable and send to CloudWatch Logs for longer retention
 
 ### Amazon RDS Proxy
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.59.png]]
+![[image.59.png]]
 
 # Caching
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.165.png]]
+![[image.165.png]]
 
 ## CloudFront
 
 CloudFront is a fast content delivery network (CDN) service that securely delivers data, video, applications and APIs to customer globally. It helps reduce latency and provide higher transfer speeds using AWS edge location.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.166.png]]
+![[image.166.png]]
 
 ## ElastiCache
 
@@ -965,21 +965,21 @@ Help a lot reduce load off of databases for read intensive workload and helps ma
 As for RDS, AWS take care of OS maintenance / patching, optimizations, setup, configuration, monitoring  failure recovery and backups.
 **Using ElastiCache involves heavy application code changes.**
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.167.png]]
+![[image.167.png]]
 
 ## DynamoDB Accelerator (DAX)
 
 DynamoDB Accelerator is a fully managed, highly available caching service built for Amazon DynamoDB. DAX delivers up to 10 times performance improvement even at millions of requests per second.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.168.png]]
+![[image.168.png]]
 
 ## Global Accelerator
 
 Global Accelerator is a networking service that sends your users traffic through AWS's global network infrastructure via accelerators. Global Accelerator is meant for TCP or UDP traffic. So is well suited for applications that require low latency and high availability.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.169.png]]
+![[image.169.png]]
 
 ### Solution Architecture
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.60.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.61.png]]
+![[image.60.png]]![[image.61.png]]
 
 ### ElastiCache Security
 
@@ -991,7 +991,7 @@ Global Accelerator is a networking service that sends your users traffic through
 		• Support SSL in flight encryption
 • **Memcached**
 		• Supports SASL-based authentication (advanced)
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.62.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.63.png]]
+![[image.62.png]]![[image.63.png]]
 
 # Route 53
 
@@ -1001,10 +1001,10 @@ IP addresses are used by computers to identify each other on the network.
 Since all domain names must be unique, there needs to be a way to organize this all so that domain names aren't duplicated. This is where **domain registrars** come in.
 A registrar is an authority that can assign domain names directly under one or more top-level domains. These domains are registered with InterNIC, a service of ICANN, which enforces uniqueness of domain names across the internet.
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.64.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.65.png]]
+![[image.64.png]]![[image.65.png]]
 Route 53 is high available, scalable, fully managed and Authoritative DNS. It's **authoritative** cause the customer can update can update the DNS records. Route 53 is also a Domain Registrar and can check the health of your resources.
 Route 53 is the only AWS service with a 100% SLA.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.66.png]]
+![[image.66.png]]
 
 ### Common DNS Record Types
 
@@ -1028,13 +1028,13 @@ contains records that specify how to route traffic on the Internet (public domai
 contain records that specify how you route traffic within one or more VPCs (private domain names)
 **[application1.company.internal](http://application1.company.internal)**
 **User pay 0.50$ / month per hosted zone**
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-07 10-43-55.png]]
+![[Screenshot from 2024-06-07 10-43-55.png]]
 
 ### CNAME vs Alias
 
 CNAME points hostname to any other hostname. **Works only for NOT ROOT DOMAIN.**
 Alias points hostname to AWS Resource. **It works for ROOT DOMAIN and NOT ROOT DOMAIN.** In addition Alias is free of charge and is natively health check.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-07 10-50-24.png]]
+![[Screenshot from 2024-06-07 10-50-24.png]]
 Alias Record Target:
 
 * Elastic Load Balancer
@@ -1088,7 +1088,7 @@ Redirect to the resource that has the least latency close to us. It's really use
 ### Health Checks
 
 Are a way to check the health on many PUBLIC resources.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.67.png]]
+![[image.67.png]]
 
 It's possible to combine different Health Checks using OR, AND or NOT creating a parent. It's possible to group together 256 child health checks
 Health checks are just to check PUBLIC resources so it would be difficult to check for something in a VPC. To do so, we can create a **Cloud Watch Metric** and associate to it a **Cloud Watch Alarm** then create an Health check that checks the alarm it self. Remember, the health check will be always outside something is private.
@@ -1096,7 +1096,7 @@ Health checks are just to check PUBLIC resources so it would be difficult to che
 ### Failover (Active-Passive)
 
 Failover routing policies are used when you want to create an active/passive set up.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.68.png]]
+![[image.68.png]]
 
 ### Geolocation
 
@@ -1111,7 +1111,7 @@ You can use Route53 traffic flow to build a routing system that uses a combinati
 3. and availability to route traffic
 
 from your users to your cloud or on-premises endpoint.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.69.png]]
+![[image.69.png]]
 
 ### Ip-based Routing
 
@@ -1126,7 +1126,7 @@ Useful when routing traffic to multiple resources. Route 53 return multiple valu
 # Amazon S3
 
 Amazon S3 is one of the main building blocks of AWS. It has a lot of use cases:
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-11 09-03-46.png]]
+![[Screenshot from 2024-06-11 09-03-46.png]]
 Amazon S3 stores files in bucket (directories) and what is in the bucket (need to have a unique name across all AWS regions and accounts) is an object.
 Buckets are define at region level.
 Objects stored in S3 bucket have a key. Key is the FULL path of the object.
@@ -1134,7 +1134,7 @@ The key is is composed of **prefix + object name.**
 Object values are content of the body. We can store object with **max size** of 5000GB (5TB). If we are going to upload something is **greater** than 5GB (but recommended for file over 100mb) we need to use **multi-part upload** which increases efficiency. It's also possible to parallelize downloads by specifying byte ranges. So if there's a failure in the download, it's only for a specific byte range.
 
 Files in your s3 bucket are spread across multiple devices an facilities to ensure **availability** and **durability**.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.100.png]]
+![[image.100.png]]
 
 ### Object ACLs vs Bucket Policies
 
@@ -1158,25 +1158,25 @@ We have multiple kind of security settings for S3 bucket.
 
 ### Bucket Policies
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-11 09-34-17.png]]
+![[Screenshot from 2024-06-11 09-34-17.png]]
 S3 can host also static websites and have them accessible on the internet
 
 ### Versioning
 
 You can enable versioning in s3 so you can have **multiple versions of an object on s3.**
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.101.png]]
+![[image.101.png]]
 Versioning it's enabled at a **bucket level.** It's best practice to version your bucket so you can protect against unintended deletes (ability to restore a version) and easily roll back to previous version.
 Since we enable versioning on s3 bucket, when we delete a file is not actually deleted but just disappear from our UI.
 
 ### S3 Replication (CRR & SRR)
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.109.png]]
+![[image.109.png]]
 • Use cases:
 		• CRR – compliance, lower latency access, replication across
 		accounts
 		• SRR – log aggregation, live replication between production and test
 		accounts
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-11 10-00-47.png]]
+![[Screenshot from 2024-06-11 10-00-47.png]]
 
 ### S3 Durability and Availability
 
@@ -1193,13 +1193,13 @@ Since we enable versioning on s3 bucket, when we delete a file is not actually d
 
 ### Storage Classes
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-11 10-15-47.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-11 10-16-01.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.102.png]]
+![[Screenshot from 2024-06-11 10-15-47.png]]![[Screenshot from 2024-06-11 10-16-01.png]]![[image.102.png]]
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.70.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.103.png]]
+![[image.70.png]]![[image.103.png]]
 
 ### Exam tips - Storage classes
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.104.png]]
+![[image.104.png]]
 
 ### Lifecycle management
 
@@ -1209,18 +1209,18 @@ We can also set **expiration actions,** in this way we can configure objects to 
 • Rules can be created for a certain prefix (example: s3://mybucket/mp3/\*)
 • Rules can be created for certain objects Tags (example: Department: Finance)
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-13 07-47-05.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-13 07-53-13.png]]
+![[Screenshot from 2024-06-13 07-47-05.png]]![[Screenshot from 2024-06-13 07-53-13.png]]
 We can define some events that are triggered when something happen in our buckets. This event notification can be sent to SQS, SNS or Lamba function.
 • S3 event notifications typically deliver events in seconds but can sometimes take a minute or longer
 
 The bucket to be able to send notifications to our service (SQS, SNS) we need to attach Resource (Access) policy (IAM permissions, JSON file).
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-13 08-02-20.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-13 08-12-07.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-06-13 08-14-01.png]]
+![[Screenshot from 2024-06-13 08-02-20.png]]![[Screenshot from 2024-06-13 08-12-07.png]]![[Screenshot from 2024-06-13 08-14-01.png]]
 
 ### S3 Object Lock
 
 You can use S3 object lock to store objects using a **write once, read many (WORM) model.** It can help prevent objects from being deleted or modified for a fixed amount of time or indefinitely.
 There's two types of Object Lock mode:
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.105.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.106.png]]
+![[image.105.png]]![[image.106.png]]
 A retention period **protects an object version for a fixed amount of time.** When you place a retention period on an object version, Amazon S3 stores a timestamp in the object version's metadata to indicate when the retention period expires. After the retention period is expired, the object version can be **overwritten or deleted** unless you also placed a **legal hold** on the object version.
 A legal hold **prevents an object version from being overwritten or deleted,** like retention period. The difference is that legal hold doesn't have an associated retention period and remains in effect until removed.
 
@@ -1265,13 +1265,13 @@ We can encrypt objects in four methods:
 		* When you want to manage your own encryption keys.
 * **Client-Side Encryption**
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.107.png]]
+![[image.107.png]]
 **Tips:** it's possible to create a bucket policy that denies any S3 PUT request that doesn't include the **x-amz-server-side-encryption** parameter in the request header.
 
 ### Optimizing S3 Performance
 
 S3 has extremely low latency. You can get the first byte out of S3 within 100-200 milliseconds.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.108.png]]
+![[image.108.png]]
 
 If we are using KMS to encrypt our S3 bucket, please notice some limitations.
 When you upload a file, you will call **GenerateDataKey** in the KMS API.
@@ -1294,11 +1294,11 @@ Every region has a default VPC. When AWS create the default VPC it create also:
 * Create a default network access control list (ACL) and associate it with your default VPC.
 * Associate the default DHCP options set for your AWS account with your default VPC.
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.74.png]]
+![[image.74.png]]
 
 ### Demo: Provisioning VPC
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.72.png]]
+![[image.72.png]]
 Below the step to follow:
 
 1. Create a VPC.
@@ -1306,9 +1306,9 @@ Below the step to follow:
 3. Now, you can create subnets. Obviously subnet's IP range must be lower than the maximum IP available in the CIDR block. By default the subnets created by you have **"Auto-assign public IPv4 address"** set to NO. We can make turn it on YES by editing the subnet's setting (Action > Edit subnet Settings).
 4. To make it effectively a public subnet we need an **internet gateway.** Create one.
 5. After the creation, internet gateway is not attached to nothing. We need to associate it to a VPC.
-6. Now, we need a route out to the internet. When we create a VPC, a route table is created by default an associated to our VPC. We don't want to edit the existing route table but to create a new one.![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-10-23 19-46-10.png]]
+6. Now, we need a route out to the internet. When we create a VPC, a route table is created by default an associated to our VPC. We don't want to edit the existing route table but to create a new one.![[Screenshot from 2024-10-23 19-46-10.png]]
 7. When it's created and associated with our VPC we need to add a Routes that basically allow us to route out to the internet.
-8. Now, we want to associate our **public subnet** to this route just created.![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-10-23 19-48-54.png]]
+8. Now, we want to associate our **public subnet** to this route just created.![[Screenshot from 2024-10-23 19-48-54.png]]
 	Now our **public subnet is no longer** without explicit associations but it's explicitly associated to our route table with internet access.
 	
 9. Now, we can launch two ec2 instances. One instance will be our Webapp and the other one will be our "DB". Webapp will live in our public subnet with access to internet. DB will live in our private subnet. To able connection between this ec2 instances we need to create a route table for our instance that lives in our private subnet and create an **inbound rule** which allow incoming traffic fromn a custom source which is our **security group** previously created. Our DB instance can't communicate with internet and this can be an issue (update OS, SQL, etc...). we can fix it.
@@ -1317,7 +1317,7 @@ Below the step to follow:
 
 ## What we can do with VPC?
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.73.png]]
+![[image.73.png]]
 We can choose between two types of VPC: Default and Custom.
 
 ## Protecting Your Resources with SG
@@ -1345,17 +1345,17 @@ Network ACLs are **stateless**; responses that allowed inbound traffic are subje
 
 We can use NAT gateway to **enable instances in a private subnet** to connect to the internet or other AWS services while preventing the internet from initiating a connection with those instances. bPrivate Communication Using VPC Endpoints
 A VPC Endpoints enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by PrivateLink without requiring an internet gateway, NAT device, VPN connection etc.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-11-08 09-06-13.png]]
+![[Screenshot from 2024-11-08 09-06-13.png]]
 
 ## VPC Peering
 
 Allow you to connect to one VPC with another via a direct network route using private IP addresses.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-11-08 09-13-15.png]]
+![[Screenshot from 2024-11-08 09-13-15.png]]
 
 ## Securing your network with VPN ClouHub
 
 VPN Cloudhub is really useful if you have multiple sites, each with its own VPN connection and you can use AWS VPN cloudhub to connect those sites together. So it works on a hub and spoke model. It's low cost and very easy to manage and it operates over the public internet. But all traffic between the customer gateway and the AWS VPN Cloudhub is encrypted.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/Screenshot from 2024-11-08 09-23-56.png]]
+![[Screenshot from 2024-11-08 09-23-56.png]]
 
 ## Connecting on-prem with Direct Connect
 
@@ -1365,19 +1365,19 @@ There are two types of Direct Connect connections.
 1. Dedicated Connection: a physical Ethernet connection associated with a single customer.
 2. Hosted Connection: A physical Ethernet connection that an AWS Direct Connect Partner provisions on behalf of a customer.
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.75.png]]
+![[image.75.png]]
 
 ### Simplifying Networks with Transit Gateway
 
 AWS Transit Gateway connects VPCs and on-premises networks through a central hub. This simplifies your network and puts an end to complex peering relationships. It acts like a cloud router - each new connection is only made once.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.76.png]]
+![[image.76.png]]
 
 ## 
 
 # Big Data
 
 The 3 Vs of Big Data refer to three primary characteristics that are often used to describe and differentiate Big Data from traditional data.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.115.png]]
+![[image.115.png]]
 
 ## 
 
@@ -1388,7 +1388,7 @@ Redshift is incredibly big, it can hold up to 16 PB of data. It's a relational d
 Redshift offer up to 10x the performance of other data warehouses offered in the cloud.
 Redshift is not meant to be a replacement for standard RDS DB. 
 Storage data is column-based instead of row-based.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.117.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.118.png]]
+![[image.117.png]]![[image.118.png]]
 
 ### 
 
@@ -1396,28 +1396,28 @@ Storage data is column-based instead of row-based.
 
 ETL (Extract, Transform and Load) are processes that a critical components of data management and analysis. Systematic extraction of data from various sources systems, then are transformed to match business requirements and then load into warehouses.
 To complete this process there's a service called Amazon EMR. It's a managed big data platform that allows you to process vast amounts of data using open-source tools, such as Spark, Hive, Presto etc.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.119.png]]
+![[image.119.png]]
 **Clusters** are groups of Ec2 Instances within Amazon EMR. Each instance is a **node.**
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.120.png]]
+![[image.120.png]]
 
 ### EMR Architecture
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.121.png]]
+![[image.121.png]]
 
 ## Streaming Data with Kinesis
 
 Kinesis allows you to ingest, process, and analyze real-time streaming data.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.122.png]]
+![[image.122.png]]
 We can use Kinesis Data Analytics paired with Firehose or Data streams to process our information using standard SQL.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.124.png]]
+![[image.124.png]]
 
 ### Kinesis Architecture
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.123.png]]
+![[image.123.png]]
 
 ### Kinesis Exam tips
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.125.png]]
+![[image.125.png]]
 
 ## Amazon Athena and AWS Glue
 
@@ -1429,18 +1429,18 @@ Amazon Glue is a **serverless data integration** service that makes it easy to d
 
 Quicksight is a fully managed, serverless business intelligence (BI) data visualization service.
 It allows you to easily create dashboards and share them with specific users and groups.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.126.png]]
+![[image.126.png]]
 Users can be created for accessing Quicksight and Enterprise version allow you to create groups. Users and groups only exist in Quicksight (they are not IAM users and groups).
 Dashboards are essential for stored configurations and filtering. Dashboards and analysis results can be shared with users and groups.
 
 ### Architecture Example
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.127.png]]
+![[image.127.png]]
 
 ## Moving and Transform Data using Data Pipeline
 
 AWS Data Pipeline is a managed ETL service for automating movement and transformation of your data.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.128.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.129.png]]
+![[image.128.png]]![[image.129.png]]
 Popular use cases are:
 
 1. Processing data in EMR using Hadoop streaming
@@ -1449,36 +1449,36 @@ Popular use cases are:
 4. Exporting RDS data to S3
 5. Copying data to Redshift
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.131.png]]
+![[image.131.png]]
 
 ## Implementing Amazon Managed Streaming for Apache Kafka (AWS MSK)
 
 Amazon MSK is a streaming service use for Apache Kafka. Fully managed service to run data streaming applications that use Kafka.
 **MSK provides** control-plane operations such as creates, deletes and updates clusters as required and leverage Kafka data-plane operations for producing and consuming streaming data.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.132.png]]
+![[image.132.png]]
 Amazon MSK automatically detect and recover from common failure scenarios. If a broker failure is detected it result in mitigation or replacement of unhealthy nodes. During failures we can try to reuse storage from older brokers to reduce data needing replication.
 After successful recovery, producers and consumer apps continue to communicate with the same broker IP as before.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.133.png]]
+![[image.133.png]]
 Amazon MSK will always encrypt your data at rest. MSK is integrated with Amazon KMS for SSE requirements.
 We can deliver broker logs to Amazon CloudWatch, Amazon S3, and Amazon Kinesis Data Firehose
 
 ## OpenSearch service
 
 OpenSearch is a managed service allowing you to run search and analytics engines for various use cases. (successor to Amazon Elasticsearch).
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.134.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.135.png]]
+![[image.134.png]]![[image.135.png]]
 
 # Monitoring
 
 ## AWS CloudWatch
 
 CloudWatch is a monitoring and observability platform that was designed to give us insight into our AWS architecture. It allows us to monitor multiple levels of our applications and identify potential issues.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.149.png]]
+![[image.149.png]]
 
 ### CloudWatch Logs
 
 CloudWatch logs is a tool that allows you to monitor, store, and access logs files from a variety of different sources. It gives you the ability to query your logs to look for potential issues or data that is relevant for you.
 For custom logs , you use Amazon CloudWatch Agent. The agent enables user to collect and monitor system and application metrics on their AWS instances and on-premises servers.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.150.png]]
+![[image.150.png]]
 
 ### CloudWatch Logs Feature
 
@@ -1486,28 +1486,28 @@ For custom logs , you use Amazon CloudWatch Agent. The agent enables user to col
 2. **CloudWatch Logs Insights:** This allows you to query all your logs using a SQL-like interactive solution.
 3. **Alarms:** Once you've identified your trends or patterns it's time to set up alerts for them.
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.151.png]]
+![[image.151.png]]
 
 ## Amazon Managed Service for Prometheus and Grafana
 
 Amazon Managed **Grafana** is a fully managed AWS service allowing secure data visualizations for instantly **querying, correlating and visualizing your operational metrics, logs, and traces** from different sources.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.152.png]]
+![[image.152.png]]
 Amazon Managed Prometheus is a serverless, Prometheus-compatible service used for securely monitoring container metrics at scale.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.153.png]]
+![[image.153.png]]
 
 ### Exam Tips Grafana & Prometheus
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.154.png]]
+![[image.154.png]]
 
 # High Availability and Scaling
 
 A launch template specifies all the needed **settings** that go into building out an EC2 instance. It is a collection of settings you can configure so you don't have to walk through the Ec2 wizard over and over.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.155.png]]
+![[image.155.png]]
 
 ## Scaling Ec2 Instances (ONLY Ec2)
 
 An Auto Scaling group contains a collection of EC2 instances that are treated as a collective group for purposes of **scaling and management.**
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.156.png]]
+![[image.156.png]]
 
 ### Auto Scaling Restrictions
 
@@ -1518,9 +1518,9 @@ A desired requirement is the amount of instances we want right now.
 ### Auto Scaling policies
 
 Thanks to Step Scaling we can create and manage the CloudWatch alarms that invoke the scaling process. When an alarm is breached, Amazon Ec2 Auto Scaling initiates the scaling policy associated with that alarm.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.157.png]]
+![[image.157.png]]
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.158.png]]
+![[image.158.png]]
 
 ## Scaling Relational Databases
 
@@ -1531,16 +1531,16 @@ There are four different types of Scaling if we talk about relational DBs.
 3. **Read Replicas:** Creating read-only copies of our data can help spread out the workload. A major point to note for read replicas is that, obviously, they can't be used as any writing purposes.
 4. **Aurora Serverless:** Excels with unpredictable workloads.
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.159.png]]
+![[image.159.png]]
 
 ## Scaling Non-Relational DBs
 
 Scaling for non relational database is simplified when using Amazon DynamoDB, as AWS does all the heavy lifting for you.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.160.png]]
+![[image.160.png]]
 Read Capacity Unit (RCU) is a unit of measurement for reads per second for an item up to **4KB in size.**
 Anything over 4KB require an additional RCU.
 Write Capacity Unit (WCU) is a unit measurement for writes per second for an item up to **1KB in size.**
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.161.png]]
+![[image.161.png]]
 
 ## Disaster Recovery Strategies
 
@@ -1548,11 +1548,11 @@ In the event of a disaster/failure, we have to decide at what point in time you 
 Then, if we talk about **Recovery Time Objective (RTO),** is when we have to decide how fast we want to fail over. Also for this, the lower the time, the greater the cost.
 The most basic disaster recovery strategy is **Backup and Restore.**
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.162.png]]
+![[image.162.png]]
 **Pilot Light** is a disaster recovery strategy.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.164.png]]
+![[image.164.png]]
 As another strategy we have **Warm Standby.** Instead to replicate just Database we replicate also WebApp so if a region fails we can scale on the region which is in "warm standby" state.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.163.png]]
+![[image.163.png]]
 The final strategy is Active/Active Failover. This strategy is also the most expensive disaster recovery. You have two sites, both active and traffic split between the two. If one site fails, the other site takes the load.
 
 # Machine Learning
@@ -1560,58 +1560,58 @@ The final strategy is Active/Active Failover. This strategy is also the most exp
 ## Amazon Comprehend
 
 Comprehend uses **natural-language processing (NLP)** to help you understand the meaning and sentiment in your text
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.136.png]]
+![[image.136.png]]
 
 ## Amazon Kendra
 
 Kendra allows you to create **intelligence search service** powered by **machine learning.**
 Enterprise search applications can bridge between different silos of information (such as S3 buckets, file servers), allowing your enterprise to have all data intelligently in one place
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.137.png]]
+![[image.137.png]]
 
 ## Amazon Textract
 
 Textract uses machine learning to **automatically extract text, handwriting, and data** from scanned documents.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.138.png]]
+![[image.138.png]]
 
 ## Amazon Forecast
 
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.139.png]]
+![[image.139.png]]
 Amazon Forecast is a **time-series forecasting** service that uses machine learning and is built to give you important business insights.
 You can send data automatically learn your data, select the right machine learning algorithm, and then help you forecast your data.
 
 ## Amazon Fraud Detector
 
 Fraud Detector is a AI service that is built to detect fraud in your data. This service create a **fraud detection machine learning model** that is based on your data. This process can also be automated.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.140.png]]
+![[image.140.png]]
 
 ## Amazon Polly, Transcribe and Lex
 
 **Transcribe** is used to convert **speech to text** automatically. You can use this service to generate subtitles on the fly.
 **Lex** allows you to build conversational interfaces in your applications using **natural language models.** Probably, when you are talking to an automated bot online, you are **interacting with Lex Service.**
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.141.png]]
+![[image.141.png]]
 **Polly** turns your text into **lifelike speech** and allows you to create applications that talk to and interact with you using a variety of languages and accents.
 
 ## Amazon Rekognition
 
 Rekognition is Amazon's computer vision product that automates the recognition of pictures and videos using deep learning and neural networks
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.142.png]]
+![[image.142.png]]
 
 ## Amazon SageMaker
 
 Amazon SageMaker is a fully managed machine learning (ML) service. With SageMaker, data scientists and developers can quickly and confidently build, train, and deploy ML models into a production-ready hosted environment. It provides a UI experience for running ML workflows that makes SageMaker ML tools available across multiple integrated development environments (IDEs).
 
 In the AWS Console, it's divided into four sub-sections:
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.143.png]]![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.144.png]]
+![[image.143.png]]![[image.144.png]]
 Training data can come from a lot of different services such as AWS Console, SDK, S3.
 SageMaker Neo allows you to customize your machine learning models for specific CPU hardware, such as ARM, Intel, and INVIDIA processors.
 It includes a compiler to convert the machine learning model to an environment that is optimized to execute the model on the target architecture.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.145.png]]
+![[image.145.png]]
 Elastic Inference (EI) speeds up throughput and decreases latency real-time inferences deployed on SageMaker hosted services using only CPU-based instances.
 
 ## Amazon Translate
 
 A machine learning service that allows you to automate **language translation.** Using deep learning and neural networks, Amazon Translate allows you to translate from one language to another.
-![[./_resources/AWS_Solutions_Architect_-_Associate.resources/image.146.png]]
+![[image.146.png]]
 
 # Decoupling, Serverless and Automation
 

@@ -12,7 +12,7 @@ Below useful command for different Linux stuff.
 
 ## Terminator Keyboard Shortcut
 
-![[./_resources/Linux.resources/Screenshot from 2024-06-07 16-31-46.png]]
+![[Screenshot from 2024-06-07 16-31-46.png]]
 
 |     |     |
 | --- | --- |
@@ -28,7 +28,7 @@ Below useful command for different Linux stuff.
 
 # VM Ubuntu con Virtualbox e Vagrant
 
-![[./_resources/Linux.resources/Screenshot from 2024-06-13 16-40-28.png]]
+![[Screenshot from 2024-06-13 16-40-28.png]]
 Vogliamo due VM runnate su Virtualbox configurate tramite Vagrant.
 Creiamo una directory per il progetto:
 ```

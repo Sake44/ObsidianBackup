@@ -12,7 +12,7 @@ Very important: K8s API server is stateless, that's mean all the changes made in
 
 ## Control Plane Node
 
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.png]]
 In the control node we have a collection of critical services that help us facilitate cluster operations. Let's take a look to each of this services:
 
 1. **API server** is the **primary access** point for administrative and cluster operations. It's the communication hub for the entire Kubernetes system.
@@ -20,7 +20,7 @@ In the control node we have a collection of critical services that help us facil
 3. **The scheduler** tells Kubernetes which nodes to start Pods on based on Pod's resources requirements.
 4. **Controller manager** is responsible for lifecycle functions of controllers, keeping things in desired state.
 
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.1.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.1.png]]
 The key players K8s API Objects (Kind) are **Pods, deployments, Services, PersistentVolumes (PV).**
 
 |     |     |
@@ -79,7 +79,7 @@ kubectl create deployment -f nginx --image=nginx --dry-run=client -o yaml | more
 
 ```
 
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.2.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.2.png]]
 
 ## 
 
@@ -88,12 +88,12 @@ kubectl create deployment -f nginx --image=nginx --dry-run=client -o yaml | more
 ### API groups
 
 API groups enable better organization of resources in the Kubernetes API. There are two high-level organization methods for API groups in Kubernetes. The first is the CORE API (legacy) and the other one is Named API Groups.
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.3.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.3.png]]
 
 ### API Versioning
 
 API versioning helps us to build stable systems in our Kubernetes clusters. The kubernetes API is versioned at API level. In this way we know what version of the API we're interacting with when we define resources in code. If we're using declarative and building our system and code using objects to model it, this objects might change during time. Kubernetes provides us a mechanism to help us absorb that change when we're ready, that's API versioning.
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.4.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.4.png]]
 
 ### 
 
@@ -101,11 +101,11 @@ API versioning helps us to build stable systems in our Kubernetes clusters. The 
 
 When we're working at command line with a tool like **kubectl,** we enter a command, and it'll convert from YAML to JSON. Since our API server is a RESTful HTTP web application,  we'll need to submit our request and specify a URL resource location or API path.
 The K8s API is a client/server architecture where clients submit requests to the server. And primarly will be using **kubectl** to do this work, but really any HTTP client that respects the protocol set forth by the API server and the API itself will be able to communicate with the API server and submit request. This gives the ability to build custom tooling to interact with your Kubernetes cluster.
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.7.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.7.png]]
 There are some special API requests that can be made of the API server and facilitate cluster operations and workload management in our K8s cluster.
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.8.png]]![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.9.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.8.png]]![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.9.png]]
 When forward a request to API server we expect different response codes:
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.10.png]]![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.11.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.10.png]]![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.11.png]]
 
 # 
 
@@ -220,13 +220,13 @@ kubectl api-resources
 ### Tenant definition
 
 Tenant is a loose term and can refer to individual applications, different teams or departments, and even external customers. How you implement Namespaces and what you consider as tenants is up to you, but it’s most common to use Namespaces to divide clusters for use by tenants within the same organization.
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.5.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.5.png]]
 Namespaces are lightweight and easy to manage but only provide soft isolation.
 
 ## Default Namespaces
 
 Every Kubernetes cluster has a set of pre-created Namespaces.
-![[./_resources/CKA_(Certified_K8s_Administrator).resources/image.6.png]]
+![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.6.png]]
 The **default** Namespace is where new objects go if you didn't specify a Namespace when creating them. **kube-system** is where control plane components such as the internal DNS and the metrics server run. **kube-node-lease** is used for node heartbeat and managing node leases. **kube-public** is for objects that need to be readable by anyone.
 
 ## Labels

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
+                "file": "Evernote/My Notes/AWS Solutions Architect - Associate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -35,12 +35,24 @@
             "id": "cea5f055e7bf7c6e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Screenshot from 2025-05-21 07-26-04 1.png"
+                "file": "Evernote/My Notes/AWS Solutions Architect - Associate.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Screenshot from 2025-05-21 07-26-04 1"
+              "icon": "lucide-file",
+              "title": "AWS Solutions Architect - Associate"
             }
           }
         ],
@@ -207,15 +219,15 @@
   },
   "active": "4f8607c7ef4587ad",
   "lastOpenFiles": [
+    "Images/Screenshot from 2025-05-21 07-26-04 1.png",
     "conflict-files-obsidian-git.md",
-    "Evernote/Le mie note/AWS Solutions Architect - Associate.md",
+    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "Images/Screenshot from 2025-05-22 11-33-34.png",
     "Images/Screenshot from 2025-05-22 09-54-19.png",
     "Images/Screenshot from 2025-05-22 09-19-53.png",
     "Images/Screenshot from 2025-05-21 18-55-02.png",
     "Images/Screenshot from 2025-05-21 10-16-52.png",
     "Images/Screenshot from 2025-05-21 07-26-04.png",
-    "Images/Screenshot from 2025-05-21 07-26-04 1.png",
     "README.md",
     "OneNote/Notes/Linux/Where data are stored/Where Kernel's file are stored.md",
     "OneNote/Notes/Linux/Where data are stored/System Logging and System Messaging.md",
@@ -239,7 +251,6 @@
     "OneNote/Notes/Linux/System Architecture/BIOS or UEFI.md",
     "OneNote/Notes/Linux/Security and File Permissions/The Skeleton Directory.md",
     "OneNote/Notes/Linux/Security and File Permissions/Security.md",
-    "OneNote/Notes/Linux/Security and File Permissions/Passwd Command.md",
     "OneNote/Notes/Linux/Where data are stored",
     "OneNote/Notes/Linux/Turning commands into Script",
     "OneNote/Notes/Linux/System Architecture",
