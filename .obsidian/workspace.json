@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Networking/Network Edge.md",
+                "file": "OneNote/Notes/Networking/Network Core.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Network Edge"
+              "title": "Network Core"
             }
           }
         ]
@@ -194,12 +194,17 @@
   },
   "active": "ca700ef053190820",
   "lastOpenFiles": [
+    "Screenshot from 2025-05-22 09-54-19.png",
+    "Screenshot from 2025-05-22 09-19-53.png",
+    "Screenshot from 2025-05-21 18-55-02.png",
+    "OneNote/Notes/Networking/Network Edge.md",
+    "OneNote/Notes/Networking/Network Core.md",
+    "OneNote/Notes/Networking/Untitled",
     "Screenshot from 2025-05-21 10-16-52.png",
     "OneNote/Notes/Service Now/Email.md",
     "OneNote/Notes/Service Now/Common Service Data Model.md",
     "OneNote/Notes/Networking/Application Layer.md",
     "OneNote/Notes/Networking/Network LayerSubnetRouting.md",
-    "OneNote/Notes/Networking/Network Edge.md",
     "Screenshot from 2025-05-21 07-26-04 1.png",
     "Screenshot from 2025-05-21 07-26-04.png",
     "OneNote/Notes/Networking/Basic Concept.md",
@@ -223,7 +228,6 @@
     "OneNote/Notes/Linux/Linux Installation and Package Management/Zypper.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management/User RPM and YUM package management.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management/Debian Package Management.md",
-    "OneNote/Notes/Linux/Linux Installation and Package Management/Manage shared libraries.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management",
     "Senza nome.canvas",
     "OneNote/Notes/Linux/System Architecture",
@@ -233,14 +237,10 @@
     "OneNote/Notes/Linux/Where data are stored",
     "OneNote/Notes/Linux/Turning commands into Script",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
-    "OneNote/Notes/Linux/Searching and Extracting Files",
     "Exported image 20250315115710-0.png",
     "Exported image 20250315115755-0.png",
     "Exported image 20250315115828-0.png",
     "Exported image 20250315115827-0.png",
-    "Exported image 20250315115823-0.png",
-    "Exported image 20250315115818-0 1.png",
-    "Exported image 20250315115818-0.png",
-    "Exported image 20250315115815-0.png"
+    "Exported image 20250315115823-0.png"
   ]
 }
