@@ -32,3 +32,11 @@ More specifically, **each router has a forwarding table that maps destination ad
 How do forwarding tables get set? Are they configured by hand in each and every router, or does the Internet use a more automated procedure?
 **The Internet has a number of special routing protocols that are used to automatically set the forwarding tables.** A routing protocol may, for example, determine the shortest path from each router to each destination and use the shortest path results to configure the forwarding tables in the routers.
 
+## Circuit Switching
+In **circuit-switched** networks, the resources needed along a path (buffers, link transmission rate) to provide for communication between the end systems are reserved for the duration of the communication session between the end systems. In packet-switched networks, theser resources are *not reserved*. a **session’s messages** use the resources on demand and, as a consequence, may have to wait (that is, queue) for access to a communication link. **Traditional telephone networks are examples of circuit-switched networks. 
+Before the sender can send the information, the network must establish a connection between the sender and the receiver.** This is a bona fide connection for which the switches on the path between the sender and receiver maintain connection state for that connection. In the jargon of telephony, this connection is called a circuit.
+![[Screenshot from 2025-05-22 11-33-34.png]]
+
+### Multiplexing in Circuit-Switched Networks
+A circuit in a link is implemented with either **frequency-division multiplexing** (FDM) or **time-division multiplexing** (TDM). With FDM, the frequency spectrum of a link is divided up among the connections established across the link. Specifically, the link dedicates a frequency band to each connection for the d­ uration of the connection.
+For a **TDM** link, time is divided into frames of fixed duration, and each frame is divided into a fixed number of time slots. **When the network establishes a connection across a link, the network dedicates one time slot in every frame to this connection.** These slots are dedicated for the sole use of that connection, with one time slot available for use (in every frame) to transmit the connection’s data.
