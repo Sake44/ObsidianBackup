@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7e5c1e6ce1172031",
+        "id": "72b1e5ec478af473",
         "type": "tabs",
         "children": [
           {
-            "id": "b96f3e4244b0bf9a",
+            "id": "ca700ef053190820",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Evernote/My Notes/AWS Solutions Architect - Associate.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Screenshot from 2025-05-23 09-29-26.png"
               },
-              "icon": "lucide-file",
-              "title": "AWS Solutions Architect - Associate"
-            }
-          },
-          {
-            "id": "cea5f055e7bf7c6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evernote/My Notes/AWS Solutions Architect - Associate.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AWS Solutions Architect - Associate"
+              "icon": "lucide-image",
+              "title": "Screenshot from 2025-05-23 09-29-26"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +59,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Ricerca"
+              "title": "Search"
             }
           },
           {
@@ -113,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 493.5
+    "width": 397.5
   },
   "right": {
     "id": "85bf4ab8e91bae0c",
@@ -201,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,55 +180,54 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "4f8607c7ef4587ad",
+  "active": "ca700ef053190820",
   "lastOpenFiles": [
-    "Images/Screenshot from 2025-05-21 07-26-04 1.png",
-    "conflict-files-obsidian-git.md",
-    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
+    "OneNote/Notes/Networking/Delay, Loss, and Throughput in Packet-Switched Networks.md",
+    "Screenshot from 2025-05-23 10-01-32.png",
+    "OneNote/Notes/Networking/A Network of Networks.md",
+    "Screenshot from 2025-05-23 09-29-26.png",
+    "OneNote/Notes/Networking/Network Core.md",
+    "README.md",
     "Images/Screenshot from 2025-05-22 11-33-34.png",
     "Images/Screenshot from 2025-05-22 09-54-19.png",
     "Images/Screenshot from 2025-05-22 09-19-53.png",
     "Images/Screenshot from 2025-05-21 18-55-02.png",
     "Images/Screenshot from 2025-05-21 10-16-52.png",
     "Images/Screenshot from 2025-05-21 07-26-04.png",
-    "README.md",
-    "OneNote/Notes/Linux/Where data are stored/Where Kernel's file are stored.md",
-    "OneNote/Notes/Linux/Where data are stored/System Logging and System Messaging.md",
-    "OneNote/Notes/Linux/Where data are stored/Sys Directory.md",
-    "OneNote/Notes/Linux/Where data are stored/Processes.md",
-    "OneNote/Notes/Linux/Where data are stored/Proc directory.md",
-    "OneNote/Notes/Linux/Where data are stored/Memory and Memory types.md",
-    "OneNote/Notes/Linux/Where data are stored/Introduction.md",
-    "OneNote/Notes/Linux/Where data are stored/Etc Directory.md",
-    "OneNote/Notes/Linux/Where data are stored/Dev Directory.md",
-    "OneNote/Notes/Linux/Turning commands into Script/Variable.md",
-    "OneNote/Notes/Linux/Turning commands into Script/Perform Error Checking.md",
-    "OneNote/Notes/Linux/Turning commands into Script/Introduction.md",
-    "OneNote/Notes/Linux/Turning commands into Script/Handle Many Arguments.md",
-    "OneNote/Notes/Linux/Turning commands into Script/For Loops.md",
-    "OneNote/Notes/Linux/Turning commands into Script/Best Practice.md",
-    "OneNote/Notes/Linux/System Architecture/Systemd.md",
-    "OneNote/Notes/Linux/System Architecture/System Initialization.md",
-    "OneNote/Notes/Linux/System Architecture/Managing Menu Entries.md",
-    "OneNote/Notes/Linux/System Architecture/Linux as virtualization.md",
-    "OneNote/Notes/Linux/System Architecture/BIOS or UEFI.md",
-    "OneNote/Notes/Linux/Security and File Permissions/The Skeleton Directory.md",
-    "OneNote/Notes/Linux/Security and File Permissions/Security.md",
-    "OneNote/Notes/Linux/Where data are stored",
-    "OneNote/Notes/Linux/Turning commands into Script",
-    "OneNote/Notes/Linux/System Architecture",
-    "OneNote/Notes/Linux/Security and File Permissions",
-    "OneNote/Notes/Linux/Searching and Extracting Files",
-    "OneNote/Notes/Linux/Linux Installation and Package Management",
-    "OneNote/Notes/Linux/Determine and configure hardware settings",
-    "OneNote/Notes/Linux/GNU and Unix Commands",
+    "Images/Screenshot from 2025-05-21 07-26-04 1.png",
+    "Images/Exported image 20250315115828-0.png",
+    "Images",
+    "OneNote/Notes/Networking/Network Edge.md",
+    "OneNote/Notes/Networking/Untitled",
+    "OneNote/Notes/Service Now/Email.md",
+    "OneNote/Notes/Service Now/Common Service Data Model.md",
+    "OneNote/Notes/Networking/Application Layer.md",
+    "OneNote/Notes/Networking/Network LayerSubnetRouting.md",
+    "OneNote/Notes/Networking/Basic Concept.md",
+    "conflict-files-obsidian-git.md",
+    "OneNote/Notes/Linux/Create, monitor and kill processes/Modfiy process and exectution priorities.md",
+    "OneNote/Notes/AWS/OSI Model.md",
+    "OneNote/Notes/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
+    "OneNote/Notes/Linux/GNU and Unix Commands/How to find files.md",
+    "OneNote/Notes/Linux/GNU and Unix Commands/Use streams, pipes and redirect.md",
+    "OneNote/Notes/Linux/Create, monitor and kill processes/Job Control.md",
     "OneNote/Notes/Linux/Create, monitor and kill processes",
-    "OneNote/Notes/Linux/Archiving",
-    "Images/Untitled.canvas",
-    "Images/Senza nome.canvas",
-    "Images/Exported image 20250315115710-1.png",
-    "Images/Exported image 20250315115710-0.png",
-    "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas",
-    "Images/Exported image 20250315115755-0.png"
+    "OneNote/Notes/Linux/Archiving/Archiving files.md",
+    "OneNote/Notes/Linux/Archiving/Archiving Tools.md",
+    "OneNote/Notes/Linux/Archiving/Introduction.md",
+    "OneNote/Notes/Linux/GNU and Unix Commands/Perform basic file management.md",
+    "OneNote/Notes/Linux/GNU and Unix Commands/Process text streams using filters.md",
+    "OneNote/Notes/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
+    "OneNote/Notes/Linux/GNU and Unix Commands/Work on the command line.md",
+    "OneNote/Notes/Linux/System Architecture/Linux as virtualization.md",
+    "OneNote/Notes/Linux/GNU and Unix Commands",
+    "OneNote/Notes/Linux/Linux Installation and Package Management",
+    "Senza nome.canvas",
+    "OneNote/Notes/Linux/System Architecture",
+    "OneNote/Notes/Linux/Determine and configure hardware settings",
+    "OneNote/Notes/Linux/Security and File Permissions",
+    "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Untitled",
+    "OneNote/Notes/Linux/Where data are stored",
+    "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas"
   ]
 }
