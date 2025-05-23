@@ -40,3 +40,8 @@ Before the sender can send the information, the network must establish a connect
 ### Multiplexing in Circuit-Switched Networks
 A circuit in a link is implemented with either **frequency-division multiplexing** (FDM) or **time-division multiplexing** (TDM). With FDM, the frequency spectrum of a link is divided up among the connections established across the link. Specifically, the link dedicates a frequency band to each connection for the d­ uration of the connection.
 For a **TDM** link, time is divided into frames of fixed duration, and each frame is divided into a fixed number of time slots. **When the network establishes a connection across a link, the network dedicates one time slot in every frame to this connection.** These slots are dedicated for the sole use of that connection, with one time slot available for use (in every frame) to transmit the connection’s data.
+
+### Packet Switching Versus Circuit Switching
+Critics of packet switching have often argued that **packet switching is not suitable for realtime services** (for example, telephone calls and video conference calls) because of its variable and unpredictable end-to-end delays.
+Proponents of packet switching argue that it **offers better sharing of transmission capacity than circuit switching and it is simpler, more efficient, and less costly to implement than circuit switching.**
+
