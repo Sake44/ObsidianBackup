@@ -11,12 +11,24 @@
             "id": "ca700ef053190820",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Screenshot from 2025-05-23 09-29-26.png"
+                "file": "OneNote/Notes/Networking/Delay, Loss, and Throughput in Packet-Switched Networks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Screenshot from 2025-05-23 09-29-26"
+              "icon": "lucide-file",
+              "title": "Delay, Loss, and Throughput in Packet-Switched Networks"
             }
           }
         ]
@@ -182,10 +194,13 @@
   },
   "active": "ca700ef053190820",
   "lastOpenFiles": [
+    "Comptia Network+/Open System Interconnection Model (OSI Model).md",
+    "Pasted image 20250523171114.png",
+    "Images/Screenshot from 2025-05-23 09-29-26.png",
+    "Comptia Network+",
     "OneNote/Notes/Networking/Delay, Loss, and Throughput in Packet-Switched Networks.md",
     "Images/Screenshot from 2025-05-23 10-01-32.png",
     "OneNote/Notes/Networking/A Network of Networks.md",
-    "Images/Screenshot from 2025-05-23 09-29-26.png",
     "OneNote/Notes/Networking/Network Core.md",
     "README.md",
     "Images/Screenshot from 2025-05-22 11-33-34.png",
@@ -195,7 +210,6 @@
     "Images/Screenshot from 2025-05-21 10-16-52.png",
     "Images/Screenshot from 2025-05-21 07-26-04.png",
     "Images/Screenshot from 2025-05-21 07-26-04 1.png",
-    "Images/Exported image 20250315115828-0.png",
     "Images",
     "OneNote/Notes/Networking/Network Edge.md",
     "OneNote/Notes/Networking/Untitled",
@@ -219,7 +233,6 @@
     "OneNote/Notes/Linux/GNU and Unix Commands/Process text streams using filters.md",
     "OneNote/Notes/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
     "OneNote/Notes/Linux/GNU and Unix Commands/Work on the command line.md",
-    "OneNote/Notes/Linux/System Architecture/Linux as virtualization.md",
     "OneNote/Notes/Linux/GNU and Unix Commands",
     "OneNote/Notes/Linux/Linux Installation and Package Management",
     "Senza nome.canvas",
@@ -227,7 +240,6 @@
     "OneNote/Notes/Linux/Determine and configure hardware settings",
     "OneNote/Notes/Linux/Security and File Permissions",
     "OneNote/Blocco appunti di Andrea/Linux/Where data are stored/Untitled",
-    "OneNote/Notes/Linux/Where data are stored",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas"
   ]
 }

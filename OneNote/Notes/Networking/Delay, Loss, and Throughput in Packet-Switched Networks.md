@@ -21,3 +21,12 @@ The time required to examine the packet’s header and determine where to direct
 Processing delays in high-speed routers are typically on the **order of microseconds or less**. After this nodal processing, the router directs the packet to the queue that precedes the link to router B.
 #### Queuing Delay
 At the queue, the packet experiences a queuing delay as it **waits to be transmitted onto the link**. The length of the queuing delay of a specific packet will depend on the number of earlier-arriving packets that are queued and waiting for transmission onto the link.
+
+#### Trasmission Delay
+Assuming that packets are transmitted in a first-come-first-served manner, as is common in packet-switched networks, our packet can be transmitted only after all the packets that have arrived before it have been transmitted.
+
+The transmission delay is L/R. This is the amount of time required to push (that is, transmit) all of the packet’s bits into the link.
+
+#### Propagation Delay
+Once a bit is pushed into the link, it needs to propagate to router B. The time required to propagate from the beginning of the link to router B is the propagation delay.
+**The propagation delay is the distance between two routers divided by the propagation speed.** That is, the propaga tion delay is d/s, where d is the distance between router A and router B and s is the propagation speed of the link.
