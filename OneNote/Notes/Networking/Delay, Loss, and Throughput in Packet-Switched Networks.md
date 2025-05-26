@@ -30,3 +30,14 @@ The transmission delay is L/R. This is the amount of time required to push (that
 #### Propagation Delay
 Once a bit is pushed into the link, it needs to propagate to router B. The time required to propagate from the beginning of the link to router B is the propagation delay.
 **The propagation delay is the distance between two routers divided by the propagation speed.** That is, the propaga tion delay is d/s, where d is the distance between router A and router B and s is the propagation speed of the link.
+
+### Comparing Transmission and Propagation Delay
+The transmission delay is the amount of time required for the router to push out the packet; it is a function of the packet’s length and the transmission rate of the link, but has nothing to do with the distance between the two routers. The propagation delay, on the other hand, is the time it takes a bit to propagate from one router to the next; it is a function of the distance between the two routers, but has nothing to do with the packet’s length or the transmission rate of the link.
+
+If we let dproc, dqueue, dtrans, and dprop denote the processing, queuing, transmission,
+and propagation delays, then the total nodal delay is given by:
+
+```
+dnodal = dproc + dqueue + dtrans + dprop
+```
+
