@@ -41,3 +41,4 @@ and propagation delays, then the total nodal delay is given by:
 dnodal = dproc + dqueue + dtrans + dprop
 ```
 
+### Queuing Delay and Packet Loss
