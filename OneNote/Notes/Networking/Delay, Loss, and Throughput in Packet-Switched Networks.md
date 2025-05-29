@@ -42,3 +42,27 @@ dnodal = dproc + dqueue + dtrans + dprop
 ```
 
 ### Queuing Delay and Packet Loss
+Unlike the other three delays (namely, dproc, dtrans, and dprop), the queuing delay can vary from
+packet to packet. For example, if 10 packets arrive at an empty queue at the same time, the first packet transmitted will suffer no queuing delay, while the last packet transmitted will suffer a relatively large queuing delay.
+Let **a** denote the average rate at which packets arrive at the queue (a is in units of packets/sec). Recall that **R** is the **transmission rate**; that is, it is the rate (in bits/sec) at which bits are pushed out
+of the queue. Also suppose, for simplicity, that all packets consist of **L** bits. Then the average rate at which bits arrive at the queue is **La bits/sec**. Finally, assume that the queue is very big, so that it can hold essentially an infinite number of bits. The ratio **La/R**, called the **traffic intensity**, often plays an important role in estimating the extent of the queuing delay. If **La/R > 1**, then the average rate at which bits arrive at the queue exceeds the rate at which the bits can be transmitted from the queue. In this unfortunate situation, the queue will tend to increase without bound and the queuing delay will approach infinity! Therefore, one of the golden rules in traffic engineering
+is: *Design your system so that the traffic intensity is no greater than 1.*
+
+#### Packet Loss
+A queue preceding a link has finite capacity, although the queuing capacity greatly depends on the router design and cost. Because the queue capacity is finite, packet delays do not really approach infinity as the traffic intensity approaches 1. Instead, a packet can arrive to find a full queue. With no place to store such a packet, a router will drop that packet; that is, the packet will be lost.
+From an end-system viewpoint, a packet loss will look like a packet having been transmitted into the network core but never emerging from the network at the destination. The fraction of lost packets increases as the traffic intensity increases.
+
+### End-to-End Delay
+The end to end delay is calculated as 
+```
+dend-end = N(dproc + dtrans + d)
+```
+
+#### Traceroute
+Traceroute is a simple program that can run in any Internet host. When the user specifies a destination hostname, the program in the source host sends multiple, special packets toward that destination. As these packets work their way toward the destination, they pass through a series of routers. When a router receives one of these special packets, it sends back to the source a short message that contains the name and address of the router.
+
+### Throughput in Computer Networks
+In addition to delay and packet loss, another critical performance measure in computer networks is end-to-end throughput. To define throughput, consider transferring a large file from Host A to Host B across a computer network.
+The instantaneous throughput at any instant of time is the rate (in bits/sec) at which Host B is receiving the file.
+
+
