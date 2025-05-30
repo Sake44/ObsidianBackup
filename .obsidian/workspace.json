@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Networking/Delay, Loss, and Throughput in Packet-Switched Networks.md",
+                "file": "OneNote/Notes/Networking/Encapsulation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Delay, Loss, and Throughput in Packet-Switched Networks"
+              "title": "Encapsulation"
             }
           }
         ]
@@ -194,8 +194,12 @@
   },
   "active": "14de68c6c740b8f2",
   "lastOpenFiles": [
-    "Pasted image 20250523171114.png",
+    "Pasted image 20250530114312.png",
+    "OneNote/Notes/Networking/Protocol Layers and Their Service Models.md",
+    "OneNote/Notes/Networking/Encapsulation.md",
+    "Pasted image 20250530095603.png",
     "OneNote/Notes/Networking/Delay, Loss, and Throughput in Packet-Switched Networks.md",
+    "Pasted image 20250523171114.png",
     "OneNote/Notes/Networking/A Network of Networks.md",
     "Images/Screenshot from 2025-05-23 10-01-32.png",
     "Images/Screenshot from 2025-05-23 09-29-26.png",
@@ -212,7 +216,6 @@
     "Images/Screenshot from 2025-05-22 09-19-53.png",
     "Images/Screenshot from 2025-05-21 18-55-02.png",
     "Images/Screenshot from 2025-05-21 10-16-52.png",
-    "Images/Screenshot from 2025-05-21 07-26-04.png",
     "README.md",
     "OneNote/Notes/Linux/Where data are stored/Where Kernel's file are stored.md",
     "OneNote/Notes/Linux/Where data are stored/System Logging and System Messaging.md",
@@ -228,8 +231,6 @@
     "OneNote/Notes/Linux/Turning commands into Script/Introduction.md",
     "OneNote/Notes/Linux/Turning commands into Script/Handle Many Arguments.md",
     "OneNote/Notes/Linux/Turning commands into Script/For Loops.md",
-    "OneNote/Notes/Linux/Turning commands into Script/Best Practice.md",
-    "OneNote/Notes/Linux/System Architecture/Systemd.md",
     "OneNote/Notes/Linux/Where data are stored",
     "OneNote/Notes/Linux/Turning commands into Script",
     "OneNote/Notes/Linux/System Architecture",
@@ -241,7 +242,6 @@
     "OneNote/Notes/Linux/Create, monitor and kill processes",
     "Images/Untitled.canvas",
     "Images/Senza nome.canvas",
-    "Images/Exported image 20250315115710-1.png",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas"
   ]
 }

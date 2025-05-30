@@ -65,4 +65,4 @@ Traceroute is a simple program that can run in any Internet host. When the user 
 In addition to delay and packet loss, another critical performance measure in computer networks is end-to-end throughput. To define throughput, consider transferring a large file from Host A to Host B across a computer network.
 The instantaneous throughput at any instant of time is the rate (in bits/sec) at which Host B is receiving the file.
 
-
+More generally the throughput depends not only on the transmission rates of the links along the path, but also on the intervening traffic. In particular, a link with a high transmission rate may nonetheless be the bottleneck link for a file transfer if many other data flows are also passing through that link.
