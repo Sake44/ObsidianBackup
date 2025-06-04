@@ -74,3 +74,47 @@ Represents an uppercase letter.
 [:xdigit:]
 ```
 Represents hexadecimal digits (0 through F).
+
+### Quantifiers
+The reach of an atom, either a single character atom or a bracket atom, can be adjusted using an
+atom quantifier. Atom quantifiers define atom sequences, that is, matches occur when acontiguous repetition for the atom is found in the string.
+The * quantifier has the same function in both basic and extended REs (atom occurs zero or more
+times) and it’s a literal character if it appears at the beginning of the regular expression or if it’s
+preceded by a backslash \.
+
+### Bounds
+A bound is an atom quantifier that, as the name implies, allows a user to specify precise quantity boundaries for an atom. In extended regular expressions, a bound may appear in three forms:
+
+```
+{i}
+
+The atom must appear exactly i times (i an integer number). For example, [[:blank:]]{2} matches with exactly two blank characters.
+
+{i,}
+The atom must appear at least i times (i an integer number). For example, [[:blank:]]{2,} matches with any sequence of two or more blank characters.
+
+{i,j}
+The atom must appear at least i times and at most j times (i and j integer numbers, j greater then i). For example, xyz{2,4} matches the xy string followed by two to four of the z character.
+```
+
+### Branches and Back References
+An extented regular expression can be divided into *branches*, each one an indipendent regular expression. Branches are separated by | and the combined regular expression will match anything that corresponds to any of the branches. 
+An extended regular expression enclosed in () can be used in a back reference. For example,
+```
+([[:digit:]])\1
+```
+ will match any regular expression that repeats itself at least once, because the
+\1 in the expression is the back reference to the piece matched by the first parenthesized
+subexpression. If more than one parenthesized subexpression exist in the regular expression, they
+can be referenced with \2, \3 and so on.
+
+### Searching with Regular Expressions
+The immediate benefit offered by regular expressions is to improve searches on filesystems and in
+text documents. The -regex option of command find allows to test every path in a directory hierarchy against a regular expression. For example,
+```
+find $HOME -regex '.*/\..*'
+```
+
+searches for files greater than 100 megabytes (100 units of 1048576 bytes), but only in paths inside
+the user’s home directory that do contain a match with .*/\..*, that is, a /. surrounded by any other number of characters. In other words, only hidden files or files inside hidden directories will be listed, regardless of the position of /. in the corresponding path.
+
