@@ -118,3 +118,132 @@ find $HOME -regex '.*/\..*'
 searches for files greater than 100 megabytes (100 units of 1048576 bytes), but only in paths inside
 the user’s home directory that do contain a match with .*/\..*, that is, a /. surrounded by any other number of characters. In other words, only hidden files or files inside hidden directories will be listed, regardless of the position of /. in the corresponding path.
 
+## The pattern finder and stream editor
+Regular expressions are an important technique used not only in system administration, but also in data mining and related areas. Two commands are specially suited to manipulate files and text data using regular expressions: **grep and sed**.
+
+### Grep
+One of the most common uses of grep is to facilitate the inspection of long files, using the regular
+expression as a filter applied to each line. It can be used to show only the lines starting with a certain term.
+
+```
+grep '^options' /etc/modprobe.d/alsa-base.conf
+
+# Listing only option line
+```
+
+The pipe | character can be employed to redirect the output of a command directly to grep's
+input. The following example uses a bracket expression to select lines from fdisk -l output, starting with Disk /dev/sda or Disk /dev/sdb:
+```
+fdisk -l | grep '^Disk /dev/sd[ab]'
+```
+
+Option #-c or #--count tells grep to show how many lines had matches.
+The option can be placed before or after the regular expression. Other important #grep options are: 
+
+```
+-c or --count
+```
+Instead of displaying the search results, only display the total count for how many times a
+match occurs in any given file.
+```
+-i or --ignore-case
+```
+Turn the search case-insensitive.
+```
+-f FILE or --file=FILE
+```
+Indicate a file containing the regular expression to use.
+```
+-n or --line-number
+```
+Show the number of the line.
+```
+-v or --invert-match
+```
+Select every line, except those containing matches.
+```
+-H or --with-filename
+```
+Print also the name of the file containing the line.
+```
+-z or --null-data
+```
+Rather than have grep treat input and output data streams as separate lines (using the newline
+by default) instead take the input or output as a sequence of lines. When combining output
+from the find command using its -print0 option with the grep command, the -z or --null
+-data option should be used to process the stream in the same manner.
+
+Although activated by default when multiple file paths are given as input, the option -H is not
+activated for single files. That may be critical in special situations, like when grep is called directly by find, for instance:
+
+```
+find /usr/share/doc -type f -exec grep -i '3d modeling' "{}" \; | cut -c -100
+```
+In this example, find lists every file under /usr/share/doc then passes each one to grep, which
+in turn performs a case-insensitive search for 3d modeling inside the file. The pipe to cut is there just to limit output length to 100 columns. Note, however, that there is no way of knowing from which file the lines came from. This issue is solved by adding -H to grep:
+```
+find /usr/share/doc -type f -exec grep -i -H '3d modeling' "{}" \; | cut -c -100
+```
+To make the listing even more informative, leading and trailing lines can be added to lines with matches.
+The option -1 instructs grep to include one line before and one line after when it finds a line with
+a match.
+
+There are two complementary programs to grep: egrep and fgrep. The program egrep is equivalent to the command grep -E, which incorporates extra features other than the basic regular expressions. For example, with egrep it is possible to use extended regular expression features, like branching:
+
+```
+find /usr/share/doc -type f -exec egrep -i -H -1 '3d (modeling|printing)' "{}" \; | cut -c -100
+```
+The program fgrep is equivalent to grep -F, that is, it does not parse regular expressions. It is useful in simple searches where the goal is to match a literal expression.
+
+### Sed
+The purpose of the sed program is to modify text-based data in a non-interactive way. It means that all the editing is made by predefined instructions, not by arbitrarily typing directly into a text
+displayed on the screen. In modern terms, sed can be understood as a template parser: given a text as input, it places custom content at predefined positions or when it finds a match for a
+regular expression.
+Sed, as the name implies, is well suited for text streamed through pipelines. Its basic syntax is sed
+-f SCRIPT when editing instructions are stored in the file SCRIPT or sed -e COMMANDS to execute COMMANDS directly from the command line. If neither -f or -e are present, sed uses the first non-option parameter as the script file.
+```
+factor `seq 12` | sed 1d
+
+# 1d stand for: delete first line
+# 11d would stand for: delete 11th line
+
+factor `seq 12 | sed 1,5d
+# We can specify a range of line to delete
+```
+More than one instruction can be used in the same execution, separated by semicolons. In this case, however, it is important to enclose them with parenthesis so the semicolon is not interpreted
+by the shell:
+```
+factor `seq 12` | sed "1,7d;11d"
+```
+
+```
+factor `seq 12` | sed "1d;/:.*2.*/d"
+```
+The regular expression 
+```
+:.*2.*
+```
+matches with any occurrence of the number 2 anywhere after a colon, causing the deletion of lines corresponding to numbers with 2 as a factor. **With sed, anything placed between slashes (/) is considered a regular expression and by default all basic RE is supported.**
+Instead of deleting a line, sed can replace it with a given text:
+```
+factor 'seq 12' | sed "1d;/:.*2.*/c REMOVED"
+# The instruction c REMOVED simply replaces a line with the text REMOVED. 
+```
+By far the most used sed instruction is s/FIND/REPLACE/, which is used to replace a match to the
+regular expression FIND with text indicated by REPLACE. **For example, the instruction s/hda/sda/ replaces a substring matching the literal RE hda with sda.** Only the first match found
+in the line will be replaced, unless the **flag g** is placed after the instruction, as in s/hda/sda/g.
+
+### Combining grep and sed
+
+Commands grep and sed can be used together when more complex text mining procedures are
+required. As a system administrator, you may want to inspect all the login attempts to a server, for
+example. **The file /var/log/wtmp records all logins and logouts, whilst the file /var/log/btmp
+records the failed login attempts.** They are written in a binary format, which can be read by the
+commands last and lastb, respectively.
+The output of lastb shows not only the username used in the bad login attempt, but its IP address
+as well:
+```
+lastb -d -a -n 10 --time-format notime
+```
+
+Option -d translates the IP number to the corrisponding hostname. Option -a puts the hostname in the last column
