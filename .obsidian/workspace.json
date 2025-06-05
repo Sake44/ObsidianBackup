@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
+                "file": "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Search text files using regular expressions"
+              "title": "Basic file editing"
             }
           }
         ]
@@ -192,8 +192,11 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "14de68c6c740b8f2",
+  "active": "4f8607c7ef4587ad",
   "lastOpenFiles": [
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
+    "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
     "OneNote/Notes/Linux/Turning commands into Script/For Loops.md",
     "OneNote/Notes/Linux/Copying Files and Directories.md",
     "OneNote/Notes/Linux/Create Files.md",
@@ -205,7 +208,6 @@
     "OneNote/Notes/Linux/Navigating the file system.md",
     "OneNote/Notes/Linux/Recursive List in Bash.md",
     "OneNote/Notes/Linux/Modfiy process and exectution priorities.md",
-    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
     "OneNote/Notes/Linux/Searching and Extracting Files/Redirect Standard Input.md",
     "OneNote/Notes/Linux/Searching and Extracting Files/The Pattern Finder, grep.md",
     "OneNote/Notes/Networking/Encapsulation.md",
@@ -229,8 +231,6 @@
     "Images/Screenshot from 2025-05-22 09-54-19.png",
     "Images/Screenshot from 2025-05-22 09-19-53.png",
     "Images/Screenshot from 2025-05-21 18-55-02.png",
-    "README.md",
-    "OneNote/Notes/Linux/Where data are stored/Where Kernel's file are stored.md",
     "OneNote/Notes/Linux/Where data are stored",
     "OneNote/Notes/Linux/Turning commands into Script",
     "OneNote/Notes/Linux/System Architecture",
