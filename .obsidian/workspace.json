@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
+                "file": "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create partitions and filesystems.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Basic file editing"
+              "title": "Create partitions and filesystems"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "85bf4ab8e91bae0c",
@@ -176,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 419.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,11 +193,12 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "4f8607c7ef4587ad",
+  "active": "14de68c6c740b8f2",
   "lastOpenFiles": [
+    "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create partitions and filesystems.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
     "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
-    "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
     "OneNote/Notes/Linux/Turning commands into Script/For Loops.md",
     "OneNote/Notes/Linux/Copying Files and Directories.md",
     "OneNote/Notes/Linux/Create Files.md",
@@ -239,7 +241,6 @@
     "OneNote/Notes/Linux/Linux Installation and Package Management",
     "OneNote/Notes/Linux/Determine and configure hardware settings",
     "OneNote/Notes/Linux/GNU and Unix Commands",
-    "OneNote/Notes/Linux/Create, monitor and kill processes",
     "Images/Untitled.canvas",
     "Images/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas"
