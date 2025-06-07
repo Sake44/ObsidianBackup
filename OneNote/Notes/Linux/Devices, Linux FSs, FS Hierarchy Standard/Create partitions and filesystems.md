@@ -8,14 +8,10 @@ There are two main ways of storing partition information on hard disks. The firs
 (Master Boot Record), and the second one is GPT (GUID Partition Table).
 
 ###### **MBR**
-This is a remnant from the early days of MS-DOS (more specifically, PC-DOS 2.0 from 1983) and
-for decades was the standard partitioning scheme on PCs. The partition table is stored on the first sector of a disk, called the Boot Sector, along with a boot loader, which on Linux systems is usually the GRUB bootloader. But MBR has a series of limitations that hinder its use on modern systems, like the inability to address disks of more than 2 TB in size, and the limit of only 4 primary partitions per disk.
+This is a remnant from the early days of MS-DOS (more specifically, PC-DOS 2.0 from 1983) and for decades was the standard partitioning scheme on PCs. The partition table is stored on the first sector of a disk, called the Boot Sector, along with a boot loader, which on Linux systems is usually the GRUB bootloader. But MBR has a series of limitations that hinder its use on modern systems, like the inability to address disks of more than 2 TB in size, and the limit of only 4 primary partitions per disk.
 
 ###### GUID
-A partitioning system that addresses many of the limitations of MBR. There is no practical limit
-on disk size, and the maximum number of partitions are limited only by the operating system
-itself. It is more commonly found on more modern machines that use UEFI instead of the old PC
-BIOS.
+A partitioning system that addresses many of the limitations of MBR. There is no practical limit on disk size, and the maximum number of partitions are limited only by the operating system itself. It is more commonly found on more modern machines that use UEFI instead of the old PC BIOS.
 
 ## Managing MBR partitions with FDISK
 The standard utility for managing MBR partitions on Linux is fdisk. This is an interactive, menu-driven utility.
@@ -28,8 +24,7 @@ Be careful before using the write command.
 
 Command (m for help):
 ```
-Keep in mind that you need to specify the device corresponding to the physical disk, not one of its
-partitions (like /dev/sda1).
+Keep in mind that you need to specify the device corresponding to the physical disk, not one of its partitions (like /dev/sda1).
 
 ### Printing the Current Partition Table
 The command **p** is used to print the current partition table. The output is something like this:
@@ -50,17 +45,13 @@ Device    Boot     Start       End   Sectors   Size Id Type
 ```
 
 ### Primary vs Extended Partitions
-On an MBR disk, you can have 2 main types of partitions, primary and extended. Like we said
-before, you can have only 4 primary partitions on the disk, and if you want to make the disk “bootable”, the first partition must be a primary one.
+On an MBR disk, you can have 2 main types of partitions, primary and extended. Like we said before, you can have only 4 primary partitions on the disk, and if you want to make the disk “bootable”, the first partition must be a primary one.
 
-One way to work around this limitation is to create an extended partition that acts as a container
-for logical partitions.
+One way to work around this limitation is to create an extended partition that acts as a container for logical partitions.
 
 ### Creating a Partition
-To create a partition, use the n command. By default, partitions will be created at the start of unallocated space on the disk. You will be asked for the partition type (primary or extended), first
-sector and last sector.
-For the first sector, you can usually accept the default value suggested by fdisk, unless you need
-a partition to start at a specific sector. Instead of specifying the last sector, you can specify a size followed by the letters K, M, G, T or P (Kilo, Mega, Giga, Tera or Peta).
+To create a partition, use the n command. By default, partitions will be created at the start of unallocated space on the disk. You will be asked for the partition type (primary or extended), first sector and last sector.
+For the first sector, you can usually accept the default value suggested by fdisk, unless you need a partition to start at a specific sector. Instead of specifying the last sector, you can specify a size followed by the letters K, M, G, T or P (Kilo, Mega, Giga, Tera or Peta).
 Below an example for the creation of a primary partition: 
 ```
 Command (m for help): n
@@ -82,7 +73,7 @@ Command (m for help): F
 ### Deleting Partitions
 To delete a partition, use the d command. fdisk will ask you for the number of the partition you
 want to delete, unless there is only one partition on the disk.
-
+fefd
 Keep in mind that when creating a new partition with fdisk, the maximum size will be limited to
 the maximum amount of contiguous unallocated space on the disk. Say, for example, that you
 have the following partition map:
@@ -106,8 +97,7 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 3147776 3903577 755802  369M
 ```
 
-Adding up the size of the unallocated space, in theory we have 881 MB available. But see what
-happens when we try to create a 700 MB partition:
+Adding up the size of the unallocated space, in theory we have 881 MB available. But see what happens when we try to create a 700 MB partition:
 ```
 Command (m for help): n
 
@@ -433,3 +423,102 @@ to compress them, saving system resources. So on a single directory you may have
 and uncompressed files together.
 
 # Managing Partitions with GNU Parted
+GNU Parted is a very powerful partition editor (hence the name) that can be used to create, delete, move, resize, rescue and copy partitions. It can work with both GPT and MBR disks, and cover almost all of your disk management needs. 
+Unlike **fdisk** and **gdisk**, parted makes changes to the disk immediately after the command is issued, without waiting for another command to write the changes to disk.
+To start using parted just type:
+```
+parted DEVICE
+```
+If you don't specify nothing parted will select automatically the first disk available. 
+
+## Selecting disks
+To switch to a different disk than the one specified on the command line, you can use the select command, followed by the device name:
+```
+(parted) select DEVICE
+```
+
+## Getting Information
+The print command can be used to get more information about a specific partition or even all of the block devices (disks) connected to your system.
+```
+(parted) print
+```
+
+You can get a list of all block devices connected to your system using print devices:
+```
+(parted) print devices
+```
+
+To get information about all connected devices at once, you can use print all. If you wish to
+know how much free space there is in each one of them, you can use print free:
+```
+(parted) print free
+```
+
+## Creating a Partition Table on an Empty Disk
+To create a partition table on an empty disk, use the mklabel command, followed by the partitionv table type that you want to use.
+
+There are many supported partition table types, but the main types you should know of are msdos which is used here to refer to an MBR partition table, and gpt to refer to a GPT partition table. To create an MBR partition table, type:
+```
+(parted) mklabel msdos
+```
+
+And to create a GPT partition table, the command is:
+```
+(parted) mklabel gpt
+```
+
+### Creating a Partition
+To create a partition the command mkpart is used, using the syntax: 
+```
+mkpart PARTTYPE FSTYPE START END, where:
+```
+
+```
+PARTTYPE
+```
+Is the partition type, which can be primary, logical or extended in case an MBR partition
+table is used.
+```
+FSTYPE
+```
+Specifies which filesystem will be used on this partition. Note that parted will not create the
+filesystem. It just sets a flag on the partition which tells the OS what kind of data to expect from it.
+```
+START
+```
+Specifies the exact point on the device where the partition begins. You can use different units to specify this point. 2s can be used to refer to the second sector of the disk, while 1m refers to the beginning of the first megabyte of the disk. Other common units are B (bytes) and % (percentage of the disk).
+```
+END
+```
+Specifies the end of the partition. Note that this is not the size of the partition, this is the point on the disk where it ends. For example, if you specify 100m the partition will end 100 MB after the start of the disk. You can use the same units as in the START parameter.
+
+So, the command:
+```
+(parted) mkpart primary ext4 1m 100m
+```
+Creates a primary partition of type ext4, starting at the first megabyte of the disk, and ending after the 100th megabyte.
+
+## Removing a partition
+To remove a partition, use the command rm followed by the partition number, which you can
+display using the print command. So, rm 2 would remove the second partition on the currently selected disk.
+
+## Recovering Partions
+To recover it, you can use the rescue command, with the syntax rescue START END, where START is the approximate location where the partition started, and END the approximate location where it ended.
+```
+(parted) rescue 90m 200m
+```
+
+Note that rescue can only recover partitions that have a filesystem installed on them. Empty partitions are not detected.
+
+## Resizing ext2/3/4 Partitions
+parted can be used to resize partitions to make them bigger or smaller. However, there are some caveats:
+	• During resizing the partition must be unused and unmounted.
+	• You need enough free space after the partition to grow it to the size you want.
+The command is resizepart, followed by the partition number and where it should end.
+Trying to grow partition 1 using resizepart would trigger an error message, because with the
+new size partition 1 would overlap with partition 2.
+But resizing the partition is only one part of the task. You also need to resize the filesystem that resides in it. For ext2/3/4 filesystems this is done with the resize2fs command. 
+To adjust the size the command resize2fs DEVICE SIZE can be used, where DEVICE
+corresponds to the partition you want to resize, and SIZE is the new size.
+To shrink a partition, the process needs to be done in the reverse order. First you resize the
+filesystem to the new, smaller size, then you resize the partition itself using parted.
