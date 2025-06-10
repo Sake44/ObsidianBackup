@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Maintain the integrity of FSs.md",
+                "file": "OneNote/Notes/Linux/Remove package.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maintain the integrity of FSs"
+              "title": "Remove package"
             }
           }
         ]
@@ -192,10 +192,11 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "14de68c6c740b8f2",
+  "active": "4f8607c7ef4587ad",
   "lastOpenFiles": [
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create partitions and filesystems.md",
+    "Images/Pasted image 20250530114312.png",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Maintain the integrity of FSs.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create partitions and filesystems.md",
     "Untitled.canvas",
     "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
@@ -214,11 +215,10 @@
     "OneNote/Notes/Linux/Searching and Extracting Files/Redirect Standard Input.md",
     "OneNote/Notes/Linux/Searching and Extracting Files/The Pattern Finder, grep.md",
     "OneNote/Notes/Networking/Encapsulation.md",
-    "Pasted image 20250530114312.png",
     "OneNote/Notes/Networking/Protocol Layers and Their Service Models.md",
-    "Pasted image 20250530095603.png",
+    "Images/Pasted image 20250530095603.png",
     "OneNote/Notes/Networking/Delay, Loss, and Throughput in Packet-Switched Networks.md",
-    "Pasted image 20250523171114.png",
+    "Images/Pasted image 20250523171114.png",
     "OneNote/Notes/Networking/A Network of Networks.md",
     "Images/Screenshot from 2025-05-23 10-01-32.png",
     "Images/Screenshot from 2025-05-23 09-29-26.png",
@@ -227,7 +227,6 @@
     "OneNote/Notes/Networking/Network LayerSubnetRouting.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management/Manage shared libraries.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management/Design hardisk layout.md",
-    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "Images/Screenshot from 2025-05-21 07-26-04 1.png",
     "Images/Screenshot from 2025-05-22 11-33-34.png",
     "Images/Screenshot from 2025-05-22 09-54-19.png",
