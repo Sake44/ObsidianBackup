@@ -514,7 +514,7 @@ Note that rescue can only recover partitions that have a filesystem installed on
 parted can be used to resize partitions to make them bigger or smaller. However, there are some caveats:
 	• During resizing the partition must be unused and unmounted.
 	• You need enough free space after the partition to grow it to the size you want.
-The command is resizepart, followed by the partition number and where it should end.
+The command is **resizepart**, followed by the partition number and where it should end.
 Trying to grow partition 1 using resizepart would trigger an error message, because with the
 new size partition 1 would overlap with partition 2.
 But resizing the partition is only one part of the task. You also need to resize the filesystem that resides in it. For ext2/3/4 filesystems this is done with the resize2fs command. 
@@ -522,3 +522,41 @@ To adjust the size the command resize2fs DEVICE SIZE can be used, where DEVICE
 corresponds to the partition you want to resize, and SIZE is the new size.
 To shrink a partition, the process needs to be done in the reverse order. First you resize the
 filesystem to the new, smaller size, then you resize the partition itself using parted.
+
+## Creating Swap Partitions
+On Linux, the system can swap memory pages from RAM to disk as needed, storing them on a
+separate space usually implemented as a separate partition on a disk, called the swap partition or
+simply swap. This partition needs to be of a specific type, and set-up with a proper utility (mkswap)
+before it can be used.
+To create the swap partition using **fdisk or gdisk**, just proceed as if you were creating a regular
+partition, as explained before. The only difference is that you will need to change the partition
+type to Linux swap.
+	• On fdisk use the t command. Select the partition you want to use and change its type to 82.
+	Write changes to disk and quit with w.
+	• On gdisk the command to change the partition type is also t, but the code is 8200. Write
+	changes to disk and quit with w.
+
+If you are using #parted the partition should be identified as a swap partition during creation, just use **linux-swap** as the filesystem type: 
+```
+(parted) mkpart primary linux-swap 301m 800m
+```
+Once the partition is created and properly identified, just use mkswap followed by the device representing the partition you want to use:
+```
+mkswap /dev/sda2
+```
+To enable swap on this partition:
+```
+swapon /dev/sda2
+```
+To disable swap on a device:
+```
+swapoff /dev/sda2
+```
+Linux also supports the use of swap files instead of partitions. Just create an empty file of the size
+you want using dd and then use mkswap and swapon with this file as the target.
+The following commands will create a 1 GB file called myswap in the current directory, filled with
+zeroes, and than set-up and enable it as a swap file.
+```
+dd if=/dev/zero of=myswap bs=1M count=1024
+```
+
