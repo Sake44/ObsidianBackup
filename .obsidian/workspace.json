@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Manage File permissions and ownership.md",
+                "file": "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Manage File permissions and ownership"
+              "title": "Find systems files and place files in the correct location"
             }
           }
         ]
@@ -194,9 +194,12 @@
   },
   "active": "14de68c6c740b8f2",
   "lastOpenFiles": [
+    "OneNote/Notes/Linux/Searching and Extracting Files/Redirect Standard Error.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create and change hard and symbolic links.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Manage File permissions and ownership.md",
     "Pasted image 20250613093744.png",
     "OneNote/Notes/Linux/System Architecture/System Initialization.md",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Manage File permissions and ownership.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Control mounting and unmounting of FS.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Generic mount options.md",
     "OneNote/Notes/Linux/Security and File Permissions/The Skeleton Directory.md",
@@ -221,8 +224,6 @@
     "OneNote/Notes/Linux/Ls Options.md",
     "OneNote/Notes/Linux/Move Files.md",
     "OneNote/Notes/Linux/Navigating the file system.md",
-    "OneNote/Notes/Linux/Recursive List in Bash.md",
-    "OneNote/Notes/Linux/Modfiy process and exectution priorities.md",
     "Images/Pasted image 20250530095603.png",
     "Images/Pasted image 20250523171114.png",
     "Images/Screenshot from 2025-05-23 10-01-32.png",
@@ -232,7 +233,6 @@
     "Images/Screenshot from 2025-05-22 11-33-34.png",
     "Images/Screenshot from 2025-05-22 09-54-19.png",
     "Images/Screenshot from 2025-05-22 09-19-53.png",
-    "Images/Screenshot from 2025-05-21 18-55-02.png",
     "OneNote/Notes/Linux/Where data are stored",
     "OneNote/Notes/Linux/Turning commands into Script",
     "OneNote/Notes/Linux/System Architecture",
