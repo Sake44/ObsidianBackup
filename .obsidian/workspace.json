@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
+                "file": "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Find systems files and place files in the correct location"
+              "title": "Search text files using regular expressions"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fstab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,8 +194,20 @@
   },
   "active": "14de68c6c740b8f2",
   "lastOpenFiles": [
-    "OneNote/Notes/Linux/Searching and Extracting Files/Redirect Standard Error.md",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
+    "Comptia Network+/Layer 2 - Data Link.md",
+    "Comptia Network+/Layer 1 - Physical.md",
+    "Comptia Network+/Open System Interconnection Model (OSI Model).md",
+    "Pasted image 20250702094415.png",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
+    "OneNote/Notes/Networking/Network LayerSubnetRouting.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting",
+    "OneNote/Notes/Networking/Network Edge.md",
+    "OneNote/Notes/Networking/Network Core.md",
+    "OneNote/Notes/Networking/Basic Concept.md",
+    "OneNote/Notes/Networking/Application Layer.md",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Redirect Standard Error.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create and change hard and symbolic links.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Manage File permissions and ownership.md",
     "Pasted image 20250613093744.png",
@@ -214,16 +226,6 @@
     "Untitled.canvas",
     "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
-    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
-    "OneNote/Notes/Linux/Turning commands into Script/For Loops.md",
-    "OneNote/Notes/Linux/Copying Files and Directories.md",
-    "OneNote/Notes/Linux/Create Files.md",
-    "OneNote/Notes/Linux/Create and delete multi files.md",
-    "OneNote/Notes/Linux/Deleting Files and Directories.md",
-    "OneNote/Notes/Linux/Install Package.md",
-    "OneNote/Notes/Linux/Ls Options.md",
-    "OneNote/Notes/Linux/Move Files.md",
-    "OneNote/Notes/Linux/Navigating the file system.md",
     "Images/Pasted image 20250530095603.png",
     "Images/Pasted image 20250523171114.png",
     "Images/Screenshot from 2025-05-23 10-01-32.png",
@@ -232,7 +234,6 @@
     "Images/Screenshot from 2025-05-21 07-26-04 1.png",
     "Images/Screenshot from 2025-05-22 11-33-34.png",
     "Images/Screenshot from 2025-05-22 09-54-19.png",
-    "Images/Screenshot from 2025-05-22 09-19-53.png",
     "OneNote/Notes/Linux/Where data are stored",
     "OneNote/Notes/Linux/Turning commands into Script",
     "OneNote/Notes/Linux/System Architecture",
@@ -240,7 +241,6 @@
     "OneNote/Notes/Linux/Searching and Extracting Files",
     "OneNote/Notes/Linux/Linux Installation and Package Management",
     "OneNote/Notes/Linux/Determine and configure hardware settings",
-    "OneNote/Notes/Linux/GNU and Unix Commands",
     "Images/Untitled.canvas",
     "Images/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas"
