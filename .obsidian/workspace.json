@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
+                "file": "Comptia Network+/Layer 3 - Network.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Search text files using regular expressions"
+              "title": "Layer 3 - Network"
             }
           }
         ]
@@ -194,10 +194,12 @@
   },
   "active": "14de68c6c740b8f2",
   "lastOpenFiles": [
-    "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
     "Comptia Network+/Layer 2 - Data Link.md",
-    "Comptia Network+/Layer 1 - Physical.md",
     "Comptia Network+/Open System Interconnection Model (OSI Model).md",
+    "Comptia Network+/Layer 3 - Network.md",
+    "Comptia Network+/Layer 1 - Physical.md",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
     "Pasted image 20250702094415.png",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
@@ -222,9 +224,7 @@
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Maintain the integrity of FSs.md",
     "OneNote/Notes/Linux/Remove package.md",
     "Images/Pasted image 20250530114312.png",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create partitions and filesystems.md",
     "Untitled.canvas",
-    "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
     "Images/Pasted image 20250530095603.png",
     "Images/Pasted image 20250523171114.png",
