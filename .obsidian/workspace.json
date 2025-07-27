@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2b6d4188d1075154",
+        "id": "72b1e5ec478af473",
         "type": "tabs",
         "children": [
           {
-            "id": "14de68c6c740b8f2",
+            "id": "ca700ef053190820",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comptia Network+/Layer 3 - Network.md",
+                "file": "Comptia Network+/Layer 4 - Transport.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Layer 3 - Network"
+              "title": "Layer 4 - Transport"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -71,7 +71,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Ricerca"
             }
           },
           {
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5
+    "width": 397.5
   },
   "right": {
     "id": "85bf4ab8e91bae0c",
@@ -176,73 +176,71 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "local-backup:Run local backup": false
     }
   },
-  "active": "14de68c6c740b8f2",
+  "active": "ca700ef053190820",
   "lastOpenFiles": [
+    "Images/Pasted image 20250613093744.png",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Maintain the integrity of FSs.md",
+    "Images/Pasted image 20250717110831.png",
+    "Images/Pasted image 20250702094415.png",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Manage File permissions and ownership.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Generic mount options.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create and change hard and symbolic links.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Control mounting and unmounting of FS.md",
     "Comptia Network+/Layer 4 - Transport.md",
     "Comptia Network+/Layer 3 - Network.md",
-    "Pasted image 20250717110831.png",
     "Comptia Network+/Layer 2 - Data Link.md",
-    "Comptia Network+/Open System Interconnection Model (OSI Model).md",
     "Comptia Network+/Layer 1 - Physical.md",
-    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
-    "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
-    "Pasted image 20250702094415.png",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
-    "OneNote/Notes/Networking/Network LayerSubnetRouting.md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting",
-    "OneNote/Notes/Networking/Network Edge.md",
-    "OneNote/Notes/Networking/Network Core.md",
-    "OneNote/Notes/Networking/Basic Concept.md",
-    "OneNote/Notes/Networking/Application Layer.md",
-    "OneNote/Notes/Linux/Searching and Extracting Files/Redirect Standard Error.md",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create and change hard and symbolic links.md",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Manage File permissions and ownership.md",
-    "Pasted image 20250613093744.png",
-    "OneNote/Notes/Linux/System Architecture/System Initialization.md",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Control mounting and unmounting of FS.md",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Generic mount options.md",
-    "OneNote/Notes/Linux/Security and File Permissions/The Skeleton Directory.md",
-    "OneNote/Notes/Linux/Security and File Permissions/Security.md",
-    "OneNote/Notes/Linux/Security and File Permissions/Passwd Command.md",
-    "OneNote/Notes/Linux/Security and File Permissions/Access Control Files.md",
-    "SSCP/Discretionary Access Control (DAC).md",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Maintain the integrity of FSs.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create partitions and filesystems.md",
     "Images/Pasted image 20250530114312.png",
-    "Untitled.canvas",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
     "Images/Pasted image 20250530095603.png",
     "Images/Pasted image 20250523171114.png",
-    "Images/Screenshot from 2025-05-23 10-01-32.png",
+    "Untitled.canvas",
+    "OneNote/Notes/Linux/GNU and Unix Commands/Basic file editing.md",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
+    "OneNote/Notes/Linux/Create, monitor and kill processes/Features of terminal multiplexer.md",
+    "OneNote/Notes/Linux/Create, monitor and kill processes/Job Control.md",
+    "OneNote/Notes/Linux/Modfiy process and exectution priorities.md",
+    "Comptia Network+/Open System Interconnection Model (OSI Model).md",
+    "OneNote/Notes/Networking/Protocol Layers and Their Service Models.md",
+    "Pasted image 20250523171114.png",
+    "Pasted image 20250530114312.png",
+    "Pasted image 20250530095603.png",
+    "OneNote/Notes/Networking/Encapsulation.md",
+    "OneNote/Notes/Linux/Remove package.md",
+    "OneNote/Notes/Networking/Delay, Loss, and Throughput in Packet-Switched Networks.md",
     "Images/Screenshot from 2025-05-23 09-29-26.png",
     "Comptia Network+",
-    "Images/Screenshot from 2025-05-21 07-26-04 1.png",
-    "Images/Screenshot from 2025-05-22 11-33-34.png",
-    "OneNote/Notes/Linux/Where data are stored",
-    "OneNote/Notes/Linux/Turning commands into Script",
-    "OneNote/Notes/Linux/System Architecture",
-    "OneNote/Notes/Linux/Security and File Permissions",
-    "OneNote/Notes/Linux/Searching and Extracting Files",
+    "OneNote/Notes/Networking/A Network of Networks.md",
+    "OneNote/Notes/Networking/Network Core.md",
+    "README.md",
+    "Images",
+    "OneNote/Notes/Networking/Untitled",
+    "OneNote/Notes/Linux/Create, monitor and kill processes",
+    "OneNote/Notes/Linux/GNU and Unix Commands",
     "OneNote/Notes/Linux/Linux Installation and Package Management",
+    "Senza nome.canvas",
+    "OneNote/Notes/Linux/System Architecture",
     "OneNote/Notes/Linux/Determine and configure hardware settings",
-    "Images/Untitled.canvas",
-    "Images/Senza nome.canvas",
     "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas"
   ]
 }
