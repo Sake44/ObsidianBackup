@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "aacb1b8268c9e30a",
+    "type": "split",
+    "children": [
+      {
+        "id": "54e01da05244ebcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a18a9d472308ae17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Launching shells with su and sudo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dd448d040dbfc353",
+    "type": "split",
+    "children": [
+      {
+        "id": "a64f5f1992ce0f98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a715a1f4267ae0a9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2c785eae9ca6be74",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5f81e0cbd9a1aba3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8475edfe2fa6fc1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5617f655b9972c48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe6ada1b626cc5b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Launching shells with su and sudo"
+            }
+          },
+          {
+            "id": "8779e77321f48bfe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Launching shells with su and sudo"
+            }
+          },
+          {
+            "id": "af1491ee051d0f65",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ea163ce60709ef36",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Launching shells with su and sudo"
+            }
+          },
+          {
+            "id": "f2219d51e2077db4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
+      "local-backup:Run local backup": false
+    }
+  },
+  "active": "a18a9d472308ae17",
+  "lastOpenFiles": [
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
+    "Comptia Network+/Upper Layers.md",
+    "Pasted image 20250816193121.png",
+    "Comptia Network+/Layer 4 - Transport.md"
+  ]
+}
