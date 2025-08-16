@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2b6d4188d1075154",
+        "id": "a7cd3d39c1e83400",
         "type": "tabs",
         "children": [
           {
-            "id": "14de68c6c740b8f2",
+            "id": "556ad4e47cc856cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comptia Network+/Layer 3 - Network.md",
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Layer 3 - Network"
+              "title": "Launching shells with su and sudo"
             }
           }
         ]
@@ -192,8 +192,10 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "14de68c6c740b8f2",
+  "active": "556ad4e47cc856cb",
   "lastOpenFiles": [
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
     "Comptia Network+/Layer 4 - Transport.md",
     "Comptia Network+/Layer 3 - Network.md",
     "Pasted image 20250717110831.png",
@@ -204,7 +206,6 @@
     "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
     "Pasted image 20250702094415.png",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
     "OneNote/Notes/Networking/Network LayerSubnetRouting.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting",
     "OneNote/Notes/Networking/Network Edge.md",
@@ -223,7 +224,6 @@
     "OneNote/Notes/Linux/Security and File Permissions/Passwd Command.md",
     "OneNote/Notes/Linux/Security and File Permissions/Access Control Files.md",
     "SSCP/Discretionary Access Control (DAC).md",
-    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Maintain the integrity of FSs.md",
     "Images/Pasted image 20250530114312.png",
     "Untitled.canvas",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
