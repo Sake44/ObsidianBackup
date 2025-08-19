@@ -1,6 +1,6 @@
 Through the use of these two similar programs we can obtain specific types of shells:
 
-**su**
+### Su
 
 Change user ID or become superuser (root). With this command we can invoke both login and
 non-login shells:
@@ -10,7 +10,7 @@ user2.
 • su - root or su - will start an interactive login shell as root.
 • su root or su will start an interactive non-login shell as root.
 
-**sudo**
+### Sudo
 
 Execute commands as another user (including the supersuser). Because this command is
 mainly used to gain root privileges temporarily, the user using it must be in the sudoers file.
@@ -22,3 +22,4 @@ We also can run an intercative shell as **sudo** user and go back to the previou
 ```
 sudo -i <some-command>
 ```
+

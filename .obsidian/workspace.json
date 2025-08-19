@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "54e01da05244ebcb",
+        "id": "3d2cd71a3c1a4174",
         "type": "tabs",
         "children": [
           {
-            "id": "a18a9d472308ae17",
+            "id": "55d771183462ea83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Launching shells with su and sudo"
+              "title": "README"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 405.5
   },
   "right": {
     "id": "8475edfe2fa6fc1c",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Launching shells with su and sudo"
+              "title": "Backlinks for Customize and use the shell env"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Launching shells with su and sudo"
+              "title": "Outgoing links from Customize and use the shell env"
             }
           },
           {
@@ -152,17 +152,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Launching shells with su and sudo"
+              "title": "Outline of Customize and use the shell env"
             }
           },
           {
-            "id": "f2219d51e2077db4",
+            "id": "ae7cf9c3c70049fd",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,11 +192,16 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "a18a9d472308ae17",
+  "active": "55d771183462ea83",
   "lastOpenFiles": [
+    "Images/Pasted image 20250816193121.png",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
+    "2025-08-16.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Startup files.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/The origin of Startup Files.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Interactive vs Non-Interactive.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
     "Comptia Network+/Upper Layers.md",
-    "Pasted image 20250816193121.png",
     "Comptia Network+/Layer 4 - Transport.md"
   ]
 }
