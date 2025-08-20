@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Customize or write simple Scripts"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "right": {
     "id": "8475edfe2fa6fc1c",
@@ -152,17 +153,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Customize and use the shell env"
+              "title": "Outline of Customize or write simple Scripts"
             }
           },
           {
-            "id": "ae7cf9c3c70049fd",
+            "id": "25c4b6da1fd1817b",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -176,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,8 +193,10 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "55d771183462ea83",
+  "active": "25c4b6da1fd1817b",
   "lastOpenFiles": [
+    "README.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
     "Images/Pasted image 20250816193121.png",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
     "2025-08-16.md",
