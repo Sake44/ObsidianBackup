@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Customize or write simple Scripts"
+              "title": "README"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -180,13 +180,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
@@ -195,8 +194,8 @@
   },
   "active": "ca700ef053190820",
   "lastOpenFiles": [
-    "OneNote/Notes/Linux/Turning commands into Script/Handle Many Arguments.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
+    "OneNote/Notes/Linux/Turning commands into Script/Handle Many Arguments.md",
     "Evernote/My Notes/Docker & K8s.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
     "OneNote/Notes/Linux/Turning commands into Script/Best Practice.md",

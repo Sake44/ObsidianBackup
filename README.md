@@ -6,3 +6,7 @@ This repo contains a summary of LPIC-101 and LPIC-102. This resources are useful
 
 ## Links
 Markdown link: https://www.markdownguide.org/getting-started/
+
+### Additional Resources
+- **Bash Hackers Wiki** → https://flokoe.github.io/bash-hackers-wiki (GitHub Mirror)
+- **GNU Bash Manual** → https://www.gnu.org/software/bash/manual/
