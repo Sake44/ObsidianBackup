@@ -38,7 +38,7 @@ PID of the current shell.
 ```
 $?
 ```
-Numerical exit status code of the last finished command. For POSIX standard processes, a numerical value of 0 means that the last command was successfully executed, which also applies to shell scripts.
+Numerical exit status code of the last finished command. **For POSIX standard processes, a numerical value of 0 means that the last command was successfully executed, which also applies to shell scripts.**
 A positional parameter is a parameter denoted by one or more digits, other than the single digit 0.
 For example, the variable $1 corresponds to the first argument given to the script (positional parameter one), $2 corresponds to the second argument, and so on. If the position of a parameter is greater than nine, it must be referenced with curly braces, as in ${10}, ${11}, etc.
 Bash also features one-dimensional array variables, so a set of related elements can be stored with a single variable name. Every element in an array has a numerical index, which must be used to write and read values in the corresponding element.
@@ -60,4 +60,10 @@ $ echo ${#SIZES[*]}
 
 ### Arithmetic Expressions
 Bash provides a practical method to perform integer arithmetic operations with the builtin command expr. Two numerical variables, $VAL1 and $VAL2 for example, can be added together with the following command:
+```
+SUM=`expr $VAL1 + $VAL2`
+```
 
+Command expr can be replaced by \\\$(()), so the previous example can be rewritten as SUM=$(( $VAL1 + $VAL2 )).
+
+### Conditional Execution
