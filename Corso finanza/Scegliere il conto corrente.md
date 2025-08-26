@@ -13,3 +13,18 @@ Offerte speciali. Le banche sono alla continua ricerca di nuovi clienti.
 Situazione borderline tra un conto corrente e una carta di credito ricaricabile. Controllare che abbiam tutti i servizi: RAV, MAV, CBILL, F24, bonifici all'esterno.
 
 
+## Scegliere il conto corrente
+Servizi che un conto corrente deve offire: 
+- Bonifici gratuiti
+- F24
+- Costi fissi
+- Costi variabili
+
+Benchmark delle banche 
+
+- Banca Sella
+- Fineco
+- Intesa
+- BBVA (tante cose gratuite)
+Link utile: https://forum.finanzaonline.com
+Non fare conto cointestato, MAI! Al massimo la delega ad operare. TRD040-PC
