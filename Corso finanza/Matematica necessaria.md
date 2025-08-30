@@ -35,3 +35,11 @@ Dovremmo usare questa formula:
 
 In finanza viene definito come **Interesse composto**. 
 Formula per annualizzare i rendimenti:
+```
+(1+ rendimento)^(365/(inizio investimento - fine inv)) -1
+```
+
+### TIR (Tasso Interno di Rendimento)
+Per calcolare il rendimento di un investimento che dura nel tempo dobbiamo tenere conto proprio del tempo (t). Le cose successe prima in finanza valgono di più. 
+Per farsi che l'interesse composto abbia veramente effetto si devono avere tanti anni di investimento.
+Come possiamo tenere conto del tempo sul nostro investimento? VAN o TIR.

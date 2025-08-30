@@ -1,4 +1,4 @@
-I quattro pilastri: 
+ I quattro pilastri: 
 - Liquidità (conto corrente)
 - Fondo di emergenza
 - Spese prevedibili
