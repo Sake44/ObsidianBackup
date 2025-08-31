@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corso finanza/Scegliere il conto corrente.md",
+                "file": "Corso finanza/Obbligazioni (III Pilastro).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Scegliere il conto corrente"
+              "title": "Obbligazioni (III Pilastro)"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corso finanza/Matematica necessaria.md",
+                "file": "Corso finanza/Scegliere il giusto conto titoli.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Matematica necessaria"
+              "title": "Scegliere il giusto conto titoli"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,12 +217,14 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "5574809b9050f72c",
+  "active": "ca700ef053190820",
   "lastOpenFiles": [
+    "Corso finanza/Strategia di investimento a quattro pilastri.md",
+    "Corso finanza/Obbligazioni (III Pilastro).md",
+    "Corso finanza/Fondo d'emergenza (II Pilastro).md",
+    "Corso finanza/Scegliere il conto corrente.md",
     "Corso finanza/Scegliere il giusto conto titoli.md",
     "Corso finanza/Matematica necessaria.md",
-    "Corso finanza/Strategia di investimento a quattro pilastri.md",
-    "Corso finanza/Scegliere il conto corrente.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
     "Corso finanza",
     "README.md",
@@ -250,8 +251,6 @@
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Find systems files and place files in the correct location.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Create and change hard and symbolic links.md",
     "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard/Control mounting and unmounting of FS.md",
-    "Comptia Network+/Layer 2 - Data Link.md",
-    "Comptia Network+/Layer 1 - Physical.md",
     "Images/Pasted image 20250530114312.png",
     "Images/Pasted image 20250530095603.png",
     "Images/Pasted image 20250523171114.png",

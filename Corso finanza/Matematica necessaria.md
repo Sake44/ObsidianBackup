@@ -43,3 +43,7 @@ Formula per annualizzare i rendimenti:
 Per calcolare il rendimento di un investimento che dura nel tempo dobbiamo tenere conto proprio del tempo (t). Le cose successe prima in finanza valgono di più. 
 Per farsi che l'interesse composto abbia veramente effetto si devono avere tanti anni di investimento.
 Come possiamo tenere conto del tempo sul nostro investimento? VAN o TIR.
+Possiamo calcolare il TIR con la formula Excel XIRR:
+```
+=XIRR(inv init:prof fin;init inv;fin inv)
+```
