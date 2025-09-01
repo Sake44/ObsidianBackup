@@ -16,3 +16,8 @@ Calcolare quanti anni mancano alla scadenza.
 Vedere di quanto sono saliti/scesi i tassi rispetto alla cedola.
 Moltiplicare anni per differenza con cedola.
 
+### Rateo
+In generale, le obbligazioni pagano una cedola ogni tot tempo. Di conseguenza, un investitore potrebbe comprare il giorno prima del pagamento della cedola, incassare la cedola e vendere il giorno successivo. 
+Per evitare ciò, in finanza esiste il Rateo. Quando acquisti un obbligazione devi pagare al proprietario precedente la cedola maturata nel corso del tempo in cui l'obbligazione era in suo possesso. 
+Quando la cedola sarà pagata, dovremo pagare le tasse, quindi chiediamo al vecchio proprietario le tasse che avrebbe dovuto pagare lui, quindi la Ritenuta Rateo.
+Per le obbligazioni abbiamo due tipi di tasse diverse. Una grava sulla cedola e l'altra sulla plusvalenza. Hanno lo stesso valore **26%**. Se le obbligazioni sono governative o di enti sovranazionali le tasse su queste sono al **12,5%**.
