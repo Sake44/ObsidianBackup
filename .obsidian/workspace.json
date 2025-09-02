@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corso finanza/Obbligazioni (III Pilastro).md",
+                "file": "Corso finanza/Matematica necessaria.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obbligazioni (III Pilastro)"
+              "title": "Matematica necessaria"
             }
           }
         ],
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Corso finanza/Obbligazioni (III Pilastro).md",
+                "file": "Corso finanza/Matematica necessaria.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obbligazioni (III Pilastro)"
+              "title": "Outline of Matematica necessaria"
             }
           },
           {
@@ -243,11 +243,11 @@
   },
   "active": "3f1a19914ca09279",
   "lastOpenFiles": [
-    "Corso finanza/Matematica necessaria.md",
-    "Corso finanza/Obbligazioni (III Pilastro).md",
     "Corso finanza/Fondo d'emergenza (II Pilastro).md",
-    "Corso finanza/Scegliere il giusto conto titoli.md",
     "Corso finanza/Scegliere il conto corrente.md",
+    "Corso finanza/Scegliere il giusto conto titoli.md",
+    "Corso finanza/Obbligazioni (III Pilastro).md",
+    "Corso finanza/Matematica necessaria.md",
     "Corso finanza/Strategia di investimento a quattro pilastri.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
     "Corso finanza",
