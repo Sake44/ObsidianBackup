@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corso finanza/Matematica necessaria.md",
+                "file": "Corso finanza/9 Errori da non fare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Matematica necessaria"
+              "title": "9 Errori da non fare"
             }
           }
         ],
@@ -229,6 +229,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -243,6 +244,7 @@
   },
   "active": "3f1a19914ca09279",
   "lastOpenFiles": [
+    "Corso finanza/9 Errori da non fare.md",
     "Corso finanza/Fondo d'emergenza (II Pilastro).md",
     "Corso finanza/Scegliere il conto corrente.md",
     "Corso finanza/Scegliere il giusto conto titoli.md",
