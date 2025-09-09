@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corso finanza/Scegliere il conto corrente.md",
+                "file": "Corso finanza/Azioni.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Scegliere il conto corrente"
-            }
-          },
-          {
-            "id": "3f1a19914ca09279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corso finanza/9 Errori da non fare.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "9 Errori da non fare"
+              "title": "Azioni"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,11 +218,13 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "3f1a19914ca09279",
+  "active": "90c122e577fbe27a",
   "lastOpenFiles": [
+    "Corso finanza/Scegliere il conto corrente.md",
+    "Comptia Network+/Azioni.md",
+    "Corso finanza/Azioni.md",
     "Corso finanza/9 Errori da non fare.md",
     "Corso finanza/Fondo d'emergenza (II Pilastro).md",
-    "Corso finanza/Scegliere il conto corrente.md",
     "Corso finanza/Scegliere il giusto conto titoli.md",
     "Corso finanza/Obbligazioni (III Pilastro).md",
     "Corso finanza/Matematica necessaria.md",
