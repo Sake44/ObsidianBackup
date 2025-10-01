@@ -1,0 +1,47 @@
+# Obsidian specific folders
+.obsidian/
+.obsidian/plugins/
+.obsidian/snippets/
+.obsidian/themes/
+
+# Optional: exclude attachments or media
+attachments/
+media/
+images/
+
+# Optional: exclude private notes
+programma_Sound/
+daily_journal/
+templates/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Node modules (if using plugins with npm)
+node_modules/
+
+# Backup folders
+backup/
+Backups/
