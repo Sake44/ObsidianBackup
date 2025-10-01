@@ -18,4 +18,7 @@ Un OPA (Offerta pubblica d'acquisto) è un Operazione di borsa mediante la quale
 Se il patrimonio si concentra in una sola persona, per legge, la società deve uscire dal mercato azionario, in quanto non più appetibile nel mercato. In questo caso si può verificare l'OPA residuale. 
 
 
+**Non comprare mai azioni non quotate**. 
+
+
 

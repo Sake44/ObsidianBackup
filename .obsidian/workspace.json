@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d2cd71a3c1a4174",
+        "id": "9af66edf73b61e44",
         "type": "tabs",
         "children": [
           {
-            "id": "55d771183462ea83",
+            "id": "1109f224ffdab5c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
+                "file": "Sound/Introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Customize or write simple Scripts"
-            }
-          },
-          {
-            "id": "90c122e577fbe27a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corso finanza/Azioni.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Azioni"
+              "title": "Introduction"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,20 +193,29 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "90c122e577fbe27a",
+  "active": "1109f224ffdab5c2",
   "lastOpenFiles": [
+    "Sound/Introduction.md",
+    "Sound",
+    "programma",
+    "Untitled.base",
+    "Untitled 1.base",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "README.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
+    "OneNote/Notes/Linux/Linux Installation and Package Management/Design hardisk layout.md",
+    "Corso finanza/Azioni.md",
     "Corso finanza/Scegliere il conto corrente.md",
     "Comptia Network+/Azioni.md",
-    "Corso finanza/Azioni.md",
     "Corso finanza/9 Errori da non fare.md",
     "Corso finanza/Fondo d'emergenza (II Pilastro).md",
     "Corso finanza/Scegliere il giusto conto titoli.md",
     "Corso finanza/Obbligazioni (III Pilastro).md",
     "Corso finanza/Matematica necessaria.md",
     "Corso finanza/Strategia di investimento a quattro pilastri.md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
     "Corso finanza",
-    "README.md",
     "Images/Pasted image 20250816193121.png",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
     "2025-08-16.md",
