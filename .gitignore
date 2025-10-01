@@ -10,7 +10,7 @@ media/
 images/
 
 # Optional: exclude private notes
-programma_Sound/
+Sound/
 daily_journal/
 templates/
 
