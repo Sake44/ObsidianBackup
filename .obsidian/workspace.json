@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sound/Introduction.md",
+                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Startup files.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Startup files"
             }
           }
         ]
@@ -195,7 +195,11 @@
   },
   "active": "1109f224ffdab5c2",
   "lastOpenFiles": [
-    "Sound/Introduction.md",
+    "AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
+    "AWS/AI-Practicioner/Reinforcement Learning (RL).md",
+    "Sound/Employer Branding.md",
+    "AWS/AI-Practicioner",
+    "AWS",
     "Sound",
     "programma",
     "Untitled.base",
