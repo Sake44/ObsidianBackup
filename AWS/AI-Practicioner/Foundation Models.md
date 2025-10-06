@@ -1,0 +1,1 @@
+Foundation models are large-scale deep learning models trained on vast amounts of data.

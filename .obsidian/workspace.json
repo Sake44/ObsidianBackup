@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Startup files.md",
+                "file": "AWS/AI-Practicioner/Foundation Models.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Startup files"
+              "title": "Foundation Models"
             }
           }
         ]
@@ -196,7 +196,9 @@
   "active": "1109f224ffdab5c2",
   "lastOpenFiles": [
     "AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
+    "AWS/AI-Practicioner/Foundation Models.md",
     "AWS/AI-Practicioner/Reinforcement Learning (RL).md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Startup files.md",
     "Sound/Employer Branding.md",
     "AWS/AI-Practicioner",
     "AWS",
@@ -223,7 +225,6 @@
     "Images/Pasted image 20250816193121.png",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
     "2025-08-16.md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/Startup files.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/The origin of Startup Files.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Interactive vs Non-Interactive.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
