@@ -1,34 +1,20 @@
 {
   "main": {
-    "id": "aacb1b8268c9e30a",
+    "id": "a58dd2df367eed32",
     "type": "split",
     "children": [
       {
-        "id": "9af66edf73b61e44",
+        "id": "ef6f518cb654505c",
         "type": "tabs",
         "children": [
           {
-            "id": "1109f224ffdab5c2",
+            "id": "7f15c0b9332bd761",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/AI-Practicioner/Foundation Models.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Foundation Models"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -37,33 +23,33 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "dd448d040dbfc353",
+    "id": "99cf08b8e8ff94d8",
     "type": "split",
     "children": [
       {
-        "id": "a64f5f1992ce0f98",
+        "id": "9a692f316b9cf1f0",
         "type": "tabs",
         "children": [
           {
-            "id": "a715a1f4267ae0a9",
+            "id": "4f8607c7ef4587ad",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
-            "id": "2c785eae9ca6be74",
+            "id": "5bba87d1d95c627b",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "script",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +61,7 @@
             }
           },
           {
-            "id": "5f81e0cbd9a1aba3",
+            "id": "627d331a1b9c8f43",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,23 +74,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 397.5
   },
   "right": {
-    "id": "8475edfe2fa6fc1c",
+    "id": "85bf4ab8e91bae0c",
     "type": "split",
     "children": [
       {
-        "id": "5617f655b9972c48",
+        "id": "addc3d439ee9710e",
         "type": "tabs",
         "children": [
           {
-            "id": "fe6ada1b626cc5b9",
+            "id": "28765f4048a7da23",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Customize and use the shell env"
+              "title": "Backlinks for Welcome"
             }
           },
           {
-            "id": "8779e77321f48bfe",
+            "id": "67e54ba3fc9d5c72",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Customize and use the shell env"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "af1491ee051d0f65",
+            "id": "cf04a8234e60414c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,26 +129,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etichette"
             }
           },
           {
-            "id": "ea163ce60709ef36",
+            "id": "c4ff3569e21b736e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Corso finanza/Matematica necessaria.md",
+                "file": "OneNote/Blocco appunti di Andrea/Linux/GNU and Unix Commands/Finding your Environment Variables.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Matematica necessaria"
+              "title": "Struttura di Finding your Environment Variables"
             }
           },
           {
-            "id": "25c4b6da1fd1817b",
+            "id": "5bcd2f82cb5370b7",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -176,59 +162,73 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
       "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "local-backup:Run local backup": false
     }
   },
-  "active": "1109f224ffdab5c2",
+  "active": "7f15c0b9332bd761",
   "lastOpenFiles": [
-    "AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
-    "AWS/AI-Practicioner/Foundation Models.md",
-    "AWS/AI-Practicioner/Reinforcement Learning (RL).md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/Startup files.md",
-    "Sound/Employer Branding.md",
-    "AWS/AI-Practicioner",
-    "AWS",
-    "Sound",
-    "programma",
-    "Untitled.base",
-    "Untitled 1.base",
-    "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
-    "Untitled.canvas",
-    "Untitled 1.canvas",
-    "README.md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
-    "OneNote/Notes/Linux/Linux Installation and Package Management/Design hardisk layout.md",
-    "Corso finanza/Azioni.md",
-    "Corso finanza/Scegliere il conto corrente.md",
-    "Comptia Network+/Azioni.md",
-    "Corso finanza/9 Errori da non fare.md",
-    "Corso finanza/Fondo d'emergenza (II Pilastro).md",
     "Corso finanza/Scegliere il giusto conto titoli.md",
+    "OneNote/Notes/Linux/Variable.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Reinforcement Learning (RL).md",
+    "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
+    "OneNote/Notes/AWS/AI-Practicioner",
+    "AWS",
     "Corso finanza/Obbligazioni (III Pilastro).md",
-    "Corso finanza/Matematica necessaria.md",
+    "Corso finanza/Azioni.md",
+    "Corso finanza/9 Errori da non fare.md",
     "Corso finanza/Strategia di investimento a quattro pilastri.md",
+    "Corso finanza/Fondo d'emergenza (II Pilastro).md",
+    "Corso finanza/Scegliere il conto corrente.md",
+    "Corso finanza/Matematica necessaria.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
     "Corso finanza",
-    "Images/Pasted image 20250816193121.png",
+    "README.md",
+    "OneNote/Notes/Linux/Turning commands into Script/Handle Many Arguments.md",
+    "Evernote/My Notes/Docker & K8s.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
-    "2025-08-16.md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/The origin of Startup Files.md",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/Interactive vs Non-Interactive.md",
+    "OneNote/Notes/Linux/Turning commands into Script/Best Practice.md",
+    "OneNote/Notes/AWS/AWS CAF.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Startup files.md",
+    "OneNote/Notes/Networking/A Network of Networks.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Launching shells with su and sudo.md",
+    "OneNote/Notes/Linux/Shells and Shell Scripting/Interactive vs Non-Interactive.md",
+    "Images/Pasted image 20250816193121.png",
     "Comptia Network+/Upper Layers.md",
-    "Comptia Network+/Layer 4 - Transport.md"
+    "Comptia Network+/Layer 4 - Transport.md",
+    "Comptia Network+/Layer 3 - Network.md",
+    "Images/Pasted image 20250613093744.png",
+    "Images/Pasted image 20250717110831.png",
+    "Images/Pasted image 20250702094415.png",
+    "OneNote/Notes/Linux/Shells and Shell Scripting",
+    "Images/Pasted image 20250530114312.png",
+    "Images/Pasted image 20250530095603.png",
+    "Images/Pasted image 20250523171114.png",
+    "Untitled.canvas",
+    "OneNote/Notes/Linux/Devices, Linux FSs, FS Hierarchy Standard",
+    "Pasted image 20250523171114.png",
+    "Pasted image 20250530114312.png",
+    "Pasted image 20250530095603.png",
+    "Comptia Network+",
+    "Images",
+    "OneNote/Notes/Networking/Untitled",
+    "OneNote/Notes/Linux/Create, monitor and kill processes",
+    "OneNote/Notes/Linux/GNU and Unix Commands",
+    "Senza nome.canvas",
+    "OneNote/Blocco appunti di Andrea/Linux/Senza nome.canvas"
   ]
 }
