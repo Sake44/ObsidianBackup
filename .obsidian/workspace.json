@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ca5cfb1217297cfa",
+        "id": "209dbb923b2cbc1b",
         "type": "tabs",
         "children": [
           {
-            "id": "e037e5061f3cd687",
+            "id": "e82cc798f3aaf9f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OneNote/Notes/AWS/AI-Practicioner/Machine Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Machine Learning"
             }
           }
         ]
@@ -74,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 402.5
   },
   "right": {
     "id": "8475edfe2fa6fc1c",
@@ -179,15 +193,21 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "e037e5061f3cd687",
+  "active": "e82cc798f3aaf9f8",
   "lastOpenFiles": [
-    "Images/Pasted image 20251010093741.png",
-    "OneNote/Notes/AWS/AI-Practicioner/Generative AI Concept.md",
-    "Images/Pasted image 20251010094457.png",
+    "OneNote/Notes/AWS/AI-Practicioner/Generative AI.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Machine Learning.md",
+    "Pasted image 20251013133332.png",
     "OneNote/Notes/AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Reinforcement Learning (RL).md",
-    "Sound/Corporate Branding.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Generative AI Concept.md",
     "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
+    "OneNote/Notes/AWS/AI-Practicioner/AI Applications.md",
+    "[Supervised and Unsupervised ML.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Reinforcement Learning (RL).md",
+    "OneNote/Notes/AWS/AI-Practicioner/Real Use cases.md",
+    "Images/Pasted image 20251010093741.png",
+    "Images/Pasted image 20251010094457.png",
+    "Sound/Corporate Branding.md",
     "OneNote/Notes/AWS/AI-Practicioner",
     "Sound/Employer Branding.md",
     "AWS/AI-Practicioner/Foundation Models.md",
@@ -213,11 +233,7 @@
     "Corso finanza/Fondo d'emergenza (II Pilastro).md",
     "Corso finanza/Scegliere il giusto conto titoli.md",
     "Corso finanza/Obbligazioni (III Pilastro).md",
-    "Corso finanza/Matematica necessaria.md",
-    "Corso finanza/Strategia di investimento a quattro pilastri.md",
     "Corso finanza",
-    "Images/Pasted image 20250816193121.png",
-    "OneNote/Notes/Linux/Shells and Shell Scripting/Customize and use the shell env.md",
-    "2025-08-16.md"
+    "Images/Pasted image 20250816193121.png"
   ]
 }
