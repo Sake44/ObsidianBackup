@@ -37,3 +37,10 @@ The main types of data used in training are **structured** and **unstructured da
 
 - Structured data refers to data that is organized and formatted in a predefined manner, typically in the form of tables or databases with rows and columns.
 - Unstructured data is data that lacks a predefined structure or format, such as text, images, audio, and video. This type of data requires more advanced machine learning techniques to extract meaningful patterns and insights.
+
+**TO BE CONTINUED**
+
+### Most important FM
+
+![[Pasted image 20251013150530.png]]
+
