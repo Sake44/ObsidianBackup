@@ -38,7 +38,23 @@ The main types of data used in training are **structured** and **unstructured da
 - Structured data refers to data that is organized and formatted in a predefined manner, typically in the form of tables or databases with rows and columns.
 - Unstructured data is data that lacks a predefined structure or format, such as text, images, audio, and video. This type of data requires more advanced machine learning techniques to extract meaningful patterns and insights.
 
-**TO BE CONTINUED**
+### Inferencing 
+
+After the model has been trained, it is time to begin the process of using the information that a model has learned to make predictions or decisions. There are two main types of inferencing in ML: 
+1. **Batch Inferencing**: Batch inferencing is when the computer takes a large amount of data, such as images or text, and analyzes it all at once to provide a set of results. This type of inferencing is often used for tasks like data analysis, where the speed of the decision-making process is not as crucial as the accuracy of the results.
+2. **Real-time inferencing**: Real-time inferencing is when the computer has to make decisions quickly, in response to new information as it comes in. This is important for applications where immediate decision-making is critical, such as in chatbots or self-driving cars. The computer has to process the incoming data and make a decision almost instantaneously, without taking the time to analyze a large dataset.
+
+
+## Deep Learning
+
+The field of deep learning is inspired by the structure and function of the brain. It involves the use of artificial neural networks, which are computational models that are designed to mimic the way human brain processes information. 
+
+### Neural Networks
+At the core of deep learning are neural networks. Just like our brains have neurons that are connected to each other, neural networks have lots of tiny units called nodes that are connected together. These nodes are organized into layers. The layers include an input layer, one or more hidden layers, and an output layer.
+
+![[Pasted image 20251015154955.png]]
+
+When a neural network learns to recognize these patterns from the examples, it can then look at data for completely new customers that it has never seen before and still make predictions about what they might buy or how they might behave.
 
 ### Most important FM
 

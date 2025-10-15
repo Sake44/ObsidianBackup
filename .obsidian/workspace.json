@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/AWS/AI-Practicioner/Machine Learning.md",
+                "file": "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Machine Learning"
+              "title": "Foundation Models"
             }
           }
         ]
@@ -195,12 +195,13 @@
   },
   "active": "e82cc798f3aaf9f8",
   "lastOpenFiles": [
-    "Pasted image 20251013150530.png",
-    "OneNote/Notes/AWS/AI-Practicioner/Untitled.md",
     "OneNote/Notes/AWS/AI-Practicioner/Machine Learning.md",
+    "Pasted image 20251015154955.png",
+    "OneNote/Notes/AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Untitled.md",
+    "Pasted image 20251013150530.png",
     "OneNote/Notes/AWS/AI-Practicioner/Generative AI.md",
     "Pasted image 20251013133332.png",
-    "OneNote/Notes/AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
     "OneNote/Notes/AWS/AI-Practicioner/Generative AI Concept.md",
     "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
     "OneNote/Notes/AWS/AI-Practicioner/AI Applications.md",
