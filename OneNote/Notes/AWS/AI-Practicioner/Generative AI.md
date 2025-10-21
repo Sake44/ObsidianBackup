@@ -17,3 +17,7 @@ Some of the key factors to consider when selecting an appropriate generative AI 
 - Constraints
 - Compliance
 - Cost: another key factor is cost. GenAI models can vary in terms of cost. Larger models are usually more precise, but they are expensive and offer few deployment options. 
+
+### Generative AI vs Traditional AI
+**Traditional machine learning models** perform tasks based on the data you provide. They can make predictions such as ranking, sentiment analysis, image classification, and more. However, each model can perform only one task. And to successfully do it, the model needs to be carefully trained on the data.
+**Generative artificial intelligence (generative AI)** runs on foundation models (FMs). These models are pre-trained on massive amounts of general domain data that is beyond your own data. They can perform multiple tasks. Based on user input, usually in the form of text called a prompt, the model actually generates content. This content comes from learning patterns and relationships that empower the model to predict the desired outcome.

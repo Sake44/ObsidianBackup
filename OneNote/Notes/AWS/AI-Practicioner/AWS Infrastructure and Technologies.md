@@ -7,14 +7,14 @@ Next is the AI/ML services layer, where you find a wide array of specialized ser
 Below most common. 
 
 ### Text and Documents domain
-- Amazon Comprehend: natural language processing
-- Amazon Translate: language translation
-- Amazon Textract: extract data from scanned documents
+- **Amazon Comprehend**: natural language processing
+- **Amazon Translate**: language translation
+- **Amazon Textract**: extract data from scanned documents
 ### Chatbots domain
-- Amazon Lex: to build conversational interfaces powered by the same deep learning technologies that drive Amazon Alexa.
+- **Amazon Lex**: to build conversational interfaces powered by the same deep learning technologies that drive Amazon Alexa.
 ### Speech domain
-- Amazon Polly: text to speech
-- Amazon Transcribe: automatic speech recognition
+- **Amazon Polly**: text to speech
+- **Amazon Transcribe**: automatic speech recognition
 ### Vision domain
 - Amazon Rekognition: deep learning-based computer vision service that can analyze images and videos for a wide range of applications
 - Amazon Kendra: reimagines enterprise search for websites and applications so that individuals can readily find the content they are looking for.
