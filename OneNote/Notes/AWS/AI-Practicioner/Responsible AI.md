@@ -35,4 +35,5 @@ Just as generative AI has its unique set of benefits, it also has a unique set o
 - Intellectual property: Protecting intellectual property was a problem with early LLMs. This was because the LLMs had a tendency to occasionally produce text or code passages that were verbatim of parts of their training data, resulting in privacy and other concerns.
 - Plagiarism and cheating: The creative capabilities of generative AI give rise to worries that it will be used to write college essays, writing samples for job applications. Some are in favor of explicitly forbidding any use of generative AI in settings where content is being graded or evaluated, while others argue that educational practices must adapt to, and even embrace, the new technology.
 - Disruption of the nature of work: The proficiency with which generative AI is able to create compelling text and images, perform well on standardized tests, write entire articles on given topics, and successfully summarize or improve the grammar of provided articles has created some anxiety. There is a concern that some professions might be replaced or seriously disrupted by the technology.
-- 
+
+### Core dimensions of responsible AI
