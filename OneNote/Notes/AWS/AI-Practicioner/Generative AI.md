@@ -17,5 +17,3 @@ Some of the key factors to consider when selecting an appropriate generative AI 
 - Constraints
 - Compliance
 - Cost: another key factor is cost. GenAI models can vary in terms of cost. Larger models are usually more precise, but they are expensive and offer few deployment options. 
-
-### Business Metrics for GenAI

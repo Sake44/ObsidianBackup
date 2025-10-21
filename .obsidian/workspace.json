@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
+                "file": "OneNote/Notes/AWS/AI-Practicioner/AWS Infrastructure and Technologies.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Foundation Models"
+              "title": "AWS Infrastructure and Technologies"
             }
           }
         ]
@@ -195,17 +195,19 @@
   },
   "active": "e82cc798f3aaf9f8",
   "lastOpenFiles": [
+    "OneNote/Notes/AWS/AI-Practicioner/Generative AI.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Optimizing model outputs.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Machine Learning.md",
+    "OneNote/Notes/AWS/AI-Practicioner/AWS Infrastructure and Technologies.md",
+    "Pasted image 20251021104523.png",
     "Pasted image 20251016115142.png",
     "Pasted image 20251016114723.png",
-    "OneNote/Notes/AWS/AI-Practicioner/Machine Learning.md",
     "Pasted image 20251015154955.png",
     "OneNote/Notes/AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Untitled.md",
     "Pasted image 20251013150530.png",
-    "OneNote/Notes/AWS/AI-Practicioner/Generative AI.md",
     "Pasted image 20251013133332.png",
     "OneNote/Notes/AWS/AI-Practicioner/Generative AI Concept.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
     "OneNote/Notes/AWS/AI-Practicioner/AI Applications.md",
     "[Supervised and Unsupervised ML.md",
     "OneNote/Notes/AWS/AI-Practicioner/Reinforcement Learning (RL).md",
@@ -235,7 +237,6 @@
     "Corso finanza/Scegliere il conto corrente.md",
     "Comptia Network+/Azioni.md",
     "Corso finanza/9 Errori da non fare.md",
-    "Corso finanza/Fondo d'emergenza (II Pilastro).md",
     "Corso finanza",
     "Images/Pasted image 20250816193121.png"
   ]

@@ -60,3 +60,5 @@ When a neural network learns to recognize these patterns from the examples, it c
 
 ![[Pasted image 20251013150530.png]]
 
+### Machine Learning frameworks
+The ML frameworks layer plays a crucial role in the development and deployment of machine learning models. At the core of the frameworks layer is Amazon SageMaker AI. SageMaker AI offers the right tools to effectively build, train, and run LLMs and other FMs efficiently and cost effectively.
