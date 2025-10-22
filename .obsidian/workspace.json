@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "98956c504b8f6a28",
+        "id": "b5ce954c31118e40",
         "type": "tabs",
         "children": [
           {
-            "id": "d2d392d7498b5727",
+            "id": "cc4acf96389f7d70",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "OneNote/Notes/AWS/AI-Practicioner/Responsible AI.md",
-                "bFile": "OneNote/Notes/AWS/AI-Practicioner/Responsible AI.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Responsible AI"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -183,12 +179,16 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "d2d392d7498b5727",
+  "active": "cc4acf96389f7d70",
   "lastOpenFiles": [
+    "Images/Pasted image 20251022113222.png",
     "OneNote/Notes/AWS/AI-Practicioner/Responsible AI.md",
-    "Pasted image 20251021120028.png",
-    "OneNote/Notes/AWS/AI-Practicioner/Generative AI.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Reinforcement Learning (RL).md",
+    "OneNote/Notes/AWS/AI-Practicioner/Principles of Human-Centered Design.md",
+    "OneNote/Notes/AWS/AI-Practicioner/Responsible Preparation for Datasets.md",
     "OneNote/Notes/AWS/AI-Practicioner/AWS Infrastructure and Technologies.md",
+    "Images/Pasted image 20251021120028.png",
+    "OneNote/Notes/AWS/AI-Practicioner/Generative AI.md",
     "Images/Pasted image 20251021104523.png",
     "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
     "OneNote/Notes/AWS/AI-Practicioner/Optimizing model outputs.md",
@@ -202,7 +202,6 @@
     "OneNote/Notes/AWS/AI-Practicioner/Generative AI Concept.md",
     "OneNote/Notes/AWS/AI-Practicioner/AI Applications.md",
     "[Supervised and Unsupervised ML.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Reinforcement Learning (RL).md",
     "OneNote/Notes/AWS/AI-Practicioner/Real Use cases.md",
     "Images/Pasted image 20251010093741.png",
     "Images/Pasted image 20251010094457.png",
@@ -226,9 +225,6 @@
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management/Design hardisk layout.md",
     "Corso finanza/Azioni.md",
-    "Corso finanza/Scegliere il conto corrente.md",
-    "Comptia Network+/Azioni.md",
-    "Corso finanza",
-    "Images/Pasted image 20250816193121.png"
+    "Corso finanza"
   ]
 }
