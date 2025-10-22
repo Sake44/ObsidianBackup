@@ -13,6 +13,7 @@ images/
 Sound/
 daily_journal/
 templates/
+Architects-Capgemini/
 
 # System files
 .DS_Store
@@ -45,3 +46,4 @@ node_modules/
 # Backup folders
 backup/
 Backups/
+
