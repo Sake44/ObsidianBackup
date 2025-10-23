@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evernote/My Notes/Git command.md",
+                "file": "Comptia Network+/Upper Layers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git command"
+              "title": "Upper Layers"
             }
           }
         ]
@@ -195,6 +195,9 @@
   },
   "active": "7f15c0b9332bd761",
   "lastOpenFiles": [
+    "Evernote/My Notes/CKA (Certified K8s Administrator).md",
+    "Evernote/My Notes/Cyber Security 101 - TryHackMe.md",
+    "Evernote/My Notes/Git command.md",
     "Evernote/My Notes/Spring Boot.md",
     "Evernote/My Notes/Useful chat with AI.md",
     "OneNote/Notes/Networking/Network LayerSubnetRouting.md",
@@ -228,9 +231,6 @@
     "AWS",
     "Corso finanza/Obbligazioni (III Pilastro).md",
     "Corso finanza/Azioni.md",
-    "Corso finanza/9 Errori da non fare.md",
-    "Corso finanza/Strategia di investimento a quattro pilastri.md",
-    "Corso finanza/Fondo d'emergenza (II Pilastro).md",
     "Corso finanza",
     "Images/Pasted image 20250816193121.png",
     "Images/Pasted image 20250613093744.png",
