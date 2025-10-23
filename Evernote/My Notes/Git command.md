@@ -36,33 +36,52 @@ Clicca su "Generate new token".
 Dai un nome al tuo token e seleziona le autorizzazioni necessarie (almeno repo per accedere ai repository privati).
 Clicca su "Generate token" e copia il token generato (conserva questo token in un luogo sicuro).
 
+```
 git branch
-List branches (the asterisk
-denotes the current branch)
+```
+List branches (the asterisk denotes the current branch)
+```
 git branch -a
+```
 List all branches (local and
 remote)
+```
 git branch \[branch name\] Create a new branch
+```
+```
 git branch -d \[branch name\] Delete a branch
+```
+```
 git push origin --delete \[branch name\] Delete a remote branch
+```
+```
 git checkout -b \[branch name\]
-Create a new branch and switch
-to it
-git checkout -b \[branch name\]
-origin/\[branch name\]
-Clone a remote branch and
-switch to it
-git branch -m \[old branch name\] \[new
-branch name\]
+```
+Create a new branch and switch to it
+```
+git checkout -b \[branch name\] origin/\[branch name\]
+```
+Clone a remote branch and switch to it
+```
+git branch -m \[old branch name\] \[new branch name\]
+```
 Rename a local branch
-git checkout \[branch name\] Switch to a branch
+```
+git checkout \[branch name\] 
+```
+Switch to a branch
+```
 git checkout -
-Switch to the branch last
-checked out
-git checkout -- \[file-name.txt\] Discard changes to a file
+```
+Switch to the branch last checked out
+```
+git checkout -- \[file-name.txt\] 
+```
+Discard changes to a file
+```
 git merge \[branch name\]
-Merge a branch into the active
-branch
+```
+Merge a branch into the active branch
 
 Merge a branch into a target branch
 ```
