@@ -11,10 +11,24 @@
             "id": "cc4acf96389f7d70",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Architects-Capgemini/What is an Architect.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "What is an Architect"
             }
           }
         ]
@@ -181,6 +195,13 @@
   },
   "active": "cc4acf96389f7d70",
   "lastOpenFiles": [
+    "Pasted image 20251022154527.png",
+    "Pasted image 20251022150117.png",
+    "Pasted image 20251022145946.png",
+    "Images/Pasted image 20251022145757.png",
+    "Images/Pasted image 20251022141845.png",
+    "Architects-Capgemini/What is an Architect.md",
+    "Architects-Capgemini",
     "Images/Pasted image 20251022113222.png",
     "OneNote/Notes/AWS/AI-Practicioner/Responsible AI.md",
     "OneNote/Notes/AWS/AI-Practicioner/Reinforcement Learning (RL).md",
@@ -197,14 +218,10 @@
     "Images/Pasted image 20251016114723.png",
     "Images/Pasted image 20251015154955.png",
     "OneNote/Notes/AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
-    "Images/Pasted image 20251013150530.png",
-    "Images/Pasted image 20251013133332.png",
     "OneNote/Notes/AWS/AI-Practicioner/Generative AI Concept.md",
     "OneNote/Notes/AWS/AI-Practicioner/AI Applications.md",
     "[Supervised and Unsupervised ML.md",
     "OneNote/Notes/AWS/AI-Practicioner/Real Use cases.md",
-    "Images/Pasted image 20251010093741.png",
-    "Images/Pasted image 20251010094457.png",
     "Sound/Corporate Branding.md",
     "OneNote/Notes/AWS/AI-Practicioner",
     "Sound/Employer Branding.md",
@@ -224,7 +241,6 @@
     "README.md",
     "OneNote/Notes/Linux/Shells and Shell Scripting/Customize or write simple Scripts.md",
     "OneNote/Notes/Linux/Linux Installation and Package Management/Design hardisk layout.md",
-    "Corso finanza/Azioni.md",
     "Corso finanza"
   ]
 }
