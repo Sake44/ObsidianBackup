@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/AWS/Solutions Architect/Cloud Storage.md",
+                "file": "AWS - Solutions Architect/Cloud Storage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OneNote/Notes/AWS/Solutions Architect/Cloud Storage.md",
+                "file": "AWS - Solutions Architect/Cloud Storage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -241,12 +241,12 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "9bee86c3e92c6495",
+  "active": "a715a1f4267ae0a9",
   "lastOpenFiles": [
     "OneNote/Notes/AWS/Choosing the Right Storage Service.md",
-    "OneNote/Notes/AWS/Solutions Architect/Database Services.md",
+    "AWS - Solutions Architect/Database Services.md",
     "OneNote/Notes/AWS/RDS.md",
-    "OneNote/Notes/AWS/Solutions Architect/Cloud Storage.md",
+    "AWS - Solutions Architect/Cloud Storage.md",
     "OneNote/Notes/AWS/S3 (Object Storage).md",
     "Untitled 1.base",
     "Untitled.base",
@@ -257,14 +257,14 @@
     "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "Images/Pasted image 20251026154908.png",
     "Images/Pasted image 20251026154645.png",
-    "OneNote/Notes/AWS/Solutions Architect/Serverless.md",
+    "AWS - Solutions Architect/Serverless.md",
     "Images/Pasted image 20251026154307.png",
     "OneNote/Notes/AWS/Serverless.md",
-    "OneNote/Notes/AWS/Solutions Architect/Networking.md",
-    "OneNote/Notes/AWS/Solutions Architect/Container Services.md",
+    "AWS - Solutions Architect/Networking.md",
+    "AWS - Solutions Architect/Container Services.md",
     "Evernote/My Notes/Useful chat with AI.md",
     "OneNote/Notes/AWS/Shared Responsibility Model.md",
-    "OneNote/Notes/AWS/Solutions Architect/Shared Responsibility Model.md",
+    "AWS - Solutions Architect/Shared Responsibility Model.md",
     "OneNote/Notes/AWS/ECS and EKS.md",
     "Images/Pasted image 20251026153827.png",
     "Images/Pasted image 20251026153710.png",
@@ -282,9 +282,9 @@
     "Images/Pasted image 20251026104102.png",
     "Images/Pasted image 20251026103732.png",
     "Images/Pasted image 20251026103713.png",
-    "OneNote/Notes/AWS/Solutions Architect",
+    "AWS - Solutions Architect",
     "Architects-Capgemini",
-    "OneNote/Notes/AWS/AI-Practicioner",
+    "AWS - AI Practicioner",
     "AWS/AI-Practicioner",
     "AWS",
     "Sound",
