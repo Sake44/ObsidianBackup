@@ -1,11 +1,7 @@
 Object storage is built for the cloud and delivers virtually unlimited scalability, high durability, and cost effectiveness.
  
 **Amazon S3**  
-Unlike Amazon EBS, Amazon Simple Storage Service (Amazon S3) is a standalone storage solution that isn’t tied to compute. With Amazon S3, you can retrieve your data from anywhere on the web. If you have used an online storage service to back up the data from your local machine, you most likely have used a service similar to Amazon S3. The big difference between those online storage services and Amazon S3 is the storage type.
- 
-Amazon S3 is an object storage service. Object storage stores data in a flat structure. An object is a file combined with metadata. You can store as many of these objects as you want. All the characteristics of object storage are also characteristics of Amazon S3.
-
-In Amazon S3, you store your objects in containers called buckets. You can’t upload an object, not even a single photo, to Amazon S3 without creating a bucket first. When you store an object in a bucket, the combination of a bucket name, key, and version ID uniquely identifies the object.  
+ When you store an object in a bucket, the combination of a bucket name, key, and version ID uniquely identifies the object.  
  
 **Object key names**  
 The object key (key name) uniquely identifies the object in an Amazon S3 bucket. When you create an object, you specify the key name. As described earlier, the Amazon S3 model is a flat structure, meaning there is no hierarchy of subbuckets or subfolders. However, the Amazon S3 console does support the concept of folders. By using key name prefixes and delimiters, you can imply a logical hierarchy.  
@@ -13,59 +9,13 @@ The object key (key name) uniquely identifies the object in an Amazon S3 bucket.
 
 **Amazon S3 use cases**
  
-Amazon S3 is a widely used storage service, with far more use cases than could fit on one screen.
- 
-**Backup and storage**
- 
-Amazon S3 is a natural place to back up files because it is highly redundant. As mentioned in the last lesson, AWS stores your EBS snapshots in Amazon S3 to take advantage of its high availability.
- >  
 
-**Media hosting**
- 
-Because you can store unlimited objects, and each individual object can be up to 5 TB, Amazon S3 is an ideal location to host video, photo, and music uploads.
- 
-**Software delivery**
- 
-You can use Amazon S3 to host your software applications that customers can download.
-   
-
-**Data lakes**
- 
-Amazon S3 is an optimal foundation for a data lake because of its virtually unlimited scalability. You can increase storage from gigabytes to petabytes of content, paying only for what you use.
-   
-
-**Static websites**
- 
-You can configure your S3 bucket to host a static website of HTML, CSS, and client-side scripts.
- 
-**Static content**
- 
-Because of the limitless scaling, the support for large files, and the fact that you can access any object over the web at any time, Amazon S3 is the perfect place to store static content.
 
 **Amazon S3 and IAM policies**  
 Previously, you learned about creating and using AWS Identity and Access Management (IAM) policies. Now you can apply that knowledge to Amazon S3. When IAM policies are attached to your resources (buckets and objects) or IAM users, groups, and roles, the policies define which actions they can perform. Access policies that you attach to your resources are referred to as _resource-based policies_ and access policies attached to users in your account are called _user policie_**s**.
  
-**Amazon S3 encryption**  
-Amazon S3 reinforces encryption in transit (as it travels to and from Amazon S3) and at rest. To protect data, Amazon S3 automatically encrypts all objects on upload and applies server-side encryption with S3-managed keys as the base level of encryption for every bucket in Amazon S3 at no additional cost.
- 
-**Amazon S3 bucket policies**  
-Like IAM policies, S3 bucket policies are defined in a JSON format. Unlike IAM policies, which are attached to resources and users, S3 bucket policies can only be attached to S3 buckets. The policy that is placed on the bucket applies to every object in that bucket. S3 bucket policies specify what actions are allowed or denied on the bucket.
- >  
-
-==You should use S3 bucket policies in the following scenarios:==
-
-- ==You need a simple way to do cross-account access to Amazon S3, without using IAM roles.==
-- ==Your IAM policies bump up against the defined size limit. S3 bucket policies have a larger size limit.==
-
-==For examples of bucket policies, see the== ==Bucket Policy Examples== ==link here or in the resources section.==
- 
-**Amazon S3 encryption**  
-Amazon S3 reinforces encryption in transit (as it travels to and from Amazon S3) and at rest. To protect data, Amazon S3 automatically encrypts all objects on upload and applies server-side encryption with S3-managed keys as the base level of encryption for every bucket in Amazon S3 at no additional cost.
 
 ==Storage Classes==
-    
-|
-|
 ==Storage Class== ==Description==
 ==S3 Standard== ==This is considered general-purpose storage for cloud applications, dynamic websites, content distribution, mobile and gaming applications, and big data analytics.==
 ==S3 Intelligent-Tiering== ==This tier is useful if your data has unknown or changing access patters. S3 Intelligent-Tiering stores objects in three tiers: a frequent access tier, an infrequent access tier, and an archive instance access tier. Amazon S3 monitors access patterns of your data and automatically moves your data to the most cost-effective storage tier based on frequency of access.==
@@ -92,8 +42,3 @@ If you keep manually changing your objects, such as your employee photos, from s
 [(opens in a new tab)](https://aws.amazon.com/s3/)  
 For more information, see the following resources:
 
-- AWS website: [Amazon S3](https://aws.amazon.com/s3/)
-- AWS website: [Amazon S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
-- AWS user guide: [Using Versioning in S3 Buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html)
-- AWS user guide: [Bucket Naming Rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
-- AWS user guide: [Bucket Policy Examples](https://docs.aws.amazon.com/en_us/AmazonS3/latest/userguide/example-bucket-policies.html)

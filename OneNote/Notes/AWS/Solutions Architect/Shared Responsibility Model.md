@@ -1,7 +1,7 @@
-==AWS is responsible for security of the cloud. This means that AWS protects and secures the infrastructure that runs the services offered in the AWS Cloud. AWS is responsible for the following:==
+AWS is responsible for security of the cloud. This means that AWS protects and secures the infrastructure that runs the services offered in the AWS Cloud. AWS is responsible for the following:
 
-- ==Protecting and securing AWS Regions, Availability Zones, and data centers, down to the physical security of the buildings==
-- ==Managing the hardware, software, and networking components that run AWS services, such as the physical servers, host operating systems, virtualization layers, and AWS networking components==
+- Protecting and securing AWS Regions, Availability Zones, and data centers, down to the physical security of the buildings
+- Managing the hardware, software, and networking components that run AWS services, such as the physical servers, host operating systems, virtualization layers, and AWS networking components
    
 ![The AWS shared responsibility model shows the division of customer responsibilities and AWS responsibilities.](Exported%20image%2020250315115712-0.png)
 

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cc4acf96389f7d70",
+            "id": "9bee86c3e92c6495",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/AWS/Solutions Architect/Amazon VPC.md",
+                "file": "OneNote/Notes/AWS/Solutions Architect/Cloud Storage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Amazon VPC"
+              "title": "Cloud Storage"
+            }
+          },
+          {
+            "id": "cc4acf96389f7d70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OneNote/Notes/AWS/RDS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RDS"
             }
           },
           {
@@ -87,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "EBS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Corso finanza/Matematica necessaria.md",
+                "file": "OneNote/Notes/AWS/Solutions Architect/Cloud Storage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Matematica necessaria"
+              "title": "Outline of Cloud Storage"
             }
           },
           {
@@ -217,55 +241,55 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "a715a1f4267ae0a9",
+  "active": "9bee86c3e92c6495",
   "lastOpenFiles": [
+    "OneNote/Notes/AWS/Choosing the Right Storage Service.md",
+    "OneNote/Notes/AWS/Solutions Architect/Database Services.md",
+    "OneNote/Notes/AWS/RDS.md",
+    "OneNote/Notes/AWS/Solutions Architect/Cloud Storage.md",
+    "OneNote/Notes/AWS/S3 (Object Storage).md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "OneNote/Notes/AWS/Ec2 Instance Lifecycle.md",
+    "OneNote/Notes/AWS/Storage Types.md",
+    "OneNote/Notes/AWS/EFS (Elastic File System).md",
+    "OneNote/Notes/AWS/EBS (Elastic Block Store).md",
+    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
+    "Pasted image 20251026154908.png",
+    "Pasted image 20251026154645.png",
+    "OneNote/Notes/AWS/Solutions Architect/Serverless.md",
+    "Pasted image 20251026154307.png",
+    "OneNote/Notes/AWS/Serverless.md",
+    "OneNote/Notes/AWS/Solutions Architect/Networking.md",
+    "OneNote/Notes/AWS/Solutions Architect/Container Services.md",
+    "Evernote/My Notes/Useful chat with AI.md",
+    "OneNote/Notes/AWS/Shared Responsibility Model.md",
+    "OneNote/Notes/AWS/Solutions Architect/Shared Responsibility Model.md",
+    "OneNote/Notes/AWS/ECS and EKS.md",
+    "Pasted image 20251026153827.png",
+    "Pasted image 20251026153710.png",
+    "OneNote/Notes/AWS/Ec2.md",
+    "OneNote/Notes/AWS/VPC.md",
+    "Evernote/My Notes/CKA (Certified K8s Administrator).md",
+    "Evernote/My Notes/Linux.md",
+    "Evernote/My Notes/Docker & K8s.md",
+    "New folder",
+    "Evernote/My Notes/Cyber Security 101 - TryHackMe.md",
+    "Evernote/My Notes/Angular.md",
+    "OneNote/Notes/Linux/Archiving/Archiving files.md",
+    "Pasted image 20251026131206.png",
+    "Pasted image 20251026125739.png",
     "Images/Pasted image 20251026104102.png",
     "Images/Pasted image 20251026103732.png",
     "Images/Pasted image 20251026103713.png",
-    "Images/Pasted image 20251026103518.png",
-    "Images/Pasted image 20251026102041.png",
-    "Images/Pasted image 20251026100858.png",
-    "Images/Pasted image 20251026100805.png",
-    "Images/Pasted image 20251026095856.png",
-    "OneNote/Notes/AWS/Amazon VPC.md",
-    "OneNote/Notes/AWS/Solutions Architect/Amazon VPC.md",
-    "Images/Pasted image 20251026094322.png",
-    "Images/Pasted image 20251026093605.png",
-    "OneNote/Notes/AWS/Solutions Architect/Networking.md",
-    "OneNote/Notes/AWS/Networking.md",
-    "OneNote/Notes/AWS/Networking 1.md",
-    "OneNote/Notes/AWS/Solutions Architect/Shared Responsibility Model.md",
-    "OneNote/Notes/AWS/Shared Responsibility Model.md",
-    "OneNote/Notes/AWS/Solutions Architect/Cloud Architecting.md",
-    "Images/Pasted image 20251025181750.png",
-    "OneNote/Notes/AWS/Solutions Architect/Six Pillars.md",
     "OneNote/Notes/AWS/Solutions Architect",
-    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
-    "OneNote/Notes/AWS/Solutions Architect/Solution Architect Role.md",
-    "Architects-Capgemini/What is an Architect.md",
     "Architects-Capgemini",
-    "OneNote/Notes/AWS/AI-Practicioner/Responsible AI.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Reinforcement Learning (RL).md",
-    "OneNote/Notes/AWS/AI-Practicioner/Principles of Human-Centered Design.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Responsible Preparation for Datasets.md",
-    "OneNote/Notes/AWS/AI-Practicioner/AWS Infrastructure and Technologies.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Generative AI.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Foundation Models.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Optimizing model outputs.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Machine Learning.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Supervised and Unsupervised ML.md",
-    "OneNote/Notes/AWS/AI-Practicioner/Generative AI Concept.md",
-    "OneNote/Notes/AWS/AI-Practicioner/AI Applications.md",
-    "[Supervised and Unsupervised ML.md",
     "OneNote/Notes/AWS/AI-Practicioner",
     "AWS/AI-Practicioner",
     "AWS",
     "Sound",
     "programma",
-    "Untitled.base",
-    "Untitled 1.base",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "Corso finanza"
+    "Untitled 1.canvas"
   ]
 }

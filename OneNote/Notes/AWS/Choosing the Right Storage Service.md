@@ -45,12 +45,7 @@ Amazon FSx provides native compatibility with third-party file systems. You can 
 **Resources**  
 For more information, see the following resources:
 
-- AWS user guide: [Amazon EC2 Storage](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html)
-- AWS website: [Cloud Storage on AWS](https://aws.amazon.com/products/storage/)
-- AWS website: [Amazon EBS](https://aws.amazon.com/ebs/)
-- AWS website: [Amazon S3](https://aws.amazon.com/s3/)
-- AWS user guide: [Amazon EFS: How It Works](https://docs.aws.amazon.com/efs/latest/ug/how-it-works.html)
-- AWS website: [Amazon FSx](https://aws.amazon.com/fsx/)
+
 
 |   |   |   |
 |---|---|---|

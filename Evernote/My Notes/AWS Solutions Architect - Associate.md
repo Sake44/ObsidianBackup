@@ -270,8 +270,7 @@ They regulate:
 * Control of inbound network (from other to the instance)
 * Control of outbound network (from the instance to other)
 
-![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.8.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.9.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.10.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.11.png]]
-SSH is one of the most important function. It allows you to control a remote machine, all using the command line.
+![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.8.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.9.png]]![[Evernote/My Notes/_resources/AWS_Solutions_Architect_-_Associate.resources/image.10.png]]
 
 ### SSH Troubleshooting
 

@@ -1,21 +1,24 @@
-==Serverless on AWS== 
- 
-==With serverless compute, you can spend time on the things that differentiate your application, rather than spending time on ensuring availability, scaling, and managing servers. Every definition of serverless mentions the following four aspects:==
+**With serverless compute, you can spend time on the things that differentiate your application, rather than spending time on ensuring availability, scaling, and managing servers.** Every definition of serverless mentions the following four aspects:
 
-- ==There are no servers to provision or manage.==
-- ==It scales with usage.==
-- ==You never pay for idle resources.==
-- ==Availability and fault tolerance are built in.==
-   
+- There are no servers to provision or manage.
+- It scales with usage.
+- You never pay for idle resources.
+- Availability and fault tolerance are built in.
+
+### AWS Fargate
+AWS Fargate is a purpose-built serverless compute engine for containers. AWS Fargate scales and manages the infrastructure, so developers can work on what they do best, application development.
+![[Pasted image 20251026154307.png]]
+
+### AWS Lambda
 
 **With AWS Lambda, there are no servers to manage. You get continuous scaling with subsecond metering and consistent performance.**
  
-With Lambda, you can run code without provisioning or managing servers. You can run code for virtually any type of application or backend service. This includes data processing, real-time stream processing, machine learning, WebSockets, IoT backends, mobile backends, and web applications like your employee directory application!
+With Lambda, you can run code without provisioning or managing servers. You can run code for virtually any type of application or backend service. This includes data processing, real-time stream processing, machine learning, WebSockets, IoT backends.
  
-**How Lambda works**  
+#### How Lambda works
 The Lambda function is the foundational principle of AWS Lambda. You have the option of configuring your Lambda functions using the Lambda console, Lambda API, AWS CloudFormation, or AWS Serverless Application Model (AWS SAM). You can invoke your function directly by using the Lambda API, or you can configure an AWS service or resource to invoke your function in response to an event.
 
-**Billing granularity**  
+#### Billing granularity
 With Lambda, you can run code without provisioning or managing servers, and you pay only for what you use. You are charged for the number of times that your code is invoked (requests) and for the time that your code runs, rounded up to the nearest 1 millisecond (ms) of duration.
  
 AWS rounds up duration to the nearest ms with no minimum run time. With this pricing, it can be cost effective to run functions whose execution time is very low, such as functions with durations under 100 ms or low latency APIs.

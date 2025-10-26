@@ -95,8 +95,6 @@ API groups enable better organization of resources in the Kubernetes API. There 
 API versioning helps us to build stable systems in our Kubernetes clusters. The kubernetes API is versioned at API level. In this way we know what version of the API we're interacting with when we define resources in code. If we're using declarative and building our system and code using objects to model it, this objects might change during time. Kubernetes provides us a mechanism to help us absorb that change when we're ready, that's API versioning.
 ![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.4.png]]
 
-### 
-
 ## Anatomy of an API request
 
 When we're working at command line with a tool like **kubectl,** we enter a command, and it'll convert from YAML to JSON. Since our API server is a RESTful HTTP web application,  we'll need to submit our request and specify a URL resource location or API path.
