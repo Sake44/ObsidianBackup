@@ -16,6 +16,23 @@ so called gp2 and gp3), Provisioned IOPS SSD (also called io1), and Magnetic (al
 ### Amazon RDS in VPC
 When you create a DB instance, you select the Amazon Virtual Private Cloud (Amazon VPC) your databases will live in. Then, you select the subnets that will be designated for your DB. This is called a DB subnet group, and it has at least two Availability Zones in its Region. The subnets in a DB subnet group should be private, so they don’t have a route to the internet gateway. This ensures that your DB instance, and the data inside it, can be reached only by the application backend.
 
+### Backup Data
+To take regular backups of your Amazon RDS instance, you can use automated backups or manual snapshots.
+1. Automated Backups: Automated backups are turned on by default. This backs up your entire DB instance (not just individual databases on the instance) and your transaction logs.
+	1. **Retaining Backups:** Automated backups are retained between 0 and 35 days.
+	2. **Point-in-time recovery:** This creates a new DB instance using data restored from a specific point in time. This restoration method provides more granularity by restoring the full backup and rolling back transactions up to the specified time range.
+
+### Redundancy with Amazon RDS Multi-AZ
+In an Amazon RDS Multi-AZ deployment, Amazon RDS creates a redundant copy of your database in another Availability Zone. You end up with two copies of your database—a primary copy in a subnet in one Availability Zone and a standby copy in a subnet in a second Availability Zone.
+The primary copy of your database provides access to your data so that applications can query and display the information. The data in the primary copy is synchronously replicated to the standby copy.
+When you create a DB instance, a Domain Name System (DNS) name is provided. AWS uses that DNS name to fail over to the standby database.
+![[Pasted image 20251027113412.png]]
+### Amazon RDS Security
+Network ACLs and security groups help users dictate the flow of traffic. If you want to restrict the actions and resources others can access, you can use AWS Identity and Access Management (IAM) policies.
+1. IAM Policies: Use IAM policies to assign permissions that determine who can manage Amazon RDS resources.
+2. Security groups: Use security groups to control which IP addresses or Amazon EC2 instances can connect to your databases on a DB instance.
+3. Amazon RDS encryption: Use Amazon RDS encryption to secure your DB instances and snapshots at rest.
+4. SSL or TLS: Use Secure Sockets Layer (SSL) or Transport Layer Security (TLS) connections with DB
 ## Purpose-built Databases
 AWS offers more than 15 purpose-built engines to support diverse data models, including relational, key-value, document, in-memory, graph, time series, wide column, and ledger databases.
 
@@ -30,7 +47,8 @@ MemoryDB is a Redis-compatible, durable, in-memory database service that deliver
 Amazon DocumentDB is a fully managed document database from AWS. A document database is a type of NoSQL database you can use to store and query rich documents in your application.
 These types of databases work well for the following use cases: content management systems, profile management, and web and mobile applications.
 ### Amazon Keyspaces (for Apache Cassandra)
-Amazon Keyspaces is a scalable, highly available, and managed Apache Cassandra compatible database service. Apache Cassandra is a popular option for high-scale applications that need top-tier performance.
+Amazon Keyspaces is a scalable, highly available, and managed Apache Cassandra compatible database service. Apache Cassandr
+a is a popular option for high-scale applications that need top-tier performance.
 ### Amazon Neptune
 Neptune is a fully managed graph database offered by AWS. A graph database is a good choice for highly connected data with a rich variety of relationships.
 ### Amazon Timestream
@@ -48,3 +66,13 @@ In DynamoDB, tables, items, and attributes are the core components that you work
 1. **Develop software applications**: Build internet-scale applications supporting user-content metadata and caches that require high concurrency and connections for millions of users and millions of requests per second.
 2. **Create media metadata stores**: Scale throughput and concurrency for analysis of media and entertainment workloads, such as real-time video streaming and interactive content. Deliver lower latency with multi-Region replication across Regions.
 3. **Scale gaming platforms**: Focus on driving innovation with no operational overhead. Build out your game platform with player data, session history, and leaderboards for millions of concurrent users.
+### DynamoDB Security
+DynamoDB provides a number of security features to consider as you develop and implement your own security policies.
+1. DynamoDB provides a highly durable storage infrastructure designed for mission-critical and primary data storage.
+2. All user data stored in DynamoDB is fully encrypted at rest.
+3. IAM administrators control who can be authenticated and authorized to use DynamoDB resources.
+4. As a managed service, DynamoDB is protected by the AWS global network security procedures.
+If you are using an AWS managed key for encryption at rest, usage of the key is recorded in AWS CloudTrail.
+For users, applications, and other AWS services to access DynamoDB, they must include valid AWS credentials in their AWS API requests. Use IAM roles to obtain temporary access keys.
+When you grant permissions in DynamoDB, you can specify conditions that determine how a permissions policy takes effect. Implementing least privilege is key in reducing security risk.
+

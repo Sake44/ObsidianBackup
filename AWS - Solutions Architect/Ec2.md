@@ -99,6 +99,9 @@ AWS offers a variety of pricing options to address different workload scenarios.
 	1. Dedicated Hosts can be purchased on demand (hourly).
 	2. Dedicated Hosts can be purchased as a Reservation for up to 70 percent off the On-Demand price.
 
+
+### Ec2 Auto Scaling
+
 #### Ec2 Resources 
 - AWS user guide: [Amazon EC2: Instance Lifecycle(opens in a new tab)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
 - AWS user guide: [Hibernation Prerequisites(opens in a new tab)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hibernating-prerequisites.html)

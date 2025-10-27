@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "d85bcc50460c9326",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Ec2 Auto Scaling"
+            }
+          },
+          {
             "id": "4c5f213211156d98",
             "type": "leaf",
             "state": {
@@ -54,33 +78,9 @@
               "icon": "lucide-file",
               "title": "AWS Solutions Architect - Associate"
             }
-          },
-          {
-            "id": "93889fa970556914",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS - Solutions Architect/Database Services.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Database Services"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS - Solutions Architect/Database Services.md",
+                "file": "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database Services"
+              "title": "Outline of Amazon Ec2 Auto Scaling"
             }
           },
           {
@@ -242,20 +242,33 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "93889fa970556914",
+  "active": "a715a1f4267ae0a9",
   "lastOpenFiles": [
+    "OneNote/Notes/AWS/Network Security at AWS.md",
+    "OneNote/Notes/AWS/S3 (Object Storage).md",
+    "OneNote/Notes/AWS/RDS.md",
+    "AWS - Solutions Architect/Ec2.md",
+    "OneNote/Notes/AWS/Cloudwatch.md",
+    "AWS - Solutions Architect/Load Balancer.md",
+    "Pasted image 20251027154319.png",
+    "Pasted image 20251027153109.png",
+    "Pasted image 20251027153048.png",
+    "AWS - Solutions Architect/Solution Optimization.md",
+    "AWS - Solutions Architect/Monitoring.md",
+    "OneNote/Notes/AWS/Monitoring.md",
+    "AWS - Solutions Architect/Database Services.md",
+    "Images/Pasted image 20251027113412.png",
     "AWS - Solutions Architect/Cloud Storage.md",
     "AWS - Solutions Architect/Choosing the Right Storage Service.md",
     "OneNote/Notes/AWS/Amazon VPC.md",
-    "Pasted image 20251027105533.png",
-    "Pasted image 20251027105254.png",
+    "Images/Pasted image 20251027105533.png",
+    "Images/Pasted image 20251027105254.png",
     "AWS - Solutions Architect/Amazon VPC.md",
-    "Pasted image 20251027101841.png",
+    "Images/Pasted image 20251027101841.png",
     "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "AWS - Solutions Architect/Networking.md",
     "AWS - Solutions Architect/Serverless.md",
     "AWS - Solutions Architect/Container Services.md",
-    "OneNote/Notes/AWS/Ec2.md",
     "OneNote/Notes/AWS/Purpose-built DBs.md",
     "OneNote/Notes/AWS/History.md",
     "OneNote/Notes/AWS/Ec2 Instance Lifecycle.md",
@@ -263,25 +276,13 @@
     "AWS - Solutions Architect/Cloud Architecting.md",
     "OneNote/Notes/AWS/AWS IAM.md",
     "OneNote/Notes/AWS/AWS Fargate.md",
-    "AWS - Solutions Architect/Database Services.md",
-    "OneNote/Notes/AWS/RDS.md",
-    "OneNote/Notes/AWS/S3 (Object Storage).md",
     "Untitled 1.base",
     "Untitled.base",
     "OneNote/Notes/AWS/Storage Types.md",
-    "OneNote/Notes/AWS/EFS (Elastic File System).md",
-    "OneNote/Notes/AWS/EBS (Elastic Block Store).md",
     "Images/Pasted image 20251026154908.png",
     "Images/Pasted image 20251026154645.png",
     "Images/Pasted image 20251026154307.png",
-    "OneNote/Notes/AWS/Serverless.md",
-    "Evernote/My Notes/Useful chat with AI.md",
-    "OneNote/Notes/AWS/Shared Responsibility Model.md",
-    "Images/Pasted image 20251026153827.png",
-    "Images/Pasted image 20251026153710.png",
     "New folder",
-    "Images/Pasted image 20251026131206.png",
-    "Images/Pasted image 20251026125739.png",
     "AWS - Solutions Architect",
     "Architects-Capgemini",
     "AWS - AI Practicioner",
