@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
+                "file": "OneNote/Notes/AWS/OSI Model.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Amazon Ec2 Auto Scaling"
+              "title": "OSI Model"
             }
           },
           {
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
+                "file": "OneNote/Notes/AWS/OSI Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Amazon Ec2 Auto Scaling"
+              "title": "Outline of OSI Model"
             }
           },
           {
@@ -242,8 +242,14 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "a715a1f4267ae0a9",
+  "active": "d85bcc50460c9326",
   "lastOpenFiles": [
+    "Pasted image 20251027202758.png",
+    "OneNote/Notes/AWS/Networking 1.md",
+    "AWS - Solutions Architect/Networking.md",
+    "Pasted image 20251027200339.png",
+    "Pasted image 20251027200303.png",
+    "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
     "OneNote/Notes/AWS/Network Security at AWS.md",
     "OneNote/Notes/AWS/S3 (Object Storage).md",
     "OneNote/Notes/AWS/RDS.md",
@@ -266,7 +272,6 @@
     "AWS - Solutions Architect/Amazon VPC.md",
     "Images/Pasted image 20251027101841.png",
     "Evernote/My Notes/AWS Solutions Architect - Associate.md",
-    "AWS - Solutions Architect/Networking.md",
     "AWS - Solutions Architect/Serverless.md",
     "AWS - Solutions Architect/Container Services.md",
     "OneNote/Notes/AWS/Purpose-built DBs.md",
@@ -274,14 +279,9 @@
     "OneNote/Notes/AWS/Ec2 Instance Lifecycle.md",
     "OneNote/Notes/AWS/DynamoDB.md",
     "AWS - Solutions Architect/Cloud Architecting.md",
-    "OneNote/Notes/AWS/AWS IAM.md",
-    "OneNote/Notes/AWS/AWS Fargate.md",
     "Untitled 1.base",
     "Untitled.base",
-    "OneNote/Notes/AWS/Storage Types.md",
     "Images/Pasted image 20251026154908.png",
-    "Images/Pasted image 20251026154645.png",
-    "Images/Pasted image 20251026154307.png",
     "New folder",
     "AWS - Solutions Architect",
     "Architects-Capgemini",

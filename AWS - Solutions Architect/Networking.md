@@ -1,3 +1,25 @@
+On AWS, networking is virtualized and available in several different types and configurations which helps to match your networking methods with your needs.
+### Network AWS Topology
+When architecting systems using IP address-based networks, you must plan network [topology]([Network topology - Wikipedia](https://en.wikipedia.org/wiki/Network_topology))
+]] in anticipation of possible failures, to accommodate future growth and integration with other systems and other networks. For topology designs in AWS, the underlying infrastructure for your Amazon VPC is designed to ensure no single point of failure.
+
+#### Different types of Topology
+
+##### Point to Point
+A [point-to-point](https://en.wikipedia.org/wiki/Point-to-point_(telecommunications)) network is a private data connection securely connecting two or more locations for private data services.
+##### Bus
+In early local networks, a coaxial cable was used to create a [bus](https://en.wikipedia.org/wiki/Bus_network). It is important to know that this is a single cable and with one break in the cable the link is disabled.
+##### Tree
+[Tree networks](https://en.wikipedia.org/wiki/Tree_network) are used to share information across a network with many servers. The networking signals that are transmitted by the root nodes are received by all the computers at the same time.
+##### Hub and Spoke
+A [hub-and-spoke topology](https://en.wikipedia.org/wiki/Spoke%E2%80%93hub_distribution_paradigm) has a network hub in the middle and the spokes are our devices on the outside. All devices are connected back to the central hub. This type of design is used in most large networks and small networks too. 
+In AWS, hub-and-spoke designs are built using VPN connections, Direct Connect, Direct Connect Gateways, VPC Peering, and transit gateways.
+##### Mesh
+Another topology that is used today is [mesh](https://en.wikipedia.org/wiki/Mesh_networking), which is multiple links to the same place. Mesh topologies have a fully connected and partially connected design. This design adds redundancy because there are multiple connections. It is great for load balancing networks and adds fault tolerance. Mesh is used in wide area networks (WANs).
+##### Ring
+A [ring design](https://en.wikipedia.org/wiki/Ring_network) will usually have additional rings for redundancy. It is used in metro area networks (MANs). If a connection is severed, then the ring can not send data through the ring. It will traverse as far as it can and then loop back.
+##### Hybrid
+You can also combine topologies and create a [hybrid network design](https://en.wikipedia.org/wiki/Network_topology).
 ## Networking defined
 Networking is how you connect computers around the world and allow them to communicate with one another. In this course, you’ve already seen a few examples of networking. One is the AWS Global Infrastructure. AWS has built a network of resources using data centers, Availability Zones, and Regions. 
 
@@ -100,3 +122,4 @@ Refer to the following links to learn more about the topics covered in the cours
 - [How Amazon VPC Works(opens in a new tab)](https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html)
 - [Wikipedia: Classless Inter-Domain Routing(opens in a new tab)](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 - [CIDR.xyz: An interactive IP Address and CIDR Range Visualizer](https://cidr.xyz/)
+- [AWS Networking and Content Delivery](https://aws.amazon.com/products/networking/)
