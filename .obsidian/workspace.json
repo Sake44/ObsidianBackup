@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c5f213211156d98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS - Solutions Architect/Cloud Storage.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cloud Storage"
-            }
-          },
-          {
             "id": "9bee86c3e92c6495",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/Notes/AWS/Ec2.md",
+                "file": "OneNote/Notes/AWS/Amazon VPC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ec2"
+              "title": "Amazon VPC"
             }
           },
           {
-            "id": "ac78a150f129c92a",
+            "id": "4c5f213211156d98",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +54,33 @@
               "icon": "lucide-file",
               "title": "AWS Solutions Architect - Associate"
             }
+          },
+          {
+            "id": "93889fa970556914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS - Solutions Architect/Database Services.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Database Services"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "EBS",
+                "query": "spot insta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS - Solutions Architect/Cloud Storage.md",
+                "file": "AWS - Solutions Architect/Database Services.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cloud Storage"
+              "title": "Outline of Database Services"
             }
           },
           {
@@ -241,21 +242,27 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "4c5f213211156d98",
+  "active": "93889fa970556914",
   "lastOpenFiles": [
-    "AWS - Solutions Architect/Container Services.md",
-    "OneNote/Notes/AWS/Purpose-built DBs.md",
-    "OneNote/Notes/AWS/History.md",
-    "OneNote/Notes/AWS/Choosing the Right Storage Service.md",
-    "OneNote/Notes/AWS/Ec2.md",
-    "OneNote/Notes/AWS/Ec2 Instance Lifecycle.md",
-    "OneNote/Notes/AWS/DynamoDB.md",
+    "AWS - Solutions Architect/Cloud Storage.md",
+    "AWS - Solutions Architect/Choosing the Right Storage Service.md",
+    "OneNote/Notes/AWS/Amazon VPC.md",
+    "Pasted image 20251027105533.png",
+    "Pasted image 20251027105254.png",
+    "AWS - Solutions Architect/Amazon VPC.md",
+    "Pasted image 20251027101841.png",
+    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "AWS - Solutions Architect/Networking.md",
     "AWS - Solutions Architect/Serverless.md",
+    "AWS - Solutions Architect/Container Services.md",
+    "OneNote/Notes/AWS/Ec2.md",
+    "OneNote/Notes/AWS/Purpose-built DBs.md",
+    "OneNote/Notes/AWS/History.md",
+    "OneNote/Notes/AWS/Ec2 Instance Lifecycle.md",
+    "OneNote/Notes/AWS/DynamoDB.md",
     "AWS - Solutions Architect/Cloud Architecting.md",
     "OneNote/Notes/AWS/AWS IAM.md",
     "OneNote/Notes/AWS/AWS Fargate.md",
-    "AWS - Solutions Architect/Cloud Storage.md",
     "AWS - Solutions Architect/Database Services.md",
     "OneNote/Notes/AWS/RDS.md",
     "OneNote/Notes/AWS/S3 (Object Storage).md",
@@ -264,24 +271,17 @@
     "OneNote/Notes/AWS/Storage Types.md",
     "OneNote/Notes/AWS/EFS (Elastic File System).md",
     "OneNote/Notes/AWS/EBS (Elastic Block Store).md",
-    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "Images/Pasted image 20251026154908.png",
     "Images/Pasted image 20251026154645.png",
     "Images/Pasted image 20251026154307.png",
     "OneNote/Notes/AWS/Serverless.md",
     "Evernote/My Notes/Useful chat with AI.md",
     "OneNote/Notes/AWS/Shared Responsibility Model.md",
-    "AWS - Solutions Architect/Shared Responsibility Model.md",
-    "OneNote/Notes/AWS/ECS and EKS.md",
     "Images/Pasted image 20251026153827.png",
     "Images/Pasted image 20251026153710.png",
-    "OneNote/Notes/AWS/VPC.md",
     "New folder",
     "Images/Pasted image 20251026131206.png",
     "Images/Pasted image 20251026125739.png",
-    "Images/Pasted image 20251026104102.png",
-    "Images/Pasted image 20251026103732.png",
-    "Images/Pasted image 20251026103713.png",
     "AWS - Solutions Architect",
     "Architects-Capgemini",
     "AWS - AI Practicioner",

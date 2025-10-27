@@ -76,3 +76,33 @@ The user data field is executed by **cloud-init** on Linux and by the **EC2La
 3. When you reboot an instance, it’s different than performing a stop action and then a start action. **Rebooting** an instance is equivalent to rebooting an operating system. The instance keeps its public DNS name (IPv4) and private and public IPv4 addresses. An IPv6 address (if applicable) remains on the same host computer and maintains its public and private IP address, in addition to any data on its instance store volumes.
 4. When you stop your instance, it enters the **stopping** and then **stopped** state. This is similar to when you shut down your laptop. You can stop and start an instance if it has an Amazon Elastic Block Store (Amazon EBS) volume as its root device. When you stop and start an instance, your instance can be placed on a new underlying physical server. Your instance retains its private IPv4 addresses and if your instance has an IPv6 address, it retains its IPv6 address. When you put the instance into stop-hibernate, the instance enters the stopped state, but saves the last information or content into memory, so that the start process is faster.
 5. When you== **terminate** an instance, the instance stores are erased, and you lose both the public IP address and private IP address of the machine. Termination of an instance means that you can no longer access the machine. As soon as the status of an instance changes to== **shutting down** or **terminated**, you stop incurring charges for that instance.
+## Ec2 Pricing
+One of the ways to reduce costs with Amazon EC2 is to choose the right pricing option for the way that your applications run.
+AWS offers a variety of pricing options to address different workload scenarios. 
+1. On-demand instances: you pay for compute capacity per hour or per second, depending on which instances that you run. There are no long-term commitments or upfront payments required. Billing begins whenever the instance is running, and billing stops when the instance is in a stopped or terminated state. On-demand instances are recommended for the following use cases:
+	1. Users who prefer the low cost and flexibility of Amazon EC2 without upfront payment or long-term commitments. 
+	2. Applications with short-term, spiky, or unpredictable workloads that cannot be interrupted.
+	3. Applications being developed or tested on Amazon EC2 for the first time.
+2. **Spot instances:** For applications that have flexible start and end times, Amazon EC2 offers the Spot Instances option. With Amazon EC2 Spot Instances, you can request spare Amazon EC2 computing capacity for up to 90 percent off the On-Demand price. Spot Instances are recommended for the following use cases:
+	1. - Applications that have flexible start and end times.
+	2. Applications that are only feasible at very low compute prices.        
+	3. Users with fault-tolerant or stateless workloads.
+3. **Savings plans:** Savings Plans are a flexible pricing model that offers low usage prices for a 1-year or 3-year term commitment to a consistent amount of usage. For workloads that have predictable and consistent usage, Savings Plans can provide significant savings compared to On-Demand Instances. Savings Plans are recommended for the following use cases:
+	1. Workloads with a consistent and steady-state usage.           
+	2. Customers who want to use different instance types and compute solutions across different locations.    
+	3. Customers who can make monetary commitment to use Amazon EC2 over a 1-year or 3-year term.
+4. **Reserved Instances:** For applications with steady state usage that might require reserved capacity, Amazon EC2 offers the Reserved Instances option. With this option, you save up to 72 percent compared to On-Demand Instance pricing. You can choose between three payment options: **All Upfront, Partial Upfront, or No Upfront**. With Reserved Instances, you can choose the type that best fits your applications needs: 
+	1. **Standard Reserved Instances:** These provide the most significant discount (up to 72 percent off On-Demand pricing) and are best suited for steady-state usage.
+	2. **Convertible Reserved Instances:** These provide a discount (up to 54 percent off On-Demand pricing) and the capability to change the attributes of the Reserved Instance if the exchange results in the creation of Reserved Instances of equal or greater value.
+	3. **Scheduled Reserved Instances:** These are available to launch within the time windows that you reserve.
+5. **Dedicated Host:** A Dedicated Host is a physical Amazon EC2 server that is dedicated for your use. Dedicated Hosts can help you reduce costs because you can use your existing server-bound software licenses.
+	1. Dedicated Hosts can be purchased on demand (hourly).
+	2. Dedicated Hosts can be purchased as a Reservation for up to 70 percent off the On-Demand price.
+
+#### Ec2 Resources 
+- AWS user guide: [Amazon EC2: Instance Lifecycle(opens in a new tab)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
+- AWS user guide: [Hibernation Prerequisites(opens in a new tab)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hibernating-prerequisites.html)
+- AWS website: [Amazon EC2 Pricing(opens in a new tab)](https://aws.amazon.com/ec2/pricing/)
+- AWS website: [Amazon EC2 On-Demand Pricing(opens in a new tab)](https://aws.amazon.com/ec2/pricing/on-demand/)
+- AWS website: [Amazon EC2 Spot Instances Pricing(opens in a new tab)](https://aws.amazon.com/ec2/spot/pricing/)
+- AWS website: [Amazon EC2 Reserved Instances Pricing](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/)

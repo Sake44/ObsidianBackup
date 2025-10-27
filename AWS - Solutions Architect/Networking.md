@@ -51,17 +51,17 @@ Common network management protocols:
 - SNMP – Simple Network Management Protocol (SNMP)(opens in a new tab) is used to monitor and manage network devices. This TCP-based protocol adds visibility and the ability to modify endpoints which alter behaviour of devices across the network. SNMP relies on the use of agents to collect and send data to an overarching SNMP manager, which in turn queries agents and gets their responses.
 - ICMP – Internet Control Message Protocol (ICMP)(opens in a new tab) is primarily used for diagnostic purposes. Managed devices on the network can use this protocol to send error messages, providing information regarding network connectivity issues between devices.
 
-==Network Security Protocol==
+#### Network Security Protocol
  
-==Network security protocols ensure that data traffic on your network is secure. These protocols define how the network secures data from malicious attempts. This protects the data from unauthorized users, services, or devices that access your network data.==
+Network security protocols ensure that data traffic on your network is secure. These protocols define how the network secures data from malicious attempts. This protects the data from unauthorized users, services, or devices that access your network data.
  
-==Network security protocols rely on encryption and cryptography to secure data.==
+Network security protocols rely on encryption and cryptography to secure data.
  
-==Common security protocols:== 
+Common security protocols:
 
-- ==SSL – A== ==Secure Sockets Layer (SSL)(opens in a new tab)== ==is a network security protocol primarily used for ensuring secure internet connections and protecting sensitive data. This protocol can allow for server/client communication as well as server/server communication. Data transferred with SSL is encrypted to prevent it from being readable.==
-- ==SFTP –== ==Secure File Transfer Protocol (SFTP)(opens in a new tab)====, as its name might suggest, is used to securely transfer files across a network. Data is encrypted and the client and server are authenticated.==
-- ==HTTPS –== ==Secure Hypertext Transfer Protocol(opens in a new tab)== ==is the secure version of HTTP. Data sent between the browser and server are encrypted to ensure protection.==
+- SSL – A Secure Sockets Layer (SSL)(opens in a new tab) is a network security protocol primarily used for ensuring secure internet connections and protecting sensitive data. This protocol can allow for server/client communication as well as server/server communication. Data transferred with SSL is encrypted to prevent it from being readable.==
+- SFTP – Secure File Transfer Protocol (SFTP)(opens in a new tab), as its name might suggest, is used to securely transfer files across a network. Data is encrypted and the client and server are authenticated.
+- HTTPS – Secure Hypertext Transfer Protocol(opens in a new tab) is the secure version of HTTP. Data sent between the browser and server are encrypted to ensure protection.
 
 **IPv4**
  
@@ -96,3 +96,7 @@ Refer to the following links to learn more about the topics covered in the cours
 - [Address blocks](https://en.wikipedia.org/wiki/List_of_assigned_/8_IPv4_address_blocks)
 - [Private Addresses RFC1918](https://tools.ietf.org/html/rfc1918)
 - [Understanding IP addressing and CIDR charts](https://www.ripe.net/about-us/press-centre/understanding-ip-addressing)
+- [Stanford: Introduction to Computer Networking(opens in a new tab)](https://web.stanford.edu/class/cs101/network-1-introduction.html)
+- [How Amazon VPC Works(opens in a new tab)](https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html)
+- [Wikipedia: Classless Inter-Domain Routing(opens in a new tab)](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
+- [CIDR.xyz: An interactive IP Address and CIDR Range Visualizer](https://cidr.xyz/)

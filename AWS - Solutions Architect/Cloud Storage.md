@@ -109,6 +109,10 @@ You can configure your S3 bucket to host a static website of HTML, CSS, and clie
 **Static content**
 Because of the limitless scaling, the support for large files, and the fact that you can access any object over the web at any time, Amazon S3 is the perfect place to store static content.
 
+### Amazon S3 Security
+Everything in Amazon S3 is private by default. This means that all Amazon S3 resources, such as buckets and objects, can only be viewed by the user or AWS account that created that resource.
+![[Pasted image 20251027105254.png]]
+
 #### Amazon S3 Encryption
 Amazon S3 reinforces encryption in transit (as it travels to and from Amazon S3) and at rest. To protect data, Amazon S3 automatically encrypts all objects on upload and applies server-side encryption with S3-managed keys as the base level of encryption for every bucket in Amazon S3 at no additional cost.
 
@@ -118,8 +122,15 @@ You should use S3 bucket policies in the following scenarios:
 
 - You need a simple way to do cross-account access to Amazon S3, without using IAM roles.
 - Your IAM policies bump up against the defined size limit. S3 bucket policies have a larger size limit.
+![[Pasted image 20251027105533.png]]
+If you enable versioning for a bucket, Amazon S3 automatically generates a unique version ID for the object.
 
-#### Amazon S3 Storage Classes
+### Amazon S3 Versioning
+Amazon S3 identifies objects in part by using the object name. Without Amazon S3 versioning, every time you upload an object called employee.jpg to the employees bucket, it will overwrite the original object.  
+This can be an issue for several reasons, including the following:
+1. **Common Names**.
+2. **Version Preservation**.
+### Amazon S3 Storage Classes
 Amazon S3 storage classes let you change your storage tier when your data characteristics change.
 Storage Class
 
@@ -147,7 +158,63 @@ S3 Glacier Flexible Retrieval offers low-cost storage for archived data that is 
 ##### S3 Glacier Deep Archive
 S3 Glacier Deep Archive is the lowest-cost Amazon S3 storage class. It supports long-term retention and digital preservation for data that might be accessed once or twice a year. Data stored in the S3 Glacier Deep Archive storage class has a default retrieval time of 12 hours. It is designed for customers that retain data sets for 7–10 years or longer, to meet regulatory compliance requirements. Examples include those in highly regulated industries, such as the financial services, healthcare, and public sectors.
 
-##### S3 Resources
+#### Choose the right storage service
+### Amazon Ec2 instance store
+ 
+Instance store is generally well suited for temporary storage of information that is constantly changing, such as buffers, caches, and scratch data. It is not meant for data that is persistent or long lasting.
+ 
+#### Amazon EBS
+Amazon EBS is meant for data that changes frequently and must persist through instance stops, terminations, or hardware failures. Amazon EBS has two types of volumes: SSD-backed volumes and HDD-backed volumes.
+ 
+The performance of SSD-backed volumes depends on the IOPs and is ideal for transactional workloads, such as databases and boot volumes. 
+ 
+The performance of HDD-backed volumes depends on megabytes per second (MBps) and is ideal for throughput-intensive workloads, such as big data, data warehouses, log processing, and sequential data I/O.
+ 
+Here are a few important features of Amazon EBS that you need to know when comparing it to other services.
+
+- It is block storage.
+- You pay for what you provision (you have to provision storage in advance).
+- EBS volumes are replicated across multiple servers in a single Availability Zone.
+- Most EBS volumes can only be attached to a single EC2 instance at a time.
+ 
+#### Amazon S3
+If your data doesn’t change often, Amazon S3 might be a cost-effective and scalable storage solution for you. Amazon S3 is ideal for storing static web content and media, backups and archiving, and data for analytics. It can also host entire static websites with custom domain names.
+ 
+Here are a few important features of Amazon S3 to know about when comparing it to other services:
+
+- It is object storage.
+- You pay for what you use (you don’t have to provision storage in advance).
+- Amazon S3 replicates your objects across multiple Availability Zones in a Region.
+- Amazon S3 is not storage attached to compute.
+
+#### Amazon EFS
+Amazon EFS provides highly optimized file storage for a broad range of workloads and applications. It is the only cloud-native shared file system with fully automatic lifecycle management. Amazon EFS file systems can automatically scale from gigabytes to petabytes of data without needing to provision storage. Tens, hundreds, or even thousands of compute instances can access an Amazon EFS file system at the same time.
+ 
+Amazon EFS Standard storage classes are ideal for workloads that require the highest levels of durability and availability. EFS One Zone storage classes are ideal for workloads such as development, build, and staging environments.
+ 
+Here are a few important features of Amazon EFS to know about when comparing it to other services:
+
+- It is file storage.
+- Amazon EFS is elastic, and automatically scales up or down as you add or remove files. And you pay only for what you use.
+- Amazon EFS is highly available and designed to be highly durable. All files and directories are redundantly stored within and across multiple Availability Zones. 
+- Amazon EFS offers native lifecycle management of your files and a range of storage classes to choose from
+
+#### Amazon FSx
+Amazon FSx provides native compatibility with third-party file systems. You can choose from NetApp ONTAP, OpenZFS, Windows File Server, and Lustre. With Amazon FSx, you don't need to worry about managing file servers and storage. This is because Amazon FSx automates time consuming administration task such as hardware provisioning, software configuration, patching, and backups. This frees you up to focus on your applications, end users, and business.
+
+|                                                                    |               |                                                                                                    |
+| ------------------------------------------------------------------ | ------------- | -------------------------------------------------------------------------------------------------- |
+| **AWS Services**                                                   | Database Type | Use cases                                                                                          |
+| **Amazon RDS, Aurora,**  <br>**Amazon Redshift**                   | Relational    | Traditional applications, ERP, CRM,  <br>ecommerce                                                 |
+| **DynamoDB**                                                       | Key-value     | High-traffic web applications, ecommerce systems, gaming applications                              |
+| **Amazon ElastiCache for Memcached, Amazon ElastiCache for Redis** | In-memory     | Caching, session management, gaming leaderboards, geospatial applications                          |
+| **Amazon DocumentDB**                                              | Document      | Content management, catalogs, user profiles                                                        |
+| **Amazon Keyspaces**                                               | Wide column   | High-scale industrial applications for equipment maintenance, fleet management, route optimization |
+| **Neptune**                                                        | Graph         | Fraud detection, social networking, recommendation engines                                         |
+| **Timestream**                                                     | Time series   | IoT applications, Development Operations (DevOps), industrial telemetry                            |
+| **Amazon QLDB**                                                    | Ledger        | Systems of record, supply chain, registrations, banking transactions                               |
+
+### S3 Resources
 - AWS website: [Amazon S3](https://aws.amazon.com/s3/)
 - AWS website: [Amazon S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
 - AWS user guide: [Using Versioning in S3 Buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html)
@@ -158,3 +225,8 @@ S3 Glacier Deep Archive is the lowest-cost Amazon S3 storage class. It supports 
 - AWS website: [Amazon EBS](https://aws.amazon.com/ebs/)
 - AWS user guide: [Amazon EFS: How It Works](https://docs.aws.amazon.com/efs/latest/ug/how-it-works.html)
 - AWS website: [Amazon FSx](https://aws.amazon.com/fsx/)
+- AWS website: [Amazon EFS](https://aws.amazon.com/efs/)
+- AWS website: [Amazon FSx for NetApp ONTAP](https://aws.amazon.com/fsx/netapp-ontap/)
+- AWS website: [Amazon FSx for OpenZFS](https://aws.amazon.com/fsx/openzfs/)
+- AWS website: [Amazon FSx for Windows File Server](https://aws.amazon.com/fsx/windows/?nc=sn&loc=1)
+- AWS website: [Amazon FSx for Lustre](https://aws.amazon.com/fsx/lustre/?nc=sn&loc=1)

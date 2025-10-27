@@ -1,4 +1,4 @@
-Amazon Ec2 instance store
+### Amazon Ec2 instance store
  
 Instance store is generally well suited for temporary storage of information that is constantly changing, such as buffers, caches, and scratch data. It is not meant for data that is persistent or long lasting.
  

@@ -14,13 +14,18 @@ When you create your subnets, keep high availability in mind. To maintain redund
 As you learned earlier, remember that “everything fails all of the time.” With the example network, if one of the Availability Zones fails, you will still have your resources available in another Availability Zone as backup.
  ![Provisioning resources in multiple AZ's provides high availability and a backup of your resources.](Exported%20image%2020250315115724-1.png)  
 
-==When you create a subnet, you must specify the following:==
+When you create a subnet, you must specify the following:
 
-- **VPC** ==that you want your subnet to live in—in this case: VPC (10.0.0.0/16)==
-- **Availability Zone** ==that you want your subnet to live in—in this case: Availability Zone 1==
-- **IPv4 CIDR block for your subnet**==, which must be a subset of the VPC CIDR block—in this case: 10.0.0.0/24==
+- **VPC** that you want your subnet to live in—in this case: VPC (10.0.0.0/16)
+- **Availability Zone** that you want your subnet to live in—in this case: Availability Zone 1==
+- **IPv4 CIDR block for your subnet**, which must be a subset of the VPC CIDR block—in this case: 10.0.0.0/24
 
-==When you launch an EC2 instance, you launch it inside a subnet, which will be located inside the Availability Zone that you choose.==
+When you launch an EC2 instance, you launch it inside a subnet, which will be located inside the Availability Zone that you choose. 
+
+### Reserved IPs
+For AWS to configure your VPC appropriately, AWS reserves five IP addresses in each subnet. These IP addresses are used for routing, Domain Name System (DNS), and network management.
+![[Pasted image 20251027101841.png]]
+
 
 ### VPC Components
 
@@ -33,8 +38,6 @@ Public subnets use the following:
 - **Public IP addresses** can be reached from the internet. 
 - **Private IP addresses** are only reachable on the network.
 ![[Pasted image 20251026093605.png]]
-
-
 #### Internet gateway
 An internet gateway is a horizontally scaled, redundant, and highly available VPC component that permits communication between instances in your VPC and the internet.
 
@@ -72,7 +75,6 @@ While you can put web-tier instances into a public subnet, we recommend that you
 Each AWS account comes with a default  VPC that is preconfigured for you to use immediately. You don't have to create and configure your own VPC. This diagram is a default VPC. The CIDR block for the default VPC is always a /16 subnet mask. In this example, the CIDR block of 172.31.0.0/16 means that this VPC can provide up to 65,536 IP addresses. It includes one public subnet in each Availability Zone in the Region. These subnets use a /20 subnet mask, providing 4,096 addresses per subnet. It also includes an internet gateway. The VPC uses a main route table to connect the subnets to the internet gateway.
 ![[Pasted image 20251026100858.png]]
 
-
 #### Virtual private gateway
 
 A virtual private gateway connects your VPC to another private network. When you create and attach a virtual private gateway to a VPC, the gateway acts as anchor on the AWS side of the connection. On the other side of the connection, you will need to connect a customer gateway to the other private network. A customer gateway device is a physical device or software application on your side of the connection. When you have both gateways, you can then establish an encrypted virtual private network (VPN) connection between the two sides.
@@ -83,7 +85,6 @@ To establish a secure physical connection between your on-premises data center a
  ![With AWS Direct Connect, your network traffic remains on the AWS global network and never touches the public internet.](Exported%20image%2020250315115729-4.png)
 
 
- 
 ### Network Access Control List (NACLs)
 
 A network ACL is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
