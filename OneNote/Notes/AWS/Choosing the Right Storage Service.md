@@ -47,14 +47,14 @@ For more information, see the following resources:
 
 
 
-|   |   |   |
-|---|---|---|
-|**AWS Services**|Database Type|Use cases|
-|**Amazon RDS, Aurora,**  <br>**Amazon Redshift**|Relational|Traditional applications, ERP, CRM,  <br>ecommerce|
-|**DynamoDB**|Key-value|High-traffic web applications, ecommerce systems, gaming applications|
-|**Amazon ElastiCache for Memcached, Amazon ElastiCache for Redis**|In-memory|\|<br>\|<br>==Caching, session management, gaming leaderboards, geospatial applications==|
-|**Amazon DocumentDB**|Document|Content management, catalogs, user profiles|
-|**Amazon Keyspaces**|Wide column|High-scale industrial applications for equipment maintenance, fleet management, route optimization|
-|**Neptune**|Graph|Fraud detection, social networking, recommendation engines|
-|**Timestream**|Time series|IoT applications, Development Operations (DevOps), industrial telemetry|
-|**Amazon QLDB**|Ledger|Systems of record, supply chain, registrations, banking transactions|
+|                                                                    |               |                                                                                                    |
+| ------------------------------------------------------------------ | ------------- | -------------------------------------------------------------------------------------------------- |
+| **AWS Services**                                                   | Database Type | Use cases                                                                                          |
+| **Amazon RDS, Aurora,**  <br>**Amazon Redshift**                   | Relational    | Traditional applications, ERP, CRM,  <br>ecommerce                                                 |
+| **DynamoDB**                                                       | Key-value     | High-traffic web applications, ecommerce systems, gaming applications                              |
+| **Amazon ElastiCache for Memcached, Amazon ElastiCache for Redis** | In-memory     | Caching, session management, gaming leaderboards, geospatial applications                          |
+| **Amazon DocumentDB**                                              | Document      | Content management, catalogs, user profiles                                                        |
+| **Amazon Keyspaces**                                               | Wide column   | High-scale industrial applications for equipment maintenance, fleet management, route optimization |
+| **Neptune**                                                        | Graph         | Fraud detection, social networking, recommendation engines                                         |
+| **Timestream**                                                     | Time series   | IoT applications, Development Operations (DevOps), industrial telemetry                            |
+| **Amazon QLDB**                                                    | Ledger        | Systems of record, supply chain, registrations, banking transactions                               |

@@ -35,21 +35,21 @@ Communication protocols determine the formats and rules used to transfer data ov
 - HTTP: Hypertext transfer protocol (HTTP)(opens in a new tab) is an application layer protocol that allows the browser and server to communicate.
 - TCP – Transmission Control Protocol (TCP)(opens in a new tab) separates data into packets that can be shared over a network. These packets can then be sent by devices like switches and routers to the designated targets.
 - UDP – User Datagram Protocol (UDP)(opens in a new tab) works in a similar way to TCP, sending packets of data over the network. The key difference between the two is that TCP ensures that a connection is made between the application and server, but UDP does not.
-- ==IRC –== ==Internet Relay Chat (IRC)(opens in a new tab)== ==is a text-based communication protocol. Software clients are used to communicate with servers and send messages to other clients. This protocol works well on networks with a large number of distributed machines.==
+- IRC – Internet Relay Chat (IRC)(opens in a new tab) is a text-based communication protocol. Software clients are used to communicate with servers and send messages to other clients. This protocol works well on networks with a large number of distributed machines.
 
 #### Network Management Protocols
  
-==Network management protocols define the policies and procedures used to monitor, manage, and maintain your network. This ensures stable communication and optimal performance for your network, and these protocols can be applied to all devices on your network (computers, switches, routers and servers).==
+Network management protocols define the policies and procedures used to monitor, manage, and maintain your network. This ensures stable communication and optimal performance for your network, and these protocols can be applied to all devices on your network (computers, switches, routers and servers).
  
-==Management protocols help to:== 
+Management protocols help to:
 
-- ==Troubleshoot connections between host and client devices.== 
-- ==Provide connection status, availability, packet or data loss, and so on related to the health of your network connection.==
+- Troubleshoot connections between host and client devices.
+- Provide connection status, availability, packet or data loss, and so on related to the health of your network connection.
 
-==Common network management protocols:==
+Common network management protocols:
 
-- ==SNMP – Simple Network Management Protocol (SNMP)(opens in a new tab)== ==is used to monitor and manage network devices. This TCP-based protocol adds visibility and the ability to modify endpoints which alter behaviour of devices across the network. SNMP relies on the use of agents to collect and send data to an overarching SNMP manager, which in turn queries agents and gets their responses.==
-- ==ICMP – Internet Control Message Protocol (ICMP)(opens in a new tab)== ==is primarily used for diagnostic purposes. Managed devices on the network can use this protocol to send error messages, providing information regarding network connectivity issues between devices.==
+- SNMP – Simple Network Management Protocol (SNMP)(opens in a new tab) is used to monitor and manage network devices. This TCP-based protocol adds visibility and the ability to modify endpoints which alter behaviour of devices across the network. SNMP relies on the use of agents to collect and send data to an overarching SNMP manager, which in turn queries agents and gets their responses.
+- ICMP – Internet Control Message Protocol (ICMP)(opens in a new tab) is primarily used for diagnostic purposes. Managed devices on the network can use this protocol to send error messages, providing information regarding network connectivity issues between devices.
 
 ==Network Security Protocol==
  
