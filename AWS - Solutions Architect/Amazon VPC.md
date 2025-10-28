@@ -130,12 +130,7 @@ A security group acts as a firewall for associated EC2 instances, controlling bo
 |Supports Allow rules only|Supports both Allow and Deny rules|
 |A stateful firewall|A stateless firewall|
 |Needs to be manually assigned to instances|Automatically applied when instances are added to subnet|
-
-
-
-
-
-
+![[Pasted image 20251028071040.png]]
 
 **Resources**  
 For more information, see the following resources.
@@ -145,3 +140,14 @@ For more information, see the following resources.
 - AWS user guide: [Working with Route Tables](https://docs.aws.amazon.com/vpc/latest/userguide/WorkWithRouteTables.html)
 - AWS user guide: [Control Traffic to Subnets Using Network ACLs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)
 - AWS user guide: [Control Traffic to Resources Using Security Groups](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
+- [Getting started with Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-getting-started.html#create-vpc)
+- [Best practices for configuring network interfaces](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/best-practices-for-configuring-network-interfaces.html)
+- - [AWS re:Post(opens in a new tab)](https://repost.aws/)
+- [Networking foundations(opens in a new tab)](https://aws.amazon.com/products/networking/networking-foundations/?nc=sn&loc=2&dn=4)
+- [Hybrid connectivity(opens in a new tab)](https://aws.amazon.com/products/networking/hybrid-connectivity/?nc=sn&loc=2&dn=3)
+- [Edge networking(opens in a new tab)](https://aws.amazon.com/products/networking/edge-networking/?nc=sn&loc=2&dn=2)
+- [Application networking(opens in a new tab)](https://aws.amazon.com/products/networking/application-networking/?nc=sn&loc=2&dn=1)
+- [Internet Assigned Numbers Authority (IANA)(opens in a new tab)](https://www.iana.org/numbers)
+- [Address blocks(opens in a new tab)](https://en.wikipedia.org/wiki/List_of_assigned_/8_IPv4_address_blocks)
+- [Private Addresses RFC1918(opens in a new tab)](https://tools.ietf.org/html/rfc1918)
+- [Understanding IP addressing and CIDR charts](https://www.ripe.net/about-us/press-centre/understanding-ip-addressing)
