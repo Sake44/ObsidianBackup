@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS - Solutions Architect/Control Tower.md",
+                "file": "AWS - Solutions Architect/Amazon GuardDuty.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Control Tower"
+              "title": "Amazon GuardDuty"
             }
           },
           {
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spot insta",
+                "query": "Landing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS - Solutions Architect/Control Tower.md",
+                "file": "AWS - Solutions Architect/Amazon GuardDuty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Control Tower"
+              "title": "Outline of Amazon GuardDuty"
             }
           },
           {
@@ -244,42 +244,42 @@
   },
   "active": "d85bcc50460c9326",
   "lastOpenFiles": [
+    "Pasted image 20251030121352.png",
+    "AWS - Solutions Architect/Encryption and Certificates.md",
+    "AWS - Solutions Architect/Amazon GuardDuty.md",
+    "Images/Pasted image 20251030085340.png",
+    "Images/Pasted image 20251030084815.png",
+    "Images/Pasted image 20251030081142.png",
+    "AWS - Solutions Architect/Control Tower.md",
+    "Images/Pasted image 20251028111011.png",
+    "Images/Pasted image 20251028105556.png",
+    "OneNote/Notes/AWS/Networking 1.md",
+    "OneNote/Notes/AWS/Networking.md",
+    "OneNote/Notes/AWS/Network Security at AWS.md",
+    "OneNote/Notes/AWS/Security at AWS.md",
+    "OneNote/Notes/AWS/Security Token Service.md",
+    "Images/Pasted image 20251028104432.png",
+    "Images/Pasted image 20251028104224.png",
     "OneNote/Notes/AWS/AWS IAM.md",
     "AWS - Solutions Architect/Amazon VPC.md",
     "Images/Pasted image 20251028071040.png",
     "OneNote/Notes/AWS/OSI Model.md",
     "Images/Pasted image 20251027202758.png",
-    "OneNote/Notes/AWS/Networking 1.md",
     "AWS - Solutions Architect/Networking.md",
     "Images/Pasted image 20251027200339.png",
-    "Images/Pasted image 20251027200303.png",
     "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
-    "OneNote/Notes/AWS/Network Security at AWS.md",
     "OneNote/Notes/AWS/S3 (Object Storage).md",
     "OneNote/Notes/AWS/RDS.md",
     "AWS - Solutions Architect/Ec2.md",
     "OneNote/Notes/AWS/Cloudwatch.md",
     "AWS - Solutions Architect/Load Balancer.md",
-    "Images/Pasted image 20251027154319.png",
-    "Images/Pasted image 20251027153109.png",
-    "Images/Pasted image 20251027153048.png",
     "AWS - Solutions Architect/Solution Optimization.md",
     "AWS - Solutions Architect/Monitoring.md",
     "OneNote/Notes/AWS/Monitoring.md",
     "AWS - Solutions Architect/Database Services.md",
-    "Images/Pasted image 20251027113412.png",
     "AWS - Solutions Architect/Cloud Storage.md",
     "AWS - Solutions Architect/Choosing the Right Storage Service.md",
     "OneNote/Notes/AWS/Amazon VPC.md",
-    "Images/Pasted image 20251027105533.png",
-    "Images/Pasted image 20251027105254.png",
-    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
-    "AWS - Solutions Architect/Serverless.md",
-    "AWS - Solutions Architect/Container Services.md",
-    "OneNote/Notes/AWS/Purpose-built DBs.md",
-    "OneNote/Notes/AWS/History.md",
-    "OneNote/Notes/AWS/Ec2 Instance Lifecycle.md",
-    "OneNote/Notes/AWS/DynamoDB.md",
     "Untitled 1.base",
     "Untitled.base",
     "New folder",

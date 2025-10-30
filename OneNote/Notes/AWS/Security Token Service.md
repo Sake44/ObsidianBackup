@@ -1,1 +1,0 @@
-AWS STS provides users with temporary security credentials to your AWS resources.
