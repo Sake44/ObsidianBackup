@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS - Solutions Architect/Amazon GuardDuty.md",
+                "file": "AWS - Solutions Architect/Container Services.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Amazon GuardDuty"
+              "title": "Container Services"
+            }
+          },
+          {
+            "id": "a31cc2f184a8c236",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS - Solutions Architect/Serverless.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Serverless"
             }
           },
           {
@@ -137,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "right": {
     "id": "8475edfe2fa6fc1c",
@@ -201,13 +226,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS - Solutions Architect/Amazon GuardDuty.md",
+                "file": "AWS - Solutions Architect/Container Services.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Amazon GuardDuty"
+              "title": "Outline of Container Services"
             }
           },
           {
@@ -244,9 +269,16 @@
   },
   "active": "d85bcc50460c9326",
   "lastOpenFiles": [
+    "AWS - Solutions Architect/Cloud Storage.md",
+    "AWS - Solutions Architect/AWS Elastic Container Service (ECS).md",
+    "AWS - Solutions Architect/Container Services.md",
+    "AWS - Solutions Architect/Choosing a Compute Option for your Workload.md",
+    "AWS - Solutions Architect/Serverless.md",
+    "Pasted image 20251105101420.png",
+    "AWS - Solutions Architect/Choosing the Right Storage Service.md",
+    "AWS - Solutions Architect/Amazon GuardDuty.md",
     "Pasted image 20251030121352.png",
     "AWS - Solutions Architect/Encryption and Certificates.md",
-    "AWS - Solutions Architect/Amazon GuardDuty.md",
     "Images/Pasted image 20251030085340.png",
     "Images/Pasted image 20251030084815.png",
     "Images/Pasted image 20251030081142.png",
@@ -264,9 +296,7 @@
     "AWS - Solutions Architect/Amazon VPC.md",
     "Images/Pasted image 20251028071040.png",
     "OneNote/Notes/AWS/OSI Model.md",
-    "Images/Pasted image 20251027202758.png",
     "AWS - Solutions Architect/Networking.md",
-    "Images/Pasted image 20251027200339.png",
     "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
     "OneNote/Notes/AWS/S3 (Object Storage).md",
     "OneNote/Notes/AWS/RDS.md",
@@ -275,11 +305,6 @@
     "AWS - Solutions Architect/Load Balancer.md",
     "AWS - Solutions Architect/Solution Optimization.md",
     "AWS - Solutions Architect/Monitoring.md",
-    "OneNote/Notes/AWS/Monitoring.md",
-    "AWS - Solutions Architect/Database Services.md",
-    "AWS - Solutions Architect/Cloud Storage.md",
-    "AWS - Solutions Architect/Choosing the Right Storage Service.md",
-    "OneNote/Notes/AWS/Amazon VPC.md",
     "Untitled 1.base",
     "Untitled.base",
     "New folder",

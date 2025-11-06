@@ -4,7 +4,9 @@
 - It scales with usage.
 - You never pay for idle resources.
 - Availability and fault tolerance are built in.
-
+## What is serverless computing on the AWS Cloud? 
+Serverless computing doesn't mean there are no servers. It means that you are running your code on servers that are built, managed, and maintained by someone else. This frees you from having to buy, build, provision, and maintain hardware and infrastructure needed to run your code.
+With serverless applications, there are never instances, OSs, or servers to manage. AWS handles everything required to run and scale your application. By building serverless applications, your developers can focus on the code that makes your business unique.
 ### AWS Fargate
 AWS Fargate is a purpose-built serverless compute engine for containers. AWS Fargate scales and manages the infrastructure, so developers can work on what they do best, application development.
 ![[Pasted image 20251026154307.png]]
@@ -38,7 +40,6 @@ Lambda runs your code on a high availability compute infrastructure and requires
 	2. A container image
 6. Runtime: The runtime provides a language-specific environment that runs in an application environment.
 7. The AWS Lambda function handler is the method in your function code that processes events.
-
 
 #### Billing granularity
 With Lambda, you can run code without provisioning or managing servers, and you pay only for what you use. You are charged for the number of times that your code is invoked (requests) and for the time that your code runs, rounded up to the nearest 1 millisecond (ms) of duration.
