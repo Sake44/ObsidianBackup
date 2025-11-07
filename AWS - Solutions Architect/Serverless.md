@@ -11,7 +11,40 @@ With serverless applications, there are never instances, OSs, or servers to mana
 AWS Fargate is a purpose-built serverless compute engine for containers. AWS Fargate scales and manages the infrastructure, so developers can work on what they do best, application development.
 ![[Pasted image 20251026154307.png]]
 Fargate supports both Amazon ECS and Amazon EKS architecture and provides workload isolation and improved security by design.
-
+With AWS Fargate, you specify and pay for resources per application, which improves security through application isolation by design. Each container runs in its own isolated environment without sharing kernel, CPU, memory, or storage with other containers.
+Unlike Amazon EC2, which requires you to manage virtual machines, AWS Fargate handles the underlying infrastructure automatically.
+#### AWS Fargate core functionality
+##### Container orchestration
+AWS Fargate works as the compute engine for both Amazon ECS and Amazon EKS, providing the runtime environment where your containers process workloads. When you deploy containers using Fargate, you define the CPU and memory requirements, networking policies, and IAM roles for your applications.
+##### Resource isolation and security
+AWS Fargate runs each task or pod in its own isolated environment with dedicated resources. This isolation prevents noisy neighbor problems where one container might consume excessive resources and impact others.
+##### Pay-per-use pricing model
+AWS Fargate charges you only for the exact resources your containers use, measured in vCPU and memory consumed per second. This granular pricing model eliminates the need to pay for unused server capacity.
+#### AWS Fargate technical concepts
+##### Containers
+Containers are lightweight, standalone deployable packages that include everything needed to run an application: code, runtime, system tools, libraries, and settings. Docker is the most common container format used with AWS Fargate.
+##### Task definitions
+Task definitions are JSON files that describe how containers should run in AWS Fargate when using Amazon ECS. They specify container images, resource requirements, port mappings, and other configuration details.
+##### Pods
+Pods are the smallest deployable units in Kubernetes that can be created and managed when using AWS Fargate with Amazon EKS. A pod represents a group of one or more containers with shared storage and network resources.
+##### Networking
+AWS Fargate integrates with Amazon Virtual Private Cloud (Amazon VPC) to provide networking capabilities for your containers. Each AWS Fargate task or pod receives its own elastic network interface (ENI) with a private IP address from your VPC.
+##### IAM Roles for tasks
+AWS Fargate uses IAM roles for tasks to grant containers permission to access AWS services securely. These roles provide temporary credentials to containers without storing access keys in your container images or file systems.
+##### Service discovery
+Service discovery helps containers running on AWS Fargate to find and communicate with each other using DNS names instead of IP addresses. AWS Cloud Map integrates with AWS Fargate to provide service discovery capabilities.
+##### Load balancing
+AWS Fargate integrates with Elastic Load Balancing to distribute traffic across your containerized applications. You can use Application Load Balancers or Network Load Balancers to route requests to your AWS Fargate tasks or pods.
+##### Logging and monitoring
+AWS Fargate integrates with Amazon CloudWatch for logging and monitoring. Container logs are automatically sent to CloudWatch Logs, and metrics like CPU and memory usage are available in CloudWatch Metrics.
+#### AWS Fargate practical business applications
+##### Microservices architecture implementation
+AWS Fargate provides an ideal platform for deploying microservices architectures by removing infrastructure management complexity. Organizations can focus on developing individual services while Fargate handles the underlying compute resources.
+##### Batch processing workloads
+Organizations use AWS Fargate to process periodic or on-demand batch workloads without maintaining idle infrastructure. Fargate can rapidly provision resources when batch jobs need to run and automatically release them when processing completes.
+##### CI/CD pipeline automation
+Development teams implement continuous integration and continuous delivery pipelines using AWS Fargate to run build processes, automated tests, and deployment tasks. Fargate eliminates the need to manage build servers that often sit idle between code commits.
+![[Pasted image 20251106125949.png]]
 #### AWS Fargate Resources
 - AWS website: [AWS Fargate(opens in a new tab)](https://aws.amazon.com/fargate/?c=ser&sec=srv)
 - AWS website: [Getting Started with Serverless Computing(opens in a new tab)](https://aws.amazon.com/serverless/resources/?serverless.sort-by=item.additionalFields.createdDate&serverless.sort-order=desc)
