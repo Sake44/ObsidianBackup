@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b5ce954c31118e40",
+        "id": "3e6596ed54f5c667",
         "type": "tabs",
         "children": [
           {
-            "id": "9bee86c3e92c6495",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Screenshot 2025-11-07 145700.png"
-              },
-              "icon": "lucide-image",
-              "title": "Screenshot 2025-11-07 145700"
-            }
-          },
-          {
-            "id": "4c5f213211156d98",
+            "id": "f0a4a31f4be29f32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evernote/My Notes/AWS Solutions Architect - Associate.md",
+                "file": "Evernote/My Notes/CKA (Certified K8s Administrator).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AWS Solutions Architect - Associate"
+              "title": "CKA (Certified K8s Administrator)"
+            }
+          },
+          {
+            "id": "534cb35d4a337592",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS - Solutions Architect/Tutorial/Create an Enteprise Knowledge Assistant (RAG).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Create an Enteprise Knowledge Assistant (RAG)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,12 +218,17 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "25c4b6da1fd1817b",
+  "active": "534cb35d4a337592",
   "lastOpenFiles": [
+    "Untitled.md",
+    "AWS - Solutions Architect/Tutorial/Create an Enteprise Knowledge Assistant (RAG).md",
+    "AWS - Solutions Architect/Tutorial",
+    "AWS - Solutions Architect/Container Services.md",
+    "Evernote/My Notes/CKA (Certified K8s Administrator).md",
+    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "Untitled.base",
     "Untitled 1.base",
     "Images/Screenshot 2025-11-07 145700.png",
-    "AWS - Solutions Architect/Container Services.md",
     "Images/Pasted image 20251107150323.png",
     "Images/Pasted image 20251107145433.png",
     "Images/Pasted image 20251107145330.png",
@@ -222,7 +240,6 @@
     "Images/Pasted image 20251107114826.png",
     "Images/Pasted image 20251107114304.png",
     "AWS - Solutions Architect/Serverless.md",
-    "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "AWS - Solutions Architect/Cloud Storage.md",
     "AWS - Solutions Architect/AWS Elastic Container Service (ECS).md",
     "AWS - Solutions Architect/Choosing a Compute Option for your Workload.md",
@@ -242,8 +259,6 @@
     "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
     "OneNote/Notes/AWS/S3 (Object Storage).md",
     "OneNote/Notes/AWS/RDS.md",
-    "AWS - Solutions Architect/Ec2.md",
-    "OneNote/Notes/AWS/Cloudwatch.md",
     "New folder",
     "AWS - Solutions Architect",
     "Architects-Capgemini",
@@ -251,7 +266,6 @@
     "AWS/AI-Practicioner",
     "AWS",
     "Sound",
-    "programma",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

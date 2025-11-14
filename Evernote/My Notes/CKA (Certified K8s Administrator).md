@@ -105,9 +105,7 @@ There are some special API requests that can be made of the API server and facil
 When forward a request to API server we expect different response codes:
 ![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.10.png]]![[Evernote/My Notes/_resources/CKA_(Certified_K8s_Administrator).resources/image.11.png]]
 
-# 
-
-### Useful commands API request
+# Useful commands API request
 
 ```
 #Anatomy of an API Request
