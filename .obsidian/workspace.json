@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS - Solutions Architect/Tutorial/Deploying a Kubernetes Cluster Using Amazon Elastic Kubernetes Service.md",
+                "file": "AWS - Solutions Architect/Tutorial/Configure and Manage Kubernetes Storage and Scheduling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Deploying a Kubernetes Cluster Using Amazon Elastic Kubernetes Service"
+              "title": "Configure and Manage Kubernetes Storage and Scheduling"
             }
           }
         ]
@@ -195,15 +195,19 @@
   },
   "active": "f0a4a31f4be29f32",
   "lastOpenFiles": [
-    "AWS - Solutions Architect/Tutorial/Create an Enteprise Knowledge Assistant (RAG).md",
+    "Pasted image 20251121152830.png",
+    "Pasted image 20251121151938.png",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
+    "AWS - Solutions Architect/Tutorial/Configure and Manage Kubernetes Storage and Scheduling.md",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Grep.md",
     "AWS - Solutions Architect/Tutorial/Deploying a Kubernetes Cluster Using Amazon Elastic Kubernetes Service.md",
+    "AWS - Solutions Architect/Tutorial/Create an Enteprise Knowledge Assistant (RAG).md",
     "AWS - Solutions Architect/Container Services.md",
     "Images/Pasted image 20251121113818.png",
     "Images/Pasted image 20251121113729.png",
     "Images/Pasted image 20251121105624.png",
     "Images/Pasted image 20251121105549.png",
     "Evernote/My Notes/CKA (Certified K8s Administrator).md",
-    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
     "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
     "OneNote/Notes/Linux/Navigating the file system.md",
     "Images/Pasted image 20251121103929.png",
@@ -211,7 +215,6 @@
     "Images/Pasted image 20251121102846.png",
     "Images/Pasted image 20251121102332.png",
     "Images/Pasted image 20251121102143.png",
-    "Images/Pasted image 20251121100526.png",
     "AWS - Solutions Architect/Cloud Architecting.md",
     "AWS - Solutions Architect/AWS Elastic Container Service (ECS).md",
     "AWS - Solutions Architect/Encryption and Certificates.md",
@@ -231,9 +234,6 @@
     "OneNote/Notes/AWS/Networking.md",
     "OneNote/Notes/AWS/Network Security at AWS.md",
     "OneNote/Notes/AWS/Security at AWS.md",
-    "OneNote/Notes/AWS/Security Token Service.md",
-    "OneNote/Notes/AWS/AWS IAM.md",
-    "AWS - Solutions Architect/Amazon VPC.md",
     "New folder",
     "AWS - Solutions Architect",
     "Architects-Capgemini",
