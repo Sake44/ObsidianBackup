@@ -25,3 +25,30 @@ kubectl describe PersistentVolume pv-nfs-data
 ```
 ![[Pasted image 20251121152830.png]]
 This will provide you with a comprehensive overview of the PV's configuration, including its Capacity, Access Modes, the Reclaim Policy, and a **Status** of **Available**, allowing you to confirm it's configured as intended.
+### Create a persistent volume chain
+Next, bind your PV to a specific application by creating a Persistent Volume Claim (PVC):
+
+```
+kubectl apply -f nfs.pvc.yaml
+```
+This PVC requests storage from the PV, matching the specified size and access modes, and resulting in the following output:
+
+```
+persistentvolumeclaim/pvc-nfs-data created
+```
+
+Once the PVC is created, it's essential to check the binding status to ensure the PV and PVC are correctly linked:
+```
+kubectl get PersistentVolume
+```
+You should see the STATUS of your PV change to Bound, which indicates a successful claim.
+
+You can further see the STATUS with the kubectl get PersistentVolumeClaim and describe commands:
+```
+kubectl get PersistentVolumeClaim pvc-nfs-data
+```
+![[Pasted image 20251121192011.png]]
+```
+kubectl describe PersistentVolumeClaim pvc-nfs-data
+```
+![[Pasted image 20251121192035.png]]

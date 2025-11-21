@@ -3,7 +3,6 @@ In this tutorial will create an Enteprise Knowledge Assistant with AWS Services.
 2. Amazon Bedrock
 3. Amazon OpenSearch Live
 The system uses advanced embedding technology and Retrieval Augumented Generation (RAG) to provide, instant, accurate response. 
-
 ## How Assistant work
 User interact with the Amazon Nova FM to answer complex questions related to documents uploaded on S3 Bucket.
 Thanks to RAG technique that enhances a FMs response allowing them access to retrieve information stored in an Amazon Bedrock Knowledge Base (KB).
@@ -14,4 +13,6 @@ Since this solution is just for test purpose, we can test it through built-in Am
 
 ## S3 Bucket 
 Let's choose the documents you want to enhance FMs. Create an S3 Bucket. For this tutorial I'll use a reserved instance provided from course it self. (I'll replicate it in free-tier AWS Account). 
+
+
 
