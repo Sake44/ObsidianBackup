@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evernote/My Notes/CKA (Certified K8s Administrator).md",
+                "file": "AWS - Solutions Architect/Tutorial/Deploying a Kubernetes Cluster Using Amazon Elastic Kubernetes Service.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CKA (Certified K8s Administrator)"
-            }
-          },
-          {
-            "id": "534cb35d4a337592",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS - Solutions Architect/Tutorial/Create an Enteprise Knowledge Assistant (RAG).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Create an Enteprise Knowledge Assistant (RAG)"
+              "title": "Deploying a Kubernetes Cluster Using Amazon Elastic Kubernetes Service"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,34 +193,39 @@
       "local-backup:Run local backup": false
     }
   },
-  "active": "534cb35d4a337592",
+  "active": "f0a4a31f4be29f32",
   "lastOpenFiles": [
-    "Untitled.md",
     "AWS - Solutions Architect/Tutorial/Create an Enteprise Knowledge Assistant (RAG).md",
-    "AWS - Solutions Architect/Tutorial",
+    "AWS - Solutions Architect/Tutorial/Deploying a Kubernetes Cluster Using Amazon Elastic Kubernetes Service.md",
     "AWS - Solutions Architect/Container Services.md",
+    "Images/Pasted image 20251121113818.png",
+    "Images/Pasted image 20251121113729.png",
+    "Images/Pasted image 20251121105624.png",
+    "Images/Pasted image 20251121105549.png",
     "Evernote/My Notes/CKA (Certified K8s Administrator).md",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Search text files using regular expressions.md",
+    "OneNote/Notes/Linux/Searching and Extracting Files/Combinations.md",
+    "OneNote/Notes/Linux/Navigating the file system.md",
+    "Images/Pasted image 20251121103929.png",
+    "Images/Pasted image 20251121103643.png",
+    "Images/Pasted image 20251121102846.png",
+    "Images/Pasted image 20251121102332.png",
+    "Images/Pasted image 20251121102143.png",
+    "Images/Pasted image 20251121100526.png",
+    "AWS - Solutions Architect/Cloud Architecting.md",
+    "AWS - Solutions Architect/AWS Elastic Container Service (ECS).md",
+    "AWS - Solutions Architect/Encryption and Certificates.md",
+    "Untitled.md",
+    "AWS - Solutions Architect/Tutorial",
     "Evernote/My Notes/AWS Solutions Architect - Associate.md",
     "Untitled.base",
     "Untitled 1.base",
-    "Images/Screenshot 2025-11-07 145700.png",
-    "Images/Pasted image 20251107150323.png",
-    "Images/Pasted image 20251107145433.png",
-    "Images/Pasted image 20251107145330.png",
-    "Images/Pasted image 20251107145302.png",
-    "Images/Pasted image 20251107143604.png",
     "OneNote/Notes/AWS/Amazon VPC.md",
-    "Images/Pasted image 20251107114941.png",
-    "Images/Pasted image 20251107114916.png",
-    "Images/Pasted image 20251107114826.png",
-    "Images/Pasted image 20251107114304.png",
     "AWS - Solutions Architect/Serverless.md",
     "AWS - Solutions Architect/Cloud Storage.md",
-    "AWS - Solutions Architect/AWS Elastic Container Service (ECS).md",
     "AWS - Solutions Architect/Choosing a Compute Option for your Workload.md",
     "AWS - Solutions Architect/Choosing the Right Storage Service.md",
     "AWS - Solutions Architect/Amazon GuardDuty.md",
-    "AWS - Solutions Architect/Encryption and Certificates.md",
     "AWS - Solutions Architect/Control Tower.md",
     "OneNote/Notes/AWS/Networking 1.md",
     "OneNote/Notes/AWS/Networking.md",
@@ -254,11 +234,6 @@
     "OneNote/Notes/AWS/Security Token Service.md",
     "OneNote/Notes/AWS/AWS IAM.md",
     "AWS - Solutions Architect/Amazon VPC.md",
-    "OneNote/Notes/AWS/OSI Model.md",
-    "AWS - Solutions Architect/Networking.md",
-    "AWS - Solutions Architect/Amazon Ec2 Auto Scaling.md",
-    "OneNote/Notes/AWS/S3 (Object Storage).md",
-    "OneNote/Notes/AWS/RDS.md",
     "New folder",
     "AWS - Solutions Architect",
     "Architects-Capgemini",

@@ -78,7 +78,7 @@ Data science teams use Amazon ECS to containerize and orchestrate machine learni
 With Amazon ECS, data scientists can package their entire ML environment, including frameworks like TensorFlow or PyTorch, into containers
 
 Amazon ECS supports running batch jobs through the RunTask API or by integrating with AWS Batch for more complex job scheduling and dependencies.
-### Amazon EKS
+## Amazon EKS
 Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container orchestration service that facilitates deploying, managing, and scaling Kubernetes applications in the AWS Cloud or on premises.
 #### Amazon EKS Control Plane
 Amazon EKS provides a scalable, highly available control plane. Amazon EKS automatically manages the availability and scalability of the Kubernetes API servers and the etcd persistence layer for each cluster.
@@ -229,15 +229,121 @@ You can communicate with your control plane nodes using kubectl. kubectl is a co
 ```
 kubectl [commands] [TYPE] [NAME] [flags]
 ```
+### Manage storage in Amazon EKS
+Application workloads requiring data persistence independent of the pod lifecycle require at least two Kubernetes objects, a persistent volume (PV) and a persistent volume claim (PVC). Recall that a PV is similar to ephemeral volumes but has a lifecycle independent of any individual pod. A PVC is a request for storage by a cluster user, which means the request includes details about how much storage, the kind of storage access, and storage performance.
+Manual administration of persistent volumes poses a scalability challenge for cluster administrators. A third object, storage class, provides the benefit of automating persistent volume management within a Kubernetes cluster.
+A Container Storage Interface (CSI) driver is necessary for allowing a Kubernetes cluster acces to a desired storage provider.
+Both Amazon EBS and Amazon EFS have their respective CSI drivers, which run as containerized applications in your Amazon EKS cluster nodes.
+![[Pasted image 20251121100452.png]]
+
+![[Pasted image 20251121100526.png]]
+We could also run pods on Fargate simplifies the requirement and management of persistent storage. Between the two storage providers, Amazon EFS is the only storage provider for pods running on Fargate, mainly because of its serverless aspect.
+### Deploying applications to EKS
+Using the **kubectl** command to deploy applications to the cluster is suitable for testing and development purposes. However, using **kubectl** to deploy microservices is not ideal for production because of poor scalability and high administration overhead.
+![[Pasted image 20251121102143.png]]
+Continuous integration and continuous delivery (CI/CD) is a DevOps model of implementing a Microservices Software Development Lifecycle. With continuous integration, developers frequently commit to a shared repository using a version control system such as Git.
+Continuous delivery expands on continuous integration by automating an end-to-end release through to production.
+#### Continuous delivery with AWS Services
+You can use Kubernetes and AWS together to create a fully managed, continuous delivery pipeline for container-based applications.
+![[Pasted image 20251121102332.png]]
+Many CI/CD tools are available to use with an Amazon EKS cluster, so you can decide which tools fit your organization's requirements to manage the deployment of application workloads.
+
+- A GitHub repository
+- Jenkins
+- Harbor
+- Spinnaker
+- Helm
+![[Pasted image 20251121102846.png]]
+#### Gaining Observability
+Observability is the ability to analyze and view data or processes. It is achieved only after monitoring data (such as metrics) has been compiled.
+##### Three main sources of full observability
+- Metrics: Metrics collect and visualize data regarding the health and performance of resources, measured over intervals of time.
+- Logs: Logs collects and aggregates log files from resources and filter out actionable insights from background noise.
+- Traces: Traces follow the path of a request as it passes though different services. Tracing helps developers understand how your application and its underlying services are performing.
+Many tools exist to ingest data from the three main sources of observability. Often, using multiple tools are necessary for a full solution.
+The following image is an example of how CloudWatch Container Insights can be configured to collect, aggregate, and visualize metrics and logs from Amazon EKS. CloudWatch Container Insights also provides diagnostic information, such as container restart failures, to help you isolate issues and resolve them quickly.
+![[Pasted image 20251121103643.png]]
+Customers opting for open-source tools for collecting metrics and logs are free to self-manage those tools themselves or can use the AWS managed equivalents. In this case, AWS provides [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/), [Amazon Managed Grafana](https://aws.amazon.com/grafana/), and [Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/) as options.
+![[Pasted image 20251121103929.png]]
+### AWS App Mesh
+AWS App Mesh is a service mesh that provides application-level networking to help your services communicate with each other across multiple types of compute infrastructure. App Mesh gives end-to-end visibility and high availability for your applications.
+Containerized applications running in a microservices design pattern are difficult to manage at scale. With an increase of microservices or migrating a monolith into microservices, network communication between the services becomes a central challenge. In a microservices architecture, processing a request can span several services, which raises questions regarding how to manage the networking while simplifying service design.
+![[Pasted image 20251121105624.png]]
+
+#### Network Solution: Service Mesh
+A better way to address managing service communication at scale is with a service mesh. A service mesh is a dedicated infrastructure layer in which you can abstract away the service-to-service communication. The abstraction is done with an array of lightweight network proxies deployed alongside the application code.
+![[Pasted image 20251121105549.png]]
+A service mesh monitors all service-to-service traffic and abstracts its configuration.
+
+### Upgrading an Amazon EKS Cluster
+Upgrading an Amazon EKS cluster is a nontrivial task and requires careful planning. When you run Kubernetes on Amazon EKS, you have the benefit of AWS managing the upgrade of your Kubernetes control plane when you are ready to proceed.
+When deciding whether to upgrade to a new Kubernetes version, consider the following:
+
+- What is the benefit of upgrading to the next version of Kubernetes?
+- Which team is responsible for completing the upgrade of a Kubernetes version?
+- What downstream components such as nodes and add-ons will also need to be upgraded?
+- In what order will the downstream dependencies need to get upgraded?
+- What impact will there be to applications during the upgrade?
+- Do any applications in the ecosystem use Kubernetes APIs? Consider doing an impact analysis to these applications as well.
+#### Amazon EKS upgrade process
+Any upgrade plan must take into account how the Amazon EKS cluster upgrade occurs.
+1. API Server Nodes: During an upgrade, Amazon EKS launches new API server nodes with the upgraded Kubernetes version to replace the existing ones. Amazon EKS performs standard infrastructure and readiness health checks for network traffic on these new nodes to verify they are working as expected.
+2. Automatic Rollback: If any of these checks fail, Amazon EKS reverts the infrastructure deployment and your cluster remains on the previous Kubernetes version.
+3. Possible minor service interruptions: To upgrade the cluster, Amazon EKS requires two to three free IP addresses from the subnets provided when you created the cluster. If these subnets do not have available IP addresses, then the upgrade can fail.
+4. Upgrade nodes and Kubernetes add-ons: Amazon EKS does not modify any of your running applications, cluster worker nodes, Amazon EKS add-ons, or Kubernetes add-ons when you upgrade your cluster's control plane. You will need to perform the necessary tasks to complete the cluster upgrade process.
+#### Selecting an upgrade strategy for worker nodes
+The worker node upgrade process depends mainly on whether workers nodes are in a managed group or a self-managed group.
+##### Managed worker nodes
+If you are running managed node groups, Amazon EKS automatically updates your nodes for you when you initiate a managed node group update. When you upgrade a managed node group version, Amazon EKS does the following:
+- Amazon EKS creates a new Amazon EC2 launch template version for the EC2 Auto Scaling group associated with your node group. The new template uses the target AMI for the upgrade.
+- The EC2 Auto Scaling group is upgraded to use the latest launch template with the new AMI.
+- The EC2 Auto Scaling group maximum size and desired size are incremented to ensure that new EC2 instances are created along with your existing EC2 instances.
+- The EC2 Auto Scaling group launches a new instance with the new AMI to satisfy the increased size of the node group.
+- Amazon EKS checks the nodes in the node group for the eks.amazonaws.com/nodegroup-image label. Amazon EKS cordons all nodes in the node group that are not labeled with the latest AMI ID. This prevents nodes that have already been upgraded from a previous failed upgrade from being cordoned.
+- Amazon EKS randomly selects a node in your node group and sends a termination signal to the EC2 Auto Scaling group. Then Amazon EKS sends a signal to drain the pods from the node. After the node is drained, it is terminated. This step is repeated until all nodes are using the new AMI version.
+- The EC2 Auto Scaling group maximum size and desired size are decremented by 1 to return to your pre-upgrade values.
+There are two options for the update strategy: 
+- Rolling update: This option respects PodDisruptionBudgets for your cluster. The update fails if Amazon EKS is unable to gracefully drain the pods that are running on this node group because of PodDisruptionBudgets issue.
+- Force update: This option does not respect PodDisruptionBudgets.
+##### Self-managed worker nodes
+If you are upgrading self-managed node groups, then you have two strategies to consider:
+
+- **Migrate to a new node group** – Create a new node group and migrate your pods to that group.
+- **Update the existing** **self-managed node group** – Update the CloudFormation stack for an existing node group to use the new AMI.
+Between these two methods, migrating to a new node group is the preferred upgrade strategy because it is more graceful than updating the AMI ID in an existing CloudFormation stack.
+#### Amazon EKS pricing model
+The control plane of an Amazon EKS cluster makes up the smallest amount of cost as represented in the following graphic. Compute resources makes up the largest source of cost for the cluster.
+![[Pasted image 20251121113729.png]]
+A review of a simplified Amazon EKS cluster diagram provides an initial step for calculating the cost of running an Amazon EKS cluster consisting of compute and networking resources.
+The reference architecture of an Amazon EKS cluster shown consists of the following AWS objects that incur costs:
+
+| Service                                                      | Number of Items |
+| ------------------------------------------------------------ | --------------- |
+| Amazon EKS control plane                                     | 1               |
+| Networking services (Application Load Balancer, NAT gateway) | 3               |
+| Compute services (Amazon EC2)                                | 14              |
+
+![[Pasted image 20251121113818.png]]
+
+
 ### Resources ECS and EKS
-- AWS website: [Containers on AWS(opens in a new tab)](https://aws.amazon.com/containers/services/)
+- AWS website: [Containers on AWS](https://aws.amazon.com/containers/services/)
 - External website: [Docker: Use Containers to Build, Share and Run Your Applications(opens in a new tab)](https://www.docker.com/resources/what-container)
-- AWS website: [Amazon Elastic Container Service (Amazon ECS)(opens in a new tab)](https://aws.amazon.com/ecs/)
-- External website: [Github: Amazon ECS Agent(opens in a new tab)](https://github.com/aws/amazon-ecs-agent)
-- AWS developer guide: [Amazon ECS Container Instances(opens in a new tab)](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_instances.html)
+- AWS website: [Amazon Elastic Container Service (Amazon ECS)](https://aws.amazon.com/ecs/)
+- External website: [Github: Amazon ECS Agent](https://github.com/aws/amazon-ecs-agent)
+- AWS developer guide: [Amazon ECS Container Instances](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_instances.html)
 - External website: [Coursera course: Building Containerized Applications on AWS(opens in a new tab)](https://www.coursera.org/learn/containerized-apps-on-aws)
-- AWS website: [Amazon Elastic Kubernetes Service (EKS)(opens in a new tab)](https://aws.amazon.com/eks/)
+- AWS website: [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/)
 - AWS user guide: [Amazon EKS User Guide](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)
 - [Website eksctl]( https://eksctl.io/)
 - [Cluster VPC considerations](https://docs.aws.amazon.com/eks/latest/userguide/network_reqs.html)
 - [**eksctl** repository on GitHub](https://github.com/weaveworks/eksctl) provides access to additional documentation, YAML manifests, and the source code.
+- [Amazon EBS CSI driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html)
+- [Managing the EBS CSI Add-on](https://docs.aws.amazon.com/eks/latest/userguide/managing-ebs-csi-self-managed-add-on.html)
+- [AWS EBS CSI Driver GitHub Repository](https://github.com/kubernetes-sigs/aws-ebs-csi-driver)
+- [Amazon EKS control plane logging](https://docs.aws.amazon.com/eks/latest/userguide/control-plane-logs.html)
+- [Using Container Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ContainerInsights.html)
+- [Send logs to CloudWatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Container-Insights-EKS-logs.html)
+- [Updating a cluster](https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html)  
+- [Updating a managed node group](https://docs.aws.amazon.com/eks/latest/userguide/update-managed-node-group.html)  
+- [Managing the CoreDNS add-on](https://docs.aws.amazon.com/eks/latest/userguide/managing-coredns.html)
